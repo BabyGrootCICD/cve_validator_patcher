@@ -4,7 +4,7 @@ version = "1.0.0"
 edition = "2021"
 description = "Daily vulnerability intel collector, cross-repo exposure scanner and auto-remediator for GitHub"
 license = "MIT"
-repository = "https://github.com/dennislee928/vuln-sentinel"
+repository = "https://github.com/BabyGrootCICD/cve_validator_patcher"
 readme = "README.md"
 
 [dependencies]

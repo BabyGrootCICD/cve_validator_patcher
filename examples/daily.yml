@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: stable
-      - uses: dennislee928/vuln-sentinel@v1
+      - uses: BabyGrootCICD/cve_validator_patcher@v1
         with:
           token: ${{ secrets.SENTINEL_TOKEN }}
           mode: run

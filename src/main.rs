@@ -382,7 +382,7 @@ async fn main() -> Result<()> {
         .filter(|t| !t.is_empty())
         .context("a GitHub token is required (--token, VS_TOKEN or GITHUB_TOKEN)")?;
     let http = reqwest::Client::builder()
-        .user_agent(concat!("vuln-sentinel/", env!("CARGO_PKG_VERSION"), " (+https://github.com/dennislee928/vuln-sentinel)"))
+        .user_agent(concat!("vuln-sentinel/", env!("CARGO_PKG_VERSION"), " (+https://github.com/BabyGrootCICD/cve_validator_patcher)"))
         .timeout(std::time::Duration::from_secs(120))
         .build()?;
     let now = Utc::now();

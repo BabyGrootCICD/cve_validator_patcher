@@ -24,7 +24,7 @@ Copy [`examples/daily.yml`](examples/daily.yml) and [`examples/verify.yml`](exam
 
 ```yaml
 - uses: actions/checkout@v4
-- uses: dennislee928/vuln-sentinel@v1
+- uses: BabyGrootCICD/cve_validator_patcher@v1
   with:
     token: ${{ secrets.SENTINEL_TOKEN }}
     mode: run          # run | collect | scan | ticket | fix | verify | archive

@@ -1,6 +1,6 @@
 name: Vuln Sentinel
 description: Daily CVE/OSV/EUVD/GHSA/OpenSSF/Vulners/Sploitus/AttackerKB intel, cross-repo exposure scan, tickets and auto-fix PRs
-author: dennislee928
+author: BabyGrootCICD
 branding:
   icon: shield
   color: red
