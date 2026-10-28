@@ -25,6 +25,8 @@ pub struct FixCfg {
     pub merge_without_checks: bool,
     pub max_repos: usize,
     pub max_attempts: u32,
+    /// Package groups attempted per repository per run (most severe first).
+    pub max_groups_per_repo: usize,
     pub workdir: PathBuf,
     pub branch: String,
 }
@@ -50,7 +52,6 @@ struct Group {
     files: BTreeMap<String, Vec<String>>,
     vulns: usize,
     severity: &'static str,
-    issue: Option<u64>,
 }
 
 async fn sh(dir: &Path, prog: &str, args: &[&str]) -> Result<String> {
@@ -254,10 +255,20 @@ fn groups_for(repo: &str, items: &[&Tracked], max_attempts: u32) -> (Vec<Group>,
             files,
             vulns: v.iter().filter(|t| t.status != Status::Resolved).count(),
             severity: top_severity(&v),
-            issue: v.iter().find_map(|t| t.issue.as_ref().map(|i| i.number)),
         });
     }
+    fixable.sort_by_key(|g| (std::cmp::Reverse(severity_rank(g.severity)), std::cmp::Reverse(g.vulns)));
     (fixable, unfixable)
+}
+
+fn severity_rank(s: &str) -> u8 {
+    match s {
+        "CRITICAL" => 4,
+        "HIGH" => 3,
+        "MEDIUM" => 2,
+        "LOW" => 1,
+        _ => 0,
+    }
 }
 
 /// Whether the default branch requires status checks (classic protection or rulesets).
@@ -318,7 +329,8 @@ pub async fn run(gh: &GitHub, state: &mut State, repos: &HashMap<String, Repo>, 
         if repo.archived {
             continue;
         }
-        let (groups, unfixable) = groups_for(name, &refs, cfg.max_attempts);
+        let (mut groups, unfixable) = groups_for(name, &refs, cfg.max_attempts);
+        groups.truncate(cfg.max_groups_per_repo);
         if !unfixable.is_empty() && !cfg.dry_run {
             let ok = enable_dependabot(gh, name).await;
             stats.dependabot_enabled += ok as usize;
@@ -349,79 +361,81 @@ async fn fix_repo(gh: &GitHub, state: &mut State, repo: &Repo, groups: Vec<Group
     let dir = cfg.workdir.join(name.replace('/', "__"));
     let _ = std::fs::remove_dir_all(&dir);
     std::fs::create_dir_all(&cfg.workdir)?;
+    let owner = name.split('/').next().unwrap_or_default();
+    let open_prs: Vec<Value> = gh.get(&format!("/repos/{name}/pulls?head={owner}:{}&state=open", cfg.branch)).await?;
+    let existing = open_prs.into_iter().next();
+    // Continue an open fix PR's branch; otherwise start fresh from the default branch.
+    let base = if existing.is_some() { cfg.branch.as_str() } else { repo.default_branch.as_str() };
     let url = format!("https://x-access-token:{}@github.com/{name}.git", gh.token());
-    sh(&cfg.workdir, "git", &["clone", "--quiet", "--depth", "1", "--branch", &repo.default_branch, &url, &dir.display().to_string()]).await?;
+    sh(&cfg.workdir, "git", &["clone", "--quiet", "--depth", "1", "--branch", base, &url, &dir.display().to_string()]).await?;
     sh(&dir, "git", &["config", "user.name", "vuln-sentinel[bot]"]).await?;
     sh(&dir, "git", &["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]).await?;
     sh(&dir, "git", &["checkout", "-q", "-B", &cfg.branch]).await?;
 
-    let mut applied: Vec<&Group> = Vec::new();
+    // (group key, lockfile) pairs that were fixed and committed.
+    let mut fixed: Vec<(String, String)> = Vec::new();
     for g in &groups {
-        let mut errs = Vec::new();
         for (file, old) in &g.files {
-            if let Err(e) = apply(&dir, file, g, old).await {
-                errs.push(format!("{file}: {e:#}"));
+            let res = apply(&dir, file, g, old).await;
+            let ok = !still_vulnerable(&dir, file, g, old);
+            let changed = !sh(&dir, "git", &["status", "--porcelain"]).await?.trim().is_empty();
+            if ok && changed {
+                sh(&dir, "git", &["add", "-A"]).await?;
+                let msg = format!("fix(deps): bump {} to {} in {file} ({} {})", g.package, g.target, g.ecosystem, g.severity);
+                sh(&dir, "git", &["commit", "-q", "-m", &msg]).await?;
+                fixed.push((g.key.clone(), file.clone()));
+            } else {
+                sh(&dir, "git", &["reset", "-q", "--hard"]).await?;
+                sh(&dir, "git", &["clean", "-qfd"]).await?;
+                let why = match res {
+                    Err(e) => format!("{e:#}"),
+                    Ok(()) => "the upgrade did not remove the vulnerable version (version constraint conflict)".into(),
+                };
+                let note = format!("Automatic upgrade to {} failed in `{file}`: {}", g.target, why.chars().take(400).collect::<String>());
+                for t in state.group_mut(&g.key) {
+                    if t.status == Status::Open && &t.finding.file == file {
+                        t.note = Some(note.clone());
+                    }
+                }
             }
         }
-        let fixed_all = g.files.iter().all(|(f, old)| !still_vulnerable(&dir, f, g, old));
-        let changed = !sh(&dir, "git", &["status", "--porcelain"]).await?.trim().is_empty();
         for t in state.group_mut(&g.key) {
             if t.status == Status::Open {
                 t.fix_attempts += 1;
             }
         }
-        if changed && fixed_all {
-            sh(&dir, "git", &["add", "-A"]).await?;
-            let msg = format!("fix(deps): bump {} to {} ({} {}, {} vulns)", g.package, g.target, g.ecosystem, g.severity, g.vulns);
-            sh(&dir, "git", &["commit", "-q", "-m", &msg]).await?;
-            applied.push(g);
+        if fixed.iter().any(|(k, _)| k == &g.key) {
             stats.groups_fixed += 1;
         } else {
-            sh(&dir, "git", &["reset", "-q", "--hard"]).await?;
-            sh(&dir, "git", &["clean", "-qfd"]).await?;
             stats.groups_failed += 1;
-            let why = if errs.is_empty() { "the upgrade did not remove the vulnerable version (constraint conflict)".into() } else { errs.join("; ") };
-            note_group(state, &g.key, format!("Automatic upgrade to {} failed: {}", g.target, why.chars().take(500).collect::<String>()));
         }
     }
-    if applied.is_empty() {
+    if fixed.is_empty() {
+        let _ = std::fs::remove_dir_all(&dir);
         return Ok(());
     }
     sh(&dir, "git", &["push", "--quiet", "--force", "origin", &cfg.branch]).await?;
+    let _ = std::fs::remove_dir_all(&dir);
 
-    let mut body = String::from("Automated security upgrades from **vuln-sentinel**.\n\n| Package | Ecosystem | Upgrade to | Vulns | Severity |\n|---|---|---|---|---|\n");
-    for g in &applied {
-        let _ = writeln!(body, "| `{}` | {} | `{}` | {} | {} |", g.package, g.ecosystem, g.target, g.vulns, g.severity);
-    }
-    body.push('\n');
-    for g in &applied {
-        if let Some(n) = g.issue {
-            let _ = writeln!(body, "Closes #{n}");
-        }
-    }
-    body.push_str("\nThis PR merges automatically once CI passes. Lockfiles were regenerated with each ecosystem's own tool, with install scripts disabled.\n");
-    let title = format!("fix(security): upgrade {} vulnerable dependenc{}", applied.len(), if applied.len() == 1 { "y" } else { "ies" });
-
-    let owner = name.split('/').next().unwrap_or_default();
-    let open: Vec<Value> = gh.get(&format!("/repos/{name}/pulls?head={owner}:{}&state=open", cfg.branch)).await?;
-    let pr: Value = match open.into_iter().next() {
+    let pr: Value = match existing {
         Some(p) => {
             stats.prs_updated += 1;
-            gh.patch(&format!("/repos/{name}/pulls/{}", p["number"]), &json!({"title": title, "body": body})).await?
+            p
         }
         None => {
             stats.prs_opened += 1;
             gh.post(
                 &format!("/repos/{name}/pulls"),
-                &json!({"title": title, "head": cfg.branch, "base": repo.default_branch, "body": body, "maintainer_can_modify": true}),
+                &json!({"title": "fix(security): upgrade vulnerable dependencies", "head": cfg.branch, "base": repo.default_branch,
+                    "body": "Preparing…", "maintainer_can_modify": true}),
             )
             .await?
         }
     };
     let number = pr["number"].as_u64().unwrap_or(0);
     let _ = gh.post(&format!("/repos/{name}/issues/{number}/labels"), &json!({"labels": [crate::ticket::LABEL, "security"]})).await;
-    let mut auto = false;
-    if cfg.auto_merge && has_required_checks(gh, repo).await {
+    let mut auto = state.findings.values().any(|t| t.pr.as_ref().map(|p| p.number == number && p.auto_merge).unwrap_or(false) && &t.finding.repo == name);
+    if !auto && cfg.auto_merge && has_required_checks(gh, repo).await {
         match enable_auto_merge(gh, repo, pr["node_id"].as_str().unwrap_or_default()).await {
             Ok(()) => {
                 auto = true;
@@ -431,17 +445,54 @@ async fn fix_repo(gh: &GitHub, state: &mut State, repo: &Repo, groups: Vec<Group
         }
     }
     let pr_ref = PrRef { number, url: pr["html_url"].as_str().unwrap_or_default().to_string(), auto_merge: auto };
-    for g in &applied {
-        for t in state.group_mut(&g.key) {
-            if t.status == Status::Open {
+    for (key, file) in &fixed {
+        for t in state.group_mut(key) {
+            if t.status == Status::Open && &t.finding.file == file {
                 t.status = Status::FixProposed;
                 t.pr = Some(pr_ref.clone());
                 t.note = None;
             }
         }
     }
-    let _ = std::fs::remove_dir_all(&dir);
+    let (title, body) = pr_text(state, name, number, auto);
+    gh.patch(&format!("/repos/{name}/pulls/{number}"), &json!({"title": title, "body": body})).await?;
     Ok(())
+}
+
+/// PR title/body listing everything the PR currently fixes.
+fn pr_text(state: &State, repo: &str, number: u64, auto: bool) -> (String, String) {
+    let mut rows: BTreeMap<String, (String, String, String, usize, Option<u64>)> = BTreeMap::new();
+    for t in state.findings.values() {
+        if t.finding.repo != repo || t.status != Status::FixProposed || t.pr.as_ref().map(|p| p.number) != Some(number) {
+            continue;
+        }
+        let f = &t.finding;
+        let e = rows.entry(t.group()).or_insert((f.package.clone(), f.ecosystem.clone(), String::new(), 0, t.issue.as_ref().map(|i| i.number)));
+        if let Some(fx) = &f.fixed {
+            if e.2.is_empty() || cmp_versions(fx, &e.2) == Ordering::Greater {
+                e.2 = fx.clone();
+            }
+        }
+        e.3 += 1;
+    }
+    let mut body = String::from("Automated security upgrades from **vuln-sentinel**.\n\n| Package | Ecosystem | Upgrade to | Vulns fixed |\n|---|---|---|---|\n");
+    for (pkg, eco, target, n, _) in rows.values() {
+        let _ = writeln!(body, "| `{pkg}` | {eco} | `{target}` | {n} |");
+    }
+    body.push('\n');
+    for (_, _, _, _, issue) in rows.values() {
+        if let Some(n) = issue {
+            let _ = writeln!(body, "Closes #{n}");
+        }
+    }
+    body.push_str(if auto {
+        "\nAuto-merge is enabled: this PR merges once the required checks pass."
+    } else {
+        "\nvuln-sentinel merges this PR once all CI checks pass. If the repository has no CI, it waits for a manual merge."
+    });
+    body.push_str(" Lockfiles were regenerated with each ecosystem's own tool, with install scripts disabled.\n");
+    let n = rows.len();
+    (format!("fix(security): upgrade {n} vulnerable dependenc{}", if n == 1 { "y" } else { "ies" }), body)
 }
 
 /// For open fix PRs: merge when CI is green (repos without required checks),

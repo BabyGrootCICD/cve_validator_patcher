@@ -103,6 +103,9 @@ pub struct Opts {
     /// Give up automatic fixing of a package after this many attempts.
     #[arg(long, default_value_t = 3, global = true)]
     max_fix_attempts: u32,
+    /// Package groups to attempt per repository per run.
+    #[arg(long, default_value_t = 25, global = true)]
+    max_fix_groups: usize,
     /// `run`: verify→fix rounds to wait for PRs to merge within one run.
     #[arg(long, default_value_t = 3, global = true)]
     max_iterations: u32,
@@ -262,6 +265,7 @@ impl App {
             merge_without_checks: self.opts.merge_without_checks,
             max_repos: self.opts.max_fix_repos,
             max_attempts: self.opts.max_fix_attempts,
+            max_groups_per_repo: self.opts.max_fix_groups,
             workdir: self.opts.workdir.clone().unwrap_or_else(|| {
                 std::env::var("RUNNER_TEMP").map(|t| PathBuf::from(t).join("vuln-sentinel")).unwrap_or_else(|_| PathBuf::from(".vs-work"))
             }),
