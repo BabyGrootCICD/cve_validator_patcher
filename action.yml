@@ -198,7 +198,10 @@ runs:
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         state_dir=$(dirname "${{ inputs.state-file }}")
-        git add -A -- "${{ inputs.report-dir }}" "${{ inputs.archive-dir }}" "$state_dir" 2>/dev/null || true
+        # A missing pathspec makes `git add` stage nothing, so pass only existing paths.
+        for p in "${{ inputs.report-dir }}" "${{ inputs.archive-dir }}" "$state_dir"; do
+          if [ -e "$p" ]; then git add -A -- "$p"; fi
+        done
         if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
         git commit -q -m "chore(vuln-sentinel): ${{ inputs.mode }} $(date -u +%FT%TZ)"
         for i in 1 2 3; do
