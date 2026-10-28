@@ -54,8 +54,7 @@ impl GitHub {
             };
             let s = resp.status();
             let limited = s == StatusCode::TOO_MANY_REQUESTS
-                || (s == StatusCode::FORBIDDEN
-                    && resp.headers().get("x-ratelimit-remaining").map(|v| v == "0").unwrap_or(false))
+                || (s == StatusCode::FORBIDDEN && resp.headers().get("x-ratelimit-remaining").map(|v| v == "0").unwrap_or(false))
                 || (s == StatusCode::FORBIDDEN && resp.headers().contains_key(header::RETRY_AFTER));
             if (limited || s.is_server_error()) && attempt < 5 {
                 let wait = resp
@@ -121,11 +120,7 @@ impl GitHub {
         let mut pages = 0;
         while let Some(p) = next.take() {
             let r = Self::check(self.send(Method::GET, &p, None, None).await?, &p).await?;
-            next = r
-                .headers()
-                .get(header::LINK)
-                .and_then(|v| v.to_str().ok())
-                .and_then(parse_next_link);
+            next = r.headers().get(header::LINK).and_then(|v| v.to_str().ok()).and_then(parse_next_link);
             let v: Value = r.json().await?;
             let arr = match pick {
                 Some(k) => v.get(k).cloned().unwrap_or(Value::Null),

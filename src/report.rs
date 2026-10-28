@@ -68,8 +68,16 @@ pub fn render(date: &str, c: &Collection, state: &State) -> String {
             let today = v.iter().any(|t| t.finding.new_today);
             (done, !today, v[0].finding.repo.clone(), v[0].finding.package.clone())
         });
-        let _ = writeln!(md, "Grouped per repository and package ({} groups, {} findings). ⭐ = matches an advisory collected today.\n", rows.len(), tracked.len());
-        let _ = writeln!(md, "| Status | Repo | Package | Installed | Upgrade to | Vulns | Severity | Ticket | PR |\n|---|---|---|---|---|---|---|---|---|");
+        let _ = writeln!(
+            md,
+            "Grouped per repository and package ({} groups, {} findings). ⭐ = matches an advisory collected today.\n",
+            rows.len(),
+            tracked.len()
+        );
+        let _ = writeln!(
+            md,
+            "| Status | Repo | Package | Installed | Upgrade to | Vulns | Severity | Ticket | PR |\n|---|---|---|---|---|---|---|---|---|"
+        );
         for v in rows {
             let f = &v[0].finding;
             let status = if v.iter().all(|t| t.status == Status::Resolved) {
@@ -84,7 +92,14 @@ pub fn render(date: &str, c: &Collection, state: &State) -> String {
             versions.dedup();
             let mut ids: Vec<String> = v
                 .iter()
-                .map(|t| format!("[{}](https://osv.dev/vulnerability/{}){}", t.finding.vuln_id, t.finding.vuln_id, if t.finding.new_today { "⭐" } else { "" }))
+                .map(|t| {
+                    format!(
+                        "[{}](https://osv.dev/vulnerability/{}){}",
+                        t.finding.vuln_id,
+                        t.finding.vuln_id,
+                        if t.finding.new_today { "⭐" } else { "" }
+                    )
+                })
                 .collect();
             ids.sort();
             ids.dedup();
@@ -111,7 +126,13 @@ pub fn render(date: &str, c: &Collection, state: &State) -> String {
         let _ = writeln!(md, "## Exploits / PoCs published\n\n| Advisory | Aliases | Exploit refs |\n|---|---|---|");
         for a in exploits {
             let refs: Vec<String> = a.exploits.iter().take(3).map(|e| cell(e, 90)).collect();
-            let _ = writeln!(md, "| {} | {} | {} |", adv_link(a), cell(&a.aliases.iter().cloned().collect::<Vec<_>>().join(", "), 60), refs.join("<br>"));
+            let _ = writeln!(
+                md,
+                "| {} | {} | {} |",
+                adv_link(a),
+                cell(&a.aliases.iter().cloned().collect::<Vec<_>>().join(", "), 60),
+                refs.join("<br>")
+            );
         }
         md.push('\n');
     }

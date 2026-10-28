@@ -17,21 +17,16 @@ pub async fn fetch(ctx: &FeedCtx) -> FeedOutput {
     ));
     let mut pages = 0;
     while let Some(u) = url.take() {
-        let v: Value = ctx
-            .http
-            .get(&u)
-            .header("Authorization", format!("basic {key}"))
-            .send()
-            .await?
-            .error_for_status()?
-            .json()
-            .await?;
+        let v: Value = ctx.http.get(&u).header("Authorization", format!("basic {key}")).send().await?.error_for_status()?.json().await?;
         out.extend(v["data"].as_array().into_iter().flatten().filter_map(parse));
         pages += 1;
-        url = v["links"]["next"]["href"]
-            .as_str()
-            .filter(|_| pages < MAX_PAGES)
-            .map(|h| if h.starts_with("http") { h.to_string() } else { format!("https://api.attackerkb.com{h}") });
+        url = v["links"]["next"]["href"].as_str().filter(|_| pages < MAX_PAGES).map(|h| {
+            if h.starts_with("http") {
+                h.to_string()
+            } else {
+                format!("https://api.attackerkb.com{h}")
+            }
+        });
     }
     Ok(Ok(out))
 }

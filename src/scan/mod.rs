@@ -25,8 +25,7 @@ pub struct ScanResult {
 
 /// List dependency files on the default branch and parse them.
 pub async fn repo_deps(gh: &GitHub, repo: &Repo) -> Result<Vec<Dep>> {
-    let tree: Option<Value> =
-        gh.get_opt(&format!("/repos/{}/git/trees/{}?recursive=1", repo.full_name, repo.default_branch)).await?;
+    let tree: Option<Value> = gh.get_opt(&format!("/repos/{}/git/trees/{}?recursive=1", repo.full_name, repo.default_branch)).await?;
     let Some(tree) = tree else { return Ok(vec![]) }; // empty repository
     let paths: Vec<String> = tree["tree"]
         .as_array()
@@ -49,13 +48,7 @@ pub async fn repo_deps(gh: &GitHub, repo: &Repo) -> Result<Vec<Dep>> {
 
 /// Scan repositories concurrently. `today_ids` marks findings whose vuln (or
 /// alias) was among today's collected advisories.
-pub async fn scan(
-    gh: &GitHub,
-    http: &reqwest::Client,
-    repos: &[Repo],
-    today_ids: &HashSet<String>,
-    concurrency: usize,
-) -> ScanResult {
+pub async fn scan(gh: &GitHub, http: &reqwest::Client, repos: &[Repo], today_ids: &HashSet<String>, concurrency: usize) -> ScanResult {
     let per_repo: Vec<(String, Result<Vec<Dep>>)> = stream::iter(repos.iter())
         .map(|r| async move { (r.full_name.clone(), repo_deps(gh, r).await) })
         .buffer_unordered(concurrency)

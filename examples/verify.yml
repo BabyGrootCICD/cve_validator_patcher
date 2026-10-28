@@ -1,0 +1,34 @@
+# Every 4 hours: merge green fix PRs, re-check unresolved findings, close
+# resolved tickets, and archive days whose findings are all resolved.
+name: vuln-sentinel verify
+on:
+  schedule:
+    - cron: "30 */4 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: vuln-sentinel
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - uses: dennislee928/vuln-sentinel@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: verify
+      - uses: dennislee928/vuln-sentinel@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: fix
+      - uses: dennislee928/vuln-sentinel@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: archive

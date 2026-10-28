@@ -44,11 +44,7 @@ fn hash(s: &str) -> u64 {
 
 /// Highest fixed version needed to clear every open vuln in the group.
 pub fn target_version(items: &[&Tracked]) -> Option<String> {
-    items
-        .iter()
-        .filter(|t| t.status != Status::Resolved)
-        .filter_map(|t| t.finding.fixed.clone())
-        .max_by(|a, b| cmp_versions(a, b))
+    items.iter().filter(|t| t.status != Status::Resolved).filter_map(|t| t.finding.fixed.clone()).max_by(|a, b| cmp_versions(a, b))
 }
 
 fn severity_rank(s: Option<&str>) -> u8 {
@@ -74,7 +70,13 @@ pub fn top_severity(items: &[&Tracked]) -> &'static str {
 fn issue_title(items: &[&Tracked]) -> String {
     let f = &items[0].finding;
     let open = items.iter().filter(|t| t.status != Status::Resolved).count();
-    format!("[vuln-sentinel] {} {} `{}`: {open} known vulnerabilit{}", top_severity(items), f.ecosystem, f.package, if open == 1 { "y" } else { "ies" })
+    format!(
+        "[vuln-sentinel] {} {} `{}`: {open} known vulnerabilit{}",
+        top_severity(items),
+        f.ecosystem,
+        f.package,
+        if open == 1 { "y" } else { "ies" }
+    )
 }
 
 fn issue_body(group: &str, items: &[&Tracked], cfg: &TicketCfg) -> String {
@@ -149,8 +151,7 @@ async fn existing_issues(gh: &GitHub, repo: &str) -> Result<HashMap<String, Valu
 /// Create/update/close per-package issues so they mirror state.
 pub async fn sync(gh: &GitHub, state: &mut State, repos_with_issues: &HashSet<String>, cfg: &TicketCfg) -> Result<TicketStats> {
     let mut stats = TicketStats::default();
-    let groups: Vec<(String, Vec<Tracked>)> =
-        state.groups().into_iter().map(|(g, v)| (g, v.into_iter().cloned().collect())).collect();
+    let groups: Vec<(String, Vec<Tracked>)> = state.groups().into_iter().map(|(g, v)| (g, v.into_iter().cloned().collect())).collect();
     let mut cache: HashMap<String, HashMap<String, Value>> = HashMap::new();
     let mut labelled: HashSet<String> = HashSet::new();
 
@@ -275,7 +276,9 @@ pub async fn sync_tracker(gh: &GitHub, state: &mut State, day: &str, cfg: &Ticke
         .map(|(g, v)| (g, v.into_iter().filter(|t| t.day == day).collect::<Vec<_>>()))
         .filter(|(_, v)| !v.is_empty())
         .collect();
-    groups.sort_by_key(|(g, v)| (v.iter().all(|t| t.status == Status::Resolved), std::cmp::Reverse(severity_rank(Some(top_severity(v)))), g.clone()));
+    groups.sort_by_key(|(g, v)| {
+        (v.iter().all(|t| t.status == Status::Resolved), std::cmp::Reverse(severity_rank(Some(top_severity(v)))), g.clone())
+    });
     let total: usize = groups.iter().map(|(_, v)| v.len()).sum();
     let open: usize = groups.iter().map(|(_, v)| v.iter().filter(|t| t.status != Status::Resolved).count()).sum();
     let mut body = format!(
@@ -375,7 +378,13 @@ mod tests {
         assert_eq!(target_version(&items).as_deref(), Some("6.29.1"));
         assert_eq!(top_severity(&items), "CRITICAL");
         assert!(issue_title(&items).contains("2 known vulnerabilities"));
-        let cfg = TicketCfg { dry_run: true, max_new: 1, tracker_repo: Some("me/ops".into()), tracker_branch: "main".into(), report_dir: "reports".into() };
+        let cfg = TicketCfg {
+            dry_run: true,
+            max_new: 1,
+            tracker_repo: Some("me/ops".into()),
+            tracker_branch: "main".into(),
+            report_dir: "reports".into(),
+        };
         let body = issue_body("me/a|npm|undici", &items, &cfg);
         assert!(body.starts_with("<!-- vuln-sentinel:me/a|npm|undici -->"));
         assert!(body.contains("x \\| y") && body.contains("me/ops/blob/main/reports/2026-10-28.md"));

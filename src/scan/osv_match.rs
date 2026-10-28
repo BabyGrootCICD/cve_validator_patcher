@@ -24,10 +24,7 @@ pub async fn match_deps(http: &reqwest::Client, deps: &[(String, Dep)], today_id
     uniq.dedup();
     let mut hits: HashMap<(String, String, String), Vec<String>> = HashMap::new();
     for chunk in uniq.chunks(BATCH) {
-        let queries: Vec<Value> = chunk
-            .iter()
-            .map(|(e, n, v)| json!({"package": {"ecosystem": e, "name": n}, "version": v}))
-            .collect();
+        let queries: Vec<Value> = chunk.iter().map(|(e, n, v)| json!({"package": {"ecosystem": e, "name": n}, "version": v})).collect();
         let resp: Value = http
             .post("https://api.osv.dev/v1/querybatch")
             .json(&json!({ "queries": queries }))
@@ -116,10 +113,8 @@ pub fn fixed_version(vuln: &Value, dep: &Dep) -> Option<String> {
                     introduced = Some(i.to_string());
                 }
                 if let Some(f) = ev["fixed"].as_str() {
-                    let intro_ok = introduced
-                        .as_deref()
-                        .map(|i| i == "0" || cmp_versions(i, &installed) != Ordering::Greater)
-                        .unwrap_or(true);
+                    let intro_ok =
+                        introduced.as_deref().map(|i| i == "0" || cmp_versions(i, &installed) != Ordering::Greater).unwrap_or(true);
                     if intro_ok && cmp_versions(f, &installed) == Ordering::Greater {
                         let better = best.as_deref().map(|b| cmp_versions(f, b) == Ordering::Less).unwrap_or(true);
                         if better {

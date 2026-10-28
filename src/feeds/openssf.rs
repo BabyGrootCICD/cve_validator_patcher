@@ -9,11 +9,8 @@ pub const SOURCE: &str = "OpenSSF Malicious Packages";
 const MAX_COMMITS: usize = 60;
 
 pub async fn fetch(ctx: &FeedCtx) -> FeedOutput {
-    let path = format!(
-        "/repos/ossf/malicious-packages/commits?since={}&until={}&per_page=100",
-        ctx.since.to_rfc3339(),
-        ctx.until.to_rfc3339()
-    );
+    let path =
+        format!("/repos/ossf/malicious-packages/commits?since={}&until={}&per_page=100", ctx.since.to_rfc3339(), ctx.until.to_rfc3339());
     let commits = ctx.gh.paginate(&path, None, 1).await?;
     let mut out = Vec::new();
     for c in commits.iter().take(MAX_COMMITS) {

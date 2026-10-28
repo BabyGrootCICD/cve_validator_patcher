@@ -126,11 +126,7 @@ pub fn dedupe(input: Vec<Advisory>) -> Vec<Advisory> {
         })
         .collect();
     out.sort_by(|a, b| {
-        b.score
-            .unwrap_or(0.0)
-            .partial_cmp(&a.score.unwrap_or(0.0))
-            .unwrap_or(Ordering::Equal)
-            .then_with(|| a.id.cmp(&b.id))
+        b.score.unwrap_or(0.0).partial_cmp(&a.score.unwrap_or(0.0)).unwrap_or(Ordering::Equal).then_with(|| a.id.cmp(&b.id))
     });
     out
 }

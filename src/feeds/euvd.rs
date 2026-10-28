@@ -18,12 +18,7 @@ pub async fn fetch(ctx: &FeedCtx) -> FeedOutput {
         );
         let v: Value = ctx.http.get(&url).send().await?.error_for_status()?.json().await?;
         let items = v["items"].as_array().cloned().unwrap_or_default();
-        out.extend(
-            items
-                .iter()
-                .filter_map(parse)
-                .filter(|a| a.published.map(|p| p >= ctx.since && p <= ctx.until).unwrap_or(true)),
-        );
+        out.extend(items.iter().filter_map(parse).filter(|a| a.published.map(|p| p >= ctx.since && p <= ctx.until).unwrap_or(true)));
         if items.len() < PAGE {
             break;
         }

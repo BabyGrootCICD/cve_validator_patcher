@@ -335,7 +335,11 @@ pub async fn run(gh: &GitHub, state: &mut State, repos: &HashMap<String, Repo>, 
             let ok = enable_dependabot(gh, name).await;
             stats.dependabot_enabled += ok as usize;
             for k in &unfixable {
-                note_group(state, k, "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically.".into());
+                note_group(
+                    state,
+                    k,
+                    "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically.".into(),
+                );
             }
         }
         if groups.is_empty() {
@@ -344,7 +348,13 @@ pub async fn run(gh: &GitHub, state: &mut State, repos: &HashMap<String, Repo>, 
         stats.repos_attempted += 1;
         if cfg.dry_run {
             for g in &groups {
-                tracing::info!("[dry-run] {name}: bump {} {} → {} in {:?}", g.ecosystem, g.package, g.target, g.files.keys().collect::<Vec<_>>());
+                tracing::info!(
+                    "[dry-run] {name}: bump {} {} → {} in {:?}",
+                    g.ecosystem,
+                    g.package,
+                    g.target,
+                    g.files.keys().collect::<Vec<_>>()
+                );
             }
             continue;
         }
@@ -434,7 +444,10 @@ async fn fix_repo(gh: &GitHub, state: &mut State, repo: &Repo, groups: Vec<Group
     };
     let number = pr["number"].as_u64().unwrap_or(0);
     let _ = gh.post(&format!("/repos/{name}/issues/{number}/labels"), &json!({"labels": [crate::ticket::LABEL, "security"]})).await;
-    let mut auto = state.findings.values().any(|t| t.pr.as_ref().map(|p| p.number == number && p.auto_merge).unwrap_or(false) && &t.finding.repo == name);
+    let mut auto = state
+        .findings
+        .values()
+        .any(|t| t.pr.as_ref().map(|p| p.number == number && p.auto_merge).unwrap_or(false) && &t.finding.repo == name);
     if !auto && cfg.auto_merge && has_required_checks(gh, repo).await {
         match enable_auto_merge(gh, repo, pr["node_id"].as_str().unwrap_or_default()).await {
             Ok(()) => {
@@ -467,7 +480,8 @@ fn pr_text(state: &State, repo: &str, number: u64, auto: bool) -> (String, Strin
             continue;
         }
         let f = &t.finding;
-        let e = rows.entry(t.group()).or_insert((f.package.clone(), f.ecosystem.clone(), String::new(), 0, t.issue.as_ref().map(|i| i.number)));
+        let e =
+            rows.entry(t.group()).or_insert((f.package.clone(), f.ecosystem.clone(), String::new(), 0, t.issue.as_ref().map(|i| i.number)));
         if let Some(fx) = &f.fixed {
             if e.2.is_empty() || cmp_versions(fx, &e.2) == Ordering::Greater {
                 e.2 = fx.clone();
@@ -475,7 +489,9 @@ fn pr_text(state: &State, repo: &str, number: u64, auto: bool) -> (String, Strin
         }
         e.3 += 1;
     }
-    let mut body = String::from("Automated security upgrades from **vuln-sentinel**.\n\n| Package | Ecosystem | Upgrade to | Vulns fixed |\n|---|---|---|---|\n");
+    let mut body = String::from(
+        "Automated security upgrades from **vuln-sentinel**.\n\n| Package | Ecosystem | Upgrade to | Vulns fixed |\n|---|---|---|---|\n",
+    );
     for (pkg, eco, target, n, _) in rows.values() {
         let _ = writeln!(body, "| `{pkg}` | {eco} | `{target}` | {n} |");
     }

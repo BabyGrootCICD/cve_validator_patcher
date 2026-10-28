@@ -9,9 +9,8 @@ use serde_json::Value;
 pub const SOURCE: &str = "OSV";
 
 /// Application ecosystems we can also scan in repositories.
-pub const ECOSYSTEMS: &[&str] = &[
-    "crates.io", "npm", "PyPI", "Go", "Maven", "NuGet", "Packagist", "RubyGems", "Pub", "Hex", "GitHub Actions",
-];
+pub const ECOSYSTEMS: &[&str] =
+    &["crates.io", "npm", "PyPI", "Go", "Maven", "NuGet", "Packagist", "RubyGems", "Pub", "Hex", "GitHub Actions"];
 
 const MAX_RECORDS: usize = 1500;
 
@@ -104,10 +103,7 @@ pub fn osv_severity(v: &Value) -> Option<String> {
         return Some("CRITICAL".into());
     }
     // A numeric score is sometimes given directly instead of a vector.
-    v["severity"][0]["score"]
-        .as_str()
-        .and_then(|s| s.parse::<f64>().ok())
-        .map(|s| severity_from_score(s).to_string())
+    v["severity"][0]["score"].as_str().and_then(|s| s.parse::<f64>().ok()).map(|s| severity_from_score(s).to_string())
 }
 
 #[cfg(test)]

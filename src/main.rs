@@ -145,10 +145,7 @@ impl App {
     }
 
     fn load_collection(&self, date: &str) -> Collection {
-        std::fs::read_to_string(self.collection_json(date))
-            .ok()
-            .and_then(|s| serde_json::from_str(&s).ok())
-            .unwrap_or_default()
+        std::fs::read_to_string(self.collection_json(date)).ok().and_then(|s| serde_json::from_str(&s).ok()).unwrap_or_default()
     }
 
     fn save_state(&self) -> Result<()> {

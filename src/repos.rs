@@ -28,9 +28,7 @@ pub struct RepoFilter {
 }
 
 pub async fn list(gh: &GitHub, f: &RepoFilter) -> Result<Vec<Repo>> {
-    let raw = gh
-        .paginate("/user/repos?affiliation=owner,organization_member&per_page=100&sort=full_name", None, 100)
-        .await?;
+    let raw = gh.paginate("/user/repos?affiliation=owner,organization_member&per_page=100&sort=full_name", None, 100).await?;
     let mut repos: Vec<Repo> = raw
         .iter()
         .filter_map(|r| {

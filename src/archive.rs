@@ -44,17 +44,16 @@ pub fn metrics(state: &State, date: &str, now: DateTime<Utc>) -> Metrics {
                 by_source.insert(f.source.clone(), *count);
             }
             FeedStatus::Skipped { reason } => skipped.push(format!("{}: skipped ({reason})", f.source)),
-            FeedStatus::Error { message } => skipped.push(format!("{}: error ({})", f.source, message.chars().take(200).collect::<String>())),
+            FeedStatus::Error { message } => {
+                skipped.push(format!("{}: error ({})", f.source, message.chars().take(200).collect::<String>()))
+            }
         }
     }
     let mut by_severity = BTreeMap::new();
     for t in &items {
         *by_severity.entry(t.finding.severity.clone().unwrap_or_else(|| "UNKNOWN".into())).or_insert(0) += 1;
     }
-    let ttr: Vec<f64> = items
-        .iter()
-        .filter_map(|t| t.resolved_at.map(|r| (r - t.first_seen).num_seconds() as f64 / 3600.0))
-        .collect();
+    let ttr: Vec<f64> = items.iter().filter_map(|t| t.resolved_at.map(|r| (r - t.first_seen).num_seconds() as f64 / 3600.0)).collect();
     let set = |f: &dyn Fn(&&crate::state::Tracked) -> Option<String>| items.iter().filter_map(f).collect::<BTreeSet<_>>().len();
     Metrics {
         date: date.to_string(),
@@ -81,7 +80,11 @@ pub fn metrics(state: &State, date: &str, now: DateTime<Utc>) -> Metrics {
 }
 
 pub fn metrics_md(m: &Metrics) -> String {
-    let mut s = format!("# Resolution metrics — {}\n\nArchived at {} (all findings discovered on this day are resolved).\n\n", m.date, m.archived_at.format("%Y-%m-%d %H:%M UTC"));
+    let mut s = format!(
+        "# Resolution metrics — {}\n\nArchived at {} (all findings discovered on this day are resolved).\n\n",
+        m.date,
+        m.archived_at.format("%Y-%m-%d %H:%M UTC")
+    );
     let _ = writeln!(s, "| Metric | Value |\n|---|---|");
     let hours = |h: Option<f64>| h.map(|h| format!("{h:.1} h")).unwrap_or_else(|| "—".into());
     for (k, v) in [

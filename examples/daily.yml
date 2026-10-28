@@ -1,0 +1,34 @@
+# Daily: collect intel → scan every repo → open tickets → fix PRs → verify → archive.
+name: vuln-sentinel daily
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: Report only
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: vuln-sentinel
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - uses: dennislee928/vuln-sentinel@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: run
+          dry-run: ${{ inputs.dry-run || 'false' }}
+          nvd-api-key: ${{ secrets.NVD_API_KEY }}
+          vulners-api-key: ${{ secrets.VULNERS_API_KEY }}
+          attackerkb-api-key: ${{ secrets.ATTACKERKB_API_KEY }}

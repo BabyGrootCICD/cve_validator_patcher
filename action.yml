@@ -1,0 +1,204 @@
+name: Vuln Sentinel
+description: Daily CVE/OSV/EUVD/GHSA/OpenSSF/Vulners/Sploitus/AttackerKB intel, cross-repo exposure scan, tickets and auto-fix PRs
+author: dennislee928
+branding:
+  icon: shield
+  color: red
+
+inputs:
+  token:
+    description: >
+      Token used to read repositories and open issues/PRs across your account and orgs.
+      A classic PAT with `repo`, `workflow` and `read:org` scopes (GITHUB_TOKEN only reaches the current repository).
+    required: true
+  mode:
+    description: "Pipeline step: run | collect | scan | ticket | fix | verify | archive"
+    default: run
+  owners:
+    description: Comma-separated user/org logins to scan (default - you and every org you belong to)
+    default: ""
+  repos:
+    description: Comma-separated owner/name list to restrict scanning to
+    default: ""
+  exclude:
+    description: Comma-separated owner/name list to skip
+    default: ""
+  include-forks:
+    description: Also scan forks
+    default: "false"
+  include-archived:
+    description: Also scan archived repositories (scan-only)
+    default: "false"
+  auto-merge:
+    description: Merge fix PRs automatically once CI is green
+    default: "true"
+  merge-without-checks:
+    description: Also merge fix PRs in repositories that have no CI at all
+    default: "false"
+  dry-run:
+    description: Report only; do not create issues, branches or PRs
+    default: "false"
+  window-hours:
+    description: Collect advisories published within this many hours
+    default: "24"
+  max-new-issues:
+    description: Maximum issues to open per run
+    default: "150"
+  max-fix-repos:
+    description: Maximum repositories to open fix PRs in per run
+    default: "40"
+  max-fix-groups:
+    description: Maximum packages to upgrade per repository per run
+    default: "25"
+  max-iterations:
+    description: "`run` mode - verify/fix rounds to wait for PRs to merge"
+    default: "3"
+  poll-minutes:
+    description: "`run` mode - minutes between verify rounds"
+    default: "10"
+  report-dir:
+    description: Directory for daily {date}.md reports
+    default: reports
+  archive-dir:
+    description: Directory for archived reports and resolution metrics
+    default: archive
+  state-file:
+    description: Findings state file
+    default: state/findings.json
+  tracker-repo:
+    description: Repository for daily tracker issues (default - the calling repository)
+    default: ""
+  commit-results:
+    description: Commit reports, state and archive back to the calling repository
+    default: "true"
+  install-fix-tools:
+    description: Install pnpm/yarn (corepack), poetry and uv for the fixers
+    default: "true"
+  nvd-api-key:
+    description: Optional NVD API key (higher rate limits)
+    default: ""
+  vulners-api-key:
+    description: Optional Vulners API key (enables the Vulners feed)
+    default: ""
+  attackerkb-api-key:
+    description: Optional AttackerKB API key (enables the AttackerKB feed)
+    default: ""
+
+outputs:
+  report-path:
+    description: Path of the daily markdown report
+    value: ${{ steps.run.outputs.report-path }}
+  findings:
+    description: Number of tracked findings
+    value: ${{ steps.run.outputs.findings }}
+  unresolved:
+    description: Number of unresolved findings
+    value: ${{ steps.run.outputs.unresolved }}
+  archived-dates:
+    description: Comma-separated dates archived in this run
+    value: ${{ steps.run.outputs.archived-dates }}
+
+runs:
+  using: composite
+  steps:
+    - name: Install vuln-sentinel
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+        ACTION_REF: ${{ github.action_ref }}
+        ACTION_REPO: ${{ github.action_repository }}
+        ACTION_PATH: ${{ github.action_path }}
+      run: |
+        set -euo pipefail
+        case "${RUNNER_OS}-${RUNNER_ARCH}" in
+          Linux-X64) target=x86_64-unknown-linux-gnu ;;
+          Linux-ARM64) target=aarch64-unknown-linux-gnu ;;
+          macOS-ARM64) target=aarch64-apple-darwin ;;
+          *) target="" ;;
+        esac
+        bin="${RUNNER_TEMP}/vuln-sentinel-bin"
+        mkdir -p "$bin"
+        tag=""
+        if [ -n "$target" ] && [ -n "$ACTION_REPO" ]; then
+          # Exact tag (v1.2.3) or newest release under a major tag (v1).
+          tag=$(gh api "repos/${ACTION_REPO}/releases?per_page=50" \
+            --jq "[.[] | select(.draft|not) | select(.tag_name == \"${ACTION_REF}\" or (.tag_name|startswith(\"${ACTION_REF}.\")))][0].tag_name // empty" 2>/dev/null || true)
+        fi
+        if [ -n "$tag" ] && gh release download "$tag" -R "$ACTION_REPO" -p "vuln-sentinel-${target}.tar.gz" -D "$bin" --clobber 2>/dev/null; then
+          tar -xzf "$bin/vuln-sentinel-${target}.tar.gz" -C "$bin"
+          echo "Using prebuilt vuln-sentinel ${tag} (${target})"
+        else
+          echo "No prebuilt binary for '${ACTION_REF}' (${target:-unsupported platform}); building from source"
+          cargo build --release --locked --manifest-path "${ACTION_PATH}/Cargo.toml" --target-dir "${RUNNER_TEMP}/vuln-sentinel-target"
+          cp "${RUNNER_TEMP}/vuln-sentinel-target/release/vuln-sentinel" "$bin/"
+        fi
+        chmod +x "$bin/vuln-sentinel"
+        echo "$bin" >> "$GITHUB_PATH"
+
+    - name: Install fixer tooling
+      if: inputs.install-fix-tools == 'true' && inputs.dry-run != 'true' && contains(fromJSON('["run","fix","verify"]'), inputs.mode)
+      shell: bash
+      run: |
+        corepack enable 2>/dev/null || sudo corepack enable 2>/dev/null || true
+        command -v poetry >/dev/null || pipx install poetry >/dev/null 2>&1 || true
+        command -v uv >/dev/null || pipx install uv >/dev/null 2>&1 || true
+
+    - name: Run vuln-sentinel
+      id: run
+      shell: bash
+      env:
+        VS_TOKEN: ${{ inputs.token }}
+        NVD_API_KEY: ${{ inputs.nvd-api-key }}
+        VULNERS_API_KEY: ${{ inputs.vulners-api-key }}
+        ATTACKERKB_API_KEY: ${{ inputs.attackerkb-api-key }}
+        IN_MODE: ${{ inputs.mode }}
+        IN_OWNERS: ${{ inputs.owners }}
+        IN_REPOS: ${{ inputs.repos }}
+        IN_EXCLUDE: ${{ inputs.exclude }}
+        IN_TRACKER: ${{ inputs.tracker-repo }}
+      run: |
+        set -euo pipefail
+        for v in NVD_API_KEY VULNERS_API_KEY ATTACKERKB_API_KEY; do [ -z "${!v}" ] && unset "$v"; done
+        args=("$IN_MODE"
+          --window-hours "${{ inputs.window-hours }}"
+          --auto-merge "${{ inputs.auto-merge }}"
+          --max-new-issues "${{ inputs.max-new-issues }}"
+          --max-fix-repos "${{ inputs.max-fix-repos }}"
+          --max-fix-groups "${{ inputs.max-fix-groups }}"
+          --max-iterations "${{ inputs.max-iterations }}"
+          --poll-minutes "${{ inputs.poll-minutes }}"
+          --report-dir "${{ inputs.report-dir }}"
+          --archive-dir "${{ inputs.archive-dir }}"
+          --state-file "${{ inputs.state-file }}"
+          --tracker-branch "${GITHUB_REF_NAME:-main}")
+        [ -n "$IN_OWNERS" ] && args+=(--owners "$IN_OWNERS")
+        [ -n "$IN_REPOS" ] && args+=(--repos "$IN_REPOS")
+        [ -n "$IN_EXCLUDE" ] && args+=(--exclude "$IN_EXCLUDE")
+        [ -n "$IN_TRACKER" ] && args+=(--tracker-repo "$IN_TRACKER")
+        [ "${{ inputs.include-forks }}" = "true" ] && args+=(--include-forks)
+        [ "${{ inputs.include-archived }}" = "true" ] && args+=(--include-archived)
+        [ "${{ inputs.merge-without-checks }}" = "true" ] && args+=(--merge-without-checks)
+        [ "${{ inputs.dry-run }}" = "true" ] && args+=(--dry-run)
+        vuln-sentinel "${args[@]}"
+        report="${{ inputs.report-dir }}/$(date -u +%F).md"
+        if [ -f "$report" ]; then
+          { echo "## vuln-sentinel"; echo; sed -n '/^## Sources/q;p' "$report"; } >> "$GITHUB_STEP_SUMMARY"
+        fi
+
+    - name: Commit results
+      if: always() && inputs.commit-results == 'true'
+      shell: bash
+      run: |
+        set -euo pipefail
+        git rev-parse --is-inside-work-tree >/dev/null 2>&1 || { echo "No checkout; skipping commit"; exit 0; }
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        state_dir=$(dirname "${{ inputs.state-file }}")
+        git add -A -- "${{ inputs.report-dir }}" "${{ inputs.archive-dir }}" "$state_dir" 2>/dev/null || true
+        if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+        git commit -q -m "chore(vuln-sentinel): ${{ inputs.mode }} $(date -u +%FT%TZ)"
+        for i in 1 2 3; do
+          git pull -q --rebase -X theirs && git push -q && exit 0
+          sleep $((i * 5))
+        done
+        echo "::warning::could not push vuln-sentinel results"
