@@ -12,7 +12,7 @@ inputs:
       A classic PAT with `repo`, `workflow` and `read:org` scopes (GITHUB_TOKEN only reaches the current repository).
     required: true
   mode:
-    description: "Pipeline step: run | collect | scan | ticket | fix | verify | archive"
+    description: "Pipeline step: run | collect | scan | ticket | patch (alias fix) | verify | archive"
     default: run
   owners:
     description: Comma-separated user/org logins to scan (default - you and every org you belong to)
@@ -139,7 +139,7 @@ runs:
         echo "$bin" >> "$GITHUB_PATH"
 
     - name: Install fixer tooling
-      if: inputs.install-fix-tools == 'true' && inputs.dry-run != 'true' && contains(fromJSON('["run","fix","verify"]'), inputs.mode)
+      if: inputs.install-fix-tools == 'true' && inputs.dry-run != 'true' && contains(fromJSON('["run","fix","patch","verify"]'), inputs.mode)
       shell: bash
       run: |
         corepack enable 2>/dev/null || sudo corepack enable 2>/dev/null || true

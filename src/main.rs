@@ -35,7 +35,8 @@ enum Cmd {
     Scan,
     /// Open, update and close issues to mirror the findings.
     Ticket,
-    /// Open fix PRs for open findings.
+    /// Patch: open/update one fix PR branch per affected repository.
+    #[command(alias = "patch")]
     Fix,
     /// Re-check unresolved findings, advance fix PRs and sync tickets.
     Verify,
