@@ -1,7 +1,8 @@
 //! Markdown rendering of the daily report.
 use crate::feeds::{Collection, FeedStatus};
 use crate::model::Advisory;
-use crate::state::{State, Status};
+use crate::state::{State, Status, Tracked};
+use crate::ticket::{target_version, top_severity};
 use std::collections::BTreeMap;
 use std::fmt::Write;
 
@@ -57,30 +58,49 @@ pub fn render(date: &str, c: &Collection, state: &State) -> String {
     if tracked.is_empty() {
         let _ = writeln!(md, "No vulnerable dependencies newly discovered today.\n");
     } else {
-        let _ = writeln!(md, "| Status | Repo | Package | Version | Fixed in | Vulnerability | Severity | Today's intel | Ticket | PR |\n|---|---|---|---|---|---|---|---|---|---|");
-        let mut rows = tracked.clone();
-        rows.sort_by_key(|t| (t.status == Status::Resolved, !t.finding.new_today, t.finding.repo.clone()));
-        for t in rows {
-            let f = &t.finding;
-            let status = match t.status {
-                Status::Open => "🔴 open",
-                Status::FixProposed => "🟡 fix proposed",
-                Status::Resolved => "🟢 resolved",
+        let mut groups: BTreeMap<String, Vec<&Tracked>> = BTreeMap::new();
+        for t in &tracked {
+            groups.entry(t.group()).or_default().push(t);
+        }
+        let mut rows: Vec<Vec<&Tracked>> = groups.into_values().collect();
+        rows.sort_by_key(|v| {
+            let done = v.iter().all(|t| t.status == Status::Resolved);
+            let today = v.iter().any(|t| t.finding.new_today);
+            (done, !today, v[0].finding.repo.clone(), v[0].finding.package.clone())
+        });
+        let _ = writeln!(md, "Grouped per repository and package ({} groups, {} findings). ⭐ = matches an advisory collected today.\n", rows.len(), tracked.len());
+        let _ = writeln!(md, "| Status | Repo | Package | Installed | Upgrade to | Vulns | Severity | Ticket | PR |\n|---|---|---|---|---|---|---|---|---|");
+        for v in rows {
+            let f = &v[0].finding;
+            let status = if v.iter().all(|t| t.status == Status::Resolved) {
+                "🟢 resolved"
+            } else if v.iter().any(|t| t.status == Status::FixProposed) {
+                "🟡 fix proposed"
+            } else {
+                "🔴 open"
             };
+            let mut versions: Vec<&str> = v.iter().map(|t| t.finding.version.as_str()).collect();
+            versions.sort();
+            versions.dedup();
+            let mut ids: Vec<String> = v
+                .iter()
+                .map(|t| format!("[{}](https://osv.dev/vulnerability/{}){}", t.finding.vuln_id, t.finding.vuln_id, if t.finding.new_today { "⭐" } else { "" }))
+                .collect();
+            ids.sort();
+            ids.dedup();
+            let shown = if ids.len() > 4 { format!("{} +{}", ids[..4].join(" "), ids.len() - 4) } else { ids.join(" ") };
             let _ = writeln!(
                 md,
-                "| {status} | `{}` | `{}` ({}) | {} | {} | [{}](https://osv.dev/vulnerability/{}) | {} | {} | {} | {} |",
+                "| {status} | `{}` | `{}` ({}) | {} | {} | {} | {} | {} | {} |",
                 f.repo,
                 f.package,
                 f.ecosystem,
-                f.version,
-                f.fixed.as_deref().unwrap_or("—"),
-                f.vuln_id,
-                f.vuln_id,
-                f.severity.as_deref().unwrap_or("?"),
-                if f.new_today { "⭐" } else { "" },
-                t.issue.as_ref().map(|i| format!("[#{}]({})", i.number, i.url)).unwrap_or_default(),
-                t.pr.as_ref().map(|p| format!("[#{}]({})", p.number, p.url)).unwrap_or_default(),
+                cell(&versions.join(", "), 40),
+                target_version(&v).unwrap_or_else(|| "—".into()),
+                shown,
+                top_severity(&v),
+                v.iter().find_map(|t| t.issue.as_ref()).map(|i| format!("[#{}]({})", i.number, i.url)).unwrap_or_default(),
+                v.iter().find_map(|t| t.pr.as_ref()).map(|p| format!("[#{}]({})", p.number, p.url)).unwrap_or_default(),
             );
         }
         md.push('\n');

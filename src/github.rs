@@ -160,6 +160,15 @@ impl GitHub {
         Ok(self.send(Method::PUT, path, None, None).await?.status())
     }
 
+    /// PUT with a JSON body; returns the status code.
+    pub async fn put_json(&self, path: &str, body: &Value) -> Result<StatusCode> {
+        Ok(self.send(Method::PUT, path, Some(body), None).await?.status())
+    }
+
+    pub async fn delete(&self, path: &str) -> Result<StatusCode> {
+        Ok(self.send(Method::DELETE, path, None, None).await?.status())
+    }
+
     /// POST that tolerates "already exists" (422).
     pub async fn post_idempotent(&self, path: &str, body: &Value) -> Result<()> {
         let r = self.send(Method::POST, path, Some(body), None).await?;

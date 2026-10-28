@@ -20,6 +20,15 @@ pub struct IssueRef {
     pub repo: String,
     pub number: u64,
     pub url: String,
+    /// Hash of the last body written, to skip no-op updates.
+    #[serde(default)]
+    pub body_hash: u64,
+    #[serde(default = "yes")]
+    pub open: bool,
+}
+
+fn yes() -> bool {
+    true
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -69,7 +78,29 @@ pub struct Reconciled {
     pub reopened: usize,
 }
 
+impl Tracked {
+    /// Tickets and fixes are per (repo, ecosystem, package).
+    pub fn group(&self) -> String {
+        let f = &self.finding;
+        format!("{}|{}|{}", f.repo, f.ecosystem, f.package)
+    }
+}
+
 impl State {
+    /// Unresolved and resolved findings grouped by [`Tracked::group`].
+    pub fn groups(&self) -> BTreeMap<String, Vec<&Tracked>> {
+        let mut m: BTreeMap<String, Vec<&Tracked>> = BTreeMap::new();
+        for t in self.findings.values() {
+            m.entry(t.group()).or_default().push(t);
+        }
+        m
+    }
+
+    pub fn group_mut(&mut self, group: &str) -> impl Iterator<Item = &mut Tracked> + '_ {
+        let g = group.to_string();
+        self.findings.values_mut().filter(move |t| t.group() == g)
+    }
+
     pub fn load(path: &Path) -> Result<State> {
         if !path.exists() {
             return Ok(State::default());
