@@ -1,5 +1,7 @@
-# Every 4 hours: merge green fix PRs, re-check unresolved findings, close
-# resolved tickets, and archive days whose findings are all resolved.
+# Every 4 hours, one turn of the resolve loop:
+# verify (merge green fix PRs, rescan, close resolved tickets) → patch (fix PR
+# branch per repo for anything still open) → ticket (link PRs) → archive days
+# whose findings are all resolved.
 name: vuln-sentinel verify
 on:
   schedule:
@@ -11,24 +13,43 @@ permissions:
 concurrency:
   group: vuln-sentinel
   cancel-in-progress: false
+env:
+  VISIBILITY: public # all | public | private
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
         with:
           go-version: stable
-      - uses: BabyGrootCICD/cve_validator_patcher@v1
+
+      - name: Verify
+        uses: BabyGrootCICD/cve_validator_patcher@v1
         with:
           token: ${{ secrets.SENTINEL_TOKEN }}
           mode: verify
-      - uses: BabyGrootCICD/cve_validator_patcher@v1
+          visibility: ${{ env.VISIBILITY }}
+
+      - name: Patch (open/update a fix PR branch per repo)
+        uses: BabyGrootCICD/cve_validator_patcher@v1
         with:
           token: ${{ secrets.SENTINEL_TOKEN }}
-          mode: fix
-      - uses: BabyGrootCICD/cve_validator_patcher@v1
+          mode: patch
+          visibility: ${{ env.VISIBILITY }}
+
+      - name: Link PRs in tickets
+        uses: BabyGrootCICD/cve_validator_patcher@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: ticket
+          visibility: ${{ env.VISIBILITY }}
+
+      - name: Archive resolved days
+        if: ${{ !cancelled() }}
+        uses: BabyGrootCICD/cve_validator_patcher@v1
         with:
           token: ${{ secrets.SENTINEL_TOKEN }}
           mode: archive
+          visibility: ${{ env.VISIBILITY }}
