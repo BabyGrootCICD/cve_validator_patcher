@@ -23,6 +23,9 @@ inputs:
   exclude:
     description: Comma-separated owner/name list to skip
     default: ""
+  visibility:
+    description: "Which repositories to scan: all | public | private"
+    default: all
   include-forks:
     description: Also scan forks
     default: "false"
@@ -161,6 +164,7 @@ runs:
         for v in NVD_API_KEY VULNERS_API_KEY ATTACKERKB_API_KEY; do [ -z "${!v}" ] && unset "$v"; done
         args=("$IN_MODE"
           --window-hours "${{ inputs.window-hours }}"
+          --visibility "${{ inputs.visibility }}"
           --auto-merge "${{ inputs.auto-merge }}"
           --max-new-issues "${{ inputs.max-new-issues }}"
           --max-fix-repos "${{ inputs.max-fix-repos }}"
