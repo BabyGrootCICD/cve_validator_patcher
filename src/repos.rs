@@ -15,6 +15,15 @@ pub struct Repo {
     pub admin: bool,
 }
 
+/// Which repositories to include by visibility.
+#[derive(Debug, Clone, Copy, Default, PartialEq, Eq, clap::ValueEnum)]
+pub enum Visibility {
+    #[default]
+    All,
+    Public,
+    Private,
+}
+
 #[derive(Debug, Clone, Default)]
 pub struct RepoFilter {
     /// Restrict to these owners (user or org logins); empty = all.
@@ -23,6 +32,7 @@ pub struct RepoFilter {
     pub only: Vec<String>,
     pub include_forks: bool,
     pub include_archived: bool,
+    pub visibility: Visibility,
     pub exclude: Vec<String>,
     pub limit: Option<usize>,
 }
@@ -54,7 +64,13 @@ pub async fn list(gh: &GitHub, f: &RepoFilter) -> Result<Vec<Repo>> {
 
 fn keep(r: &Repo, f: &RepoFilter) -> bool {
     let owner = r.full_name.split('/').next().unwrap_or_default();
-    (f.include_archived || !r.archived)
+    let visible = match f.visibility {
+        Visibility::All => true,
+        Visibility::Public => !r.private,
+        Visibility::Private => r.private,
+    };
+    visible
+        && (f.include_archived || !r.archived)
         && (f.include_forks || !r.fork)
         && (f.owners.is_empty() || f.owners.iter().any(|o| o.eq_ignore_ascii_case(owner)))
         && (f.only.is_empty() || f.only.iter().any(|o| o.eq_ignore_ascii_case(&r.full_name)))
@@ -79,5 +95,16 @@ mod tests {
         let f = RepoFilter { include_forks: true, exclude: vec!["me/b".into()], ..Default::default() };
         assert!(keep(&repo("me/a", false, true), &f));
         assert!(!keep(&repo("me/b", false, false), &f));
+    }
+
+    #[test]
+    fn visibility() {
+        let mut private = repo("me/p", false, false);
+        private.private = true;
+        let public = repo("me/o", false, false);
+        let f = RepoFilter { visibility: Visibility::Public, ..Default::default() };
+        assert!(keep(&public, &f) && !keep(&private, &f));
+        let f = RepoFilter { visibility: Visibility::Private, ..Default::default() };
+        assert!(!keep(&public, &f) && keep(&private, &f));
     }
 }

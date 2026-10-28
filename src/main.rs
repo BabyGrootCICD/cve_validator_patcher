@@ -63,6 +63,9 @@ pub struct Opts {
     include_forks: bool,
     #[arg(long, global = true)]
     include_archived: bool,
+    /// Only scan repositories with this visibility.
+    #[arg(long, value_enum, default_value_t = repos::Visibility::All, global = true)]
+    visibility: repos::Visibility,
     /// Scan at most N repositories (for testing).
     #[arg(long, global = true)]
     limit: Option<usize>,
@@ -194,6 +197,7 @@ impl App {
             only: self.opts.repos.clone(),
             include_forks: self.opts.include_forks,
             include_archived: self.opts.include_archived,
+            visibility: self.opts.visibility,
             exclude: self.opts.exclude.clone(),
             limit: self.opts.limit,
         }
