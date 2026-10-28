@@ -1,4 +1,5 @@
-# Daily: collect intel → scan public repos → tickets → fix PRs → verify → archive.
+# Daily: collect intel → scan → tickets → patch (one fix PR branch per repo)
+# → loop { wait, verify, patch } until resolved or rounds run out → archive.
 name: vuln-sentinel daily
 on:
   schedule:
@@ -9,12 +10,20 @@ on:
         description: Report only (no issues/PRs)
         type: boolean
         default: false
+      rounds:
+        description: verify ⇄ patch rounds
+        default: "3"
+      wait-minutes:
+        description: Minutes to wait for CI/merges between rounds
+        default: "10"
 permissions:
   contents: write
   issues: write
 concurrency:
   group: vuln-sentinel
   cancel-in-progress: false
+env:
+  VISIBILITY: public # all | public | private
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -24,12 +33,63 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: stable
-      - uses: BabyGrootCICD/cve_validator_patcher@v1
+
+      - name: Collect intel
+        uses: BabyGrootCICD/cve_validator_patcher@v1
         with:
           token: ${{ secrets.SENTINEL_TOKEN }}
-          mode: run
-          visibility: public
-          dry-run: ${{ inputs.dry-run || 'false' }}
+          mode: collect
+          visibility: ${{ env.VISIBILITY }}
           nvd-api-key: ${{ secrets.NVD_API_KEY }}
           vulners-api-key: ${{ secrets.VULNERS_API_KEY }}
           attackerkb-api-key: ${{ secrets.ATTACKERKB_API_KEY }}
+
+      - name: Scan repositories
+        uses: BabyGrootCICD/cve_validator_patcher@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: scan
+          visibility: ${{ env.VISIBILITY }}
+
+      - name: Open tickets
+        uses: BabyGrootCICD/cve_validator_patcher@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: ticket
+          visibility: ${{ env.VISIBILITY }}
+          dry-run: ${{ inputs.dry-run || 'false' }}
+
+      - name: Patch (open a fix PR branch per repo)
+        uses: BabyGrootCICD/cve_validator_patcher@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: patch
+          visibility: ${{ env.VISIBILITY }}
+          dry-run: ${{ inputs.dry-run || 'false' }}
+
+      - name: Verify ⇄ patch loop
+        if: ${{ !inputs.dry-run }}
+        env:
+          VS_TOKEN: ${{ secrets.SENTINEL_TOKEN }}
+          ROUNDS: ${{ inputs.rounds || '3' }}
+          WAIT: ${{ inputs.wait-minutes || '10' }}
+        run: |
+          unresolved() { jq '[.findings[] | select(.status != "resolved")] | length' state/findings.json; }
+          pending()    { jq '[.findings[] | select(.status == "fix_proposed")] | length' state/findings.json; }
+          for round in $(seq 1 "$ROUNDS"); do
+            echo "::group::round $round: unresolved=$(unresolved) with-fix-PR=$(pending)"
+            if [ "$(unresolved)" -eq 0 ]; then echo "all resolved"; echo "::endgroup::"; break; fi
+            sleep $((WAIT * 60))
+            vuln-sentinel verify --visibility "$VISIBILITY"  # merge green PRs, rescan, close resolved tickets
+            vuln-sentinel patch  --visibility "$VISIBILITY"  # fix PR branches for new/regressed findings
+            vuln-sentinel ticket --visibility "$VISIBILITY"  # link the PRs from their issues
+            echo "::endgroup::"
+          done
+
+      - name: Archive resolved days
+        if: ${{ !cancelled() }}
+        uses: BabyGrootCICD/cve_validator_patcher@v1
+        with:
+          token: ${{ secrets.SENTINEL_TOKEN }}
+          mode: archive
+          visibility: ${{ env.VISIBILITY }}
