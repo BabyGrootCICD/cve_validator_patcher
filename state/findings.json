@@ -57543,7 +57543,7 @@
         "new_today": false
       },
       "day": "2026-10-29",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-29T15:31:14.075614064Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -57554,8 +57554,12 @@
         "body_hash": 13360473238555980132,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/On-chain-Casino-Arb-Bot-/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:lru:GHSA-rhfx-m35p-ff5j": {
@@ -87732,7 +87736,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -87743,8 +87747,12 @@
         "body_hash": 5830628067380726518,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/engine/Cargo.lock:crates.io:rand:RUSTSEC-2026-0097": {
@@ -87764,7 +87772,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -87775,8 +87783,12 @@
         "body_hash": 5830628067380726518,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/engine/Cargo.lock:crates.io:tokio:RUSTSEC-2026-0386": {
@@ -87826,7 +87838,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -87837,8 +87849,12 @@
         "body_hash": 1353340376696772253,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:@tootallnate/once:GHSA-vpq2-c234-7xj6": {
@@ -87858,7 +87874,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -87869,8 +87885,12 @@
         "body_hash": 5385081135087899007,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:baseline-browser-mapping:GHSA-w5vr-8v7q-w6rv": {
@@ -93009,7 +93029,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -93020,8 +93040,12 @@
         "body_hash": 5830628067380726518,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/identity/Cargo.lock:crates.io:rand:RUSTSEC-2026-0097": {
@@ -93041,7 +93065,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -93052,8 +93076,12 @@
         "body_hash": 5830628067380726518,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/identity/Cargo.lock:crates.io:tokio:RUSTSEC-2026-0386": {
@@ -93404,8 +93432,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 8.18.0 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_18_210Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 8.18.0 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_35_17_649Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:astro:GHSA-26w7-cxv4-gfx2": {
       "finding": {
@@ -95116,8 +95144,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 13.2.1 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_35_26_275Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
       "finding": {
@@ -95862,8 +95890,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 2.8.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_35_36_991Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:zod:GHSA-mrhx-c7xc-m3w5": {
       "finding": {
@@ -95894,8 +95922,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 4.6.6 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_16_324Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 4.6.6 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_35_10_131Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:@babel/core:GHSA-4x5r-pxfx-6jf8": {
       "finding": {
@@ -95914,7 +95942,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -95925,8 +95953,12 @@
         "body_hash": 1353340376696772253,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:@babel/helpers:GHSA-968p-4wvh-cqc8": {
@@ -95946,7 +95978,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -95957,8 +95989,12 @@
         "body_hash": 2403760117862113262,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:@babel/traverse:GHSA-67hx-6x53-jw92": {
@@ -96008,7 +96044,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -96019,8 +96055,12 @@
         "body_hash": 5385081135087899007,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:ajv:GHSA-2g4f-4pwh-qvx6": {
@@ -96908,7 +96948,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -96919,8 +96959,12 @@
         "body_hash": 11655621051134984131,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:http-cache-semantics:GHSA-ch52-4w7c-c8xp": {
@@ -97330,7 +97374,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -97341,8 +97385,12 @@
         "body_hash": 13332847611293176479,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:minimatch:GHSA-23c5-xmqv-rm74": {
@@ -98428,7 +98476,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -98439,8 +98487,12 @@
         "body_hash": 14835267356164431976,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:validator:GHSA-9965-vmph-33xx": {
@@ -98602,7 +98654,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -98613,8 +98665,12 @@
         "body_hash": 9660669119371478279,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:ws:GHSA-3h5v-q93c-6h6q": {
@@ -100556,7 +100612,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -100567,8 +100623,12 @@
         "body_hash": 4290356744188862468,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:cipher-base:GHSA-cpq7-6gpm-g9rc": {
@@ -100618,7 +100678,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -100629,8 +100689,12 @@
         "body_hash": 10709856846908032531,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:compression:GHSA-vc2v-76pw-4v95": {
@@ -101580,7 +101644,7 @@
         "new_today": false
       },
       "day": "2026-10-29",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-29T07:20:26.292974571Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -101591,8 +101655,12 @@
         "body_hash": 8260510732067876416,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:follow-redirects:GHSA-74fj-2j2h-c42q": {
@@ -102328,7 +102396,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -102339,8 +102407,12 @@
         "body_hash": 11049934140018003852,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:html-minifier:GHSA-pfq8-rq6v-vf5m": {
@@ -103506,7 +103578,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -103517,8 +103589,12 @@
         "body_hash": 17162361373313843489,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:merge:GHSA-7wpw-2hjm-89gp": {
@@ -103574,7 +103650,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -103585,8 +103661,12 @@
         "body_hash": 13332847611293176479,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:mime:GHSA-wrvr-8mpx-r7pp": {
@@ -104600,7 +104680,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -104611,8 +104691,12 @@
         "body_hash": 6517642054443512171,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:nth-check:GHSA-rp65-9cf3-cjxr": {
@@ -104736,7 +104820,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -104747,8 +104831,12 @@
         "body_hash": 4992284904277065417,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:path-to-regexp:GHSA-37ch-88jc-xwx2": {
@@ -105792,7 +105880,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -105803,8 +105891,12 @@
         "body_hash": 15204289687166353144,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:ssri:GHSA-vx3p-948g-6vhq": {
@@ -106436,7 +106528,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -106447,8 +106539,12 @@
         "body_hash": 14835267356164431976,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:trim-newlines:GHSA-7p7h-4mm5-852v": {
@@ -106715,7 +106811,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -106726,8 +106822,12 @@
         "body_hash": 15384187324631307682,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:vue-template-compiler:GHSA-g3ch-rx76-35fx": {
@@ -106809,7 +106909,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -106820,8 +106920,12 @@
         "body_hash": 1292899080689969439,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:webpack-dev-middleware:GHSA-g84c-rxfj-3j2c": {
@@ -107342,7 +107446,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -107353,8 +107457,12 @@
         "body_hash": 3583598275767638124,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/requirements-dev.txt:PyPI:bleach:GHSA-8rfp-98v4-mmr6": {
@@ -107995,7 +108103,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -108006,8 +108114,12 @@
         "body_hash": 17957503740903773584,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/requirements-dev.txt:PyPI:pytest:GHSA-6w46-j5rx-g56g": {
@@ -108472,7 +108584,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -108483,8 +108595,12 @@
         "body_hash": 16483773142132006695,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/requirements-dev.txt:PyPI:tqdm:PYSEC-2026-1976": {
@@ -108505,7 +108621,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T15:31:14.075614064Z",
       "resolved_at": null,
@@ -108516,8 +108632,12 @@
         "body_hash": 16483773142132006695,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 138,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/138",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/requirements-dev.txt:PyPI:urllib3:GHSA-2xpw-w6gg-jr37": {
@@ -264653,8 +264773,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 7.29.6 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_56_936Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 7.29.6 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_28_364Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:@babel/helpers:GHSA-968p-4wvh-cqc8": {
       "finding": {
@@ -264685,8 +264805,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 7.26.10 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_46_501Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 7.26.10 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_02_752Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:@babel/runtime:GHSA-968p-4wvh-cqc8": {
       "finding": {
@@ -264717,8 +264837,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 7.26.10 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_52_657Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 7.26.10 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_23_881Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:@vue/server-renderer:GHSA-g2v6-rqmx-r4w6": {
       "finding": {
@@ -264779,8 +264899,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 6.14.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_54_089Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 6.14.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_25_339Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:axios:GHSA-35jp-ww65-95wh": {
       "finding": {
@@ -266383,8 +266503,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 5.2.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_24_00_935Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 5.2.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_29_948Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:esbuild:GHSA-67mh-4wv8-2f99": {
       "finding": {
@@ -268515,8 +268635,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 3.0.0-alpha.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_24_04_288Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 3.0.0-alpha.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_31_407Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:ws:GHSA-58qx-3vcg-4xpx": {
       "finding": {
@@ -268611,8 +268731,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 2.8.3 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T08_23_55_517Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 2.8.3 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_26_911Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:zod:GHSA-mrhx-c7xc-m3w5": {
       "finding": {
@@ -272801,7 +272921,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 3.0.0-alpha.0 failed in `front-page/yarn.lock`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/Max_api_project:front-page/yarn.lock:npm:ws:GHSA-58qx-3vcg-4xpx": {
@@ -273011,7 +273131,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.4.16 failed in `backend-rust-gateway/Cargo.lock`: cargo update -p h2@0.3.27 --precise 0.4.16: rror: failed to select a version for the requirement `h2 = \"^0.3.14\"`\ncandidate versions found which didn't match: 0.4.16\nlocation searched: crates.io index\nrequired by package `reqwest v0.11.27`\n    ... which satisfies dependency `reqwest = \"^0.11\"` (locked to 0.11.27) of package `backend-rust-gateway v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennis"
     },
     "dennislee928/MediCanna-AI:backend-rust-gateway/Cargo.lock:crates.io:openssl:GHSA-8c75-8mhr-p7r9": {
