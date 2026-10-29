@@ -43474,7 +43474,7 @@
         "new_today": true
       },
       "day": "2026-10-29",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-29T21:24:27.014983935Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -43485,8 +43485,12 @@
         "body_hash": 5298898364653718459,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 6,
+        "url": "https://github.com/Jest-Test-Team/Dastacenter_Builder_Simulator/pull/6",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:decode-uri-component:GHSA-vcc3-ghjq-m6fr": {
@@ -63243,8 +63247,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-9hj8-73fh-9963": {
       "finding": {
@@ -63275,8 +63279,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-hjqx-j4rw-g7xv": {
       "finding": {
@@ -63307,8 +63311,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-m665-v7pm-7grj": {
       "finding": {
@@ -63339,7 +63343,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-q7v9-x93c-xqv3": {
@@ -63371,8 +63375,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0367": {
       "finding": {
@@ -63403,7 +63407,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0368": {
@@ -63435,7 +63439,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0369": {
@@ -63467,7 +63471,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:package-lock.json:npm:@azure/msal-node:GHSA-xcx6-jx8p-x3h5": {
@@ -87966,7 +87970,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -87977,8 +87981,12 @@
         "body_hash": 12118186195152155510,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:@babel/core:GHSA-4x5r-pxfx-6jf8": {
@@ -90625,7 +90633,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -90636,8 +90644,12 @@
         "body_hash": 337489377606573842,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
@@ -92761,7 +92773,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92772,8 +92784,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/net:GO-2026-6610": {
@@ -92794,7 +92810,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92805,8 +92821,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/net:GO-2026-6611": {
@@ -92827,7 +92847,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92838,8 +92858,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/net:GO-2026-6612": {
@@ -92860,7 +92884,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92871,8 +92895,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/net:GO-2026-6617": {
@@ -92893,7 +92921,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92904,8 +92932,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/net:GO-2026-6860": {
@@ -92925,7 +92957,7 @@
         "new_today": true
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92936,8 +92968,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/net:GO-2026-6866": {
@@ -92957,7 +92993,7 @@
         "new_today": true
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -92968,8 +93004,12 @@
         "body_hash": 10050496598695218977,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:golang.org/x/sys:GO-2026-5024": {
@@ -93157,7 +93197,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -93168,8 +93208,12 @@
         "body_hash": 6902176698358733513,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/identity/Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
@@ -93259,7 +93303,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -93270,8 +93314,12 @@
         "body_hash": 12118186195152155510,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/sentinel/go.mod:Go:github.com/redis/go-redis/v9:GO-2025-3540": {
@@ -93292,7 +93340,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -93303,8 +93351,12 @@
         "body_hash": 337489377606573842,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-3rmj-9m5h-8fpv": {
@@ -95304,8 +95356,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 13.2.1 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_35_26_275Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 13.2.1 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T21_28_23_145Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
       "finding": {
@@ -96050,8 +96102,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 2.8.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_35_36_991Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 2.8.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T21_28_24_016Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:zod:GHSA-mrhx-c7xc-m3w5": {
       "finding": {
@@ -101606,7 +101658,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -101617,8 +101669,12 @@
         "body_hash": 12014237986078460010,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:eventsource:GHSA-6h5x-7c5m-7cr7": {
@@ -107039,7 +107095,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -107050,8 +107106,12 @@
         "body_hash": 12181594029917751475,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 140,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/140",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:webpack-bundle-analyzer:GHSA-pgr8-jg6h-8gw6": {
@@ -177903,7 +177963,7 @@
         "new_today": true
       },
       "day": "2026-10-29",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-29T21:24:27.014983935Z",
       "last_seen": "2026-10-29T21:24:27.014983935Z",
       "resolved_at": null,
@@ -177914,8 +177974,12 @@
         "body_hash": 17698685921676575588,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 9,
+        "url": "https://github.com/dennislee928/BTC_Rise_Calling_admin/pull/9",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BTC_Rise_Calling_admin:front-page/package-lock.json:npm:decode-uri-component:GHSA-vcc3-ghjq-m6fr": {
@@ -206935,8 +206999,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:GHSA-m665-v7pm-7grj": {
       "finding": {
@@ -206967,7 +207031,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:GHSA-q7v9-x93c-xqv3": {
@@ -206999,8 +207063,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0367": {
       "finding": {
@@ -207031,7 +207095,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0368": {
@@ -207063,7 +207127,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0369": {
@@ -207095,7 +207159,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zvariant:RUSTSEC-2026-0370": {
@@ -265029,8 +265093,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 7.29.6 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_28_364Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 7.29.6 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T21_29_02_380Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:@babel/helpers:GHSA-968p-4wvh-cqc8": {
       "finding": {
@@ -266759,8 +266823,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 5.2.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_29_948Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 5.2.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T21_29_20_295Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:esbuild:GHSA-67mh-4wv8-2f99": {
       "finding": {
@@ -268891,8 +268955,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 3.0.0-alpha.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T15_36_31_407Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 3.0.0-alpha.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T21_29_21_410Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:ws:GHSA-58qx-3vcg-4xpx": {
       "finding": {
@@ -273177,7 +273241,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 3.0.0-alpha.0 failed in `front-page/yarn.lock`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/Max_api_project:front-page/yarn.lock:npm:ws:GHSA-58qx-3vcg-4xpx": {
