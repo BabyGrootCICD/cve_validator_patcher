@@ -62954,7 +62954,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0222": {
@@ -62987,7 +62987,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0269": {
@@ -63020,7 +63020,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0316": {
@@ -63053,7 +63053,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0327": {
@@ -63086,7 +63086,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0359": {
@@ -63119,7 +63119,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0362": {
@@ -63152,7 +63152,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0363": {
@@ -63185,7 +63185,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0379": {
@@ -63218,7 +63218,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0424": {
@@ -63250,7 +63250,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 48.0.8 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.8:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.8\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-8hxf-qr8p-62x4": {
@@ -289336,7 +289336,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289347,8 +289347,12 @@
         "body_hash": 5821401506736893964,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:baseline-browser-mapping:GHSA-w5vr-8v7q-w6rv": {
@@ -289368,7 +289372,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289379,8 +289383,12 @@
         "body_hash": 11229091369806445616,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-3jxr-9vmj-r5cp": {
@@ -289400,7 +289408,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289411,8 +289419,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-6j4f-fj2g-mc7p": {
@@ -289432,7 +289444,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289443,8 +289455,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-f886-m6hf-6m8v": {
@@ -289464,7 +289480,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289475,8 +289491,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-mh99-v99m-4gvg": {
@@ -289496,7 +289516,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289507,8 +289527,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-q2hr-2g5m-vwhr": {
@@ -289528,7 +289552,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289539,8 +289563,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-qhr7-859c-m2p7": {
@@ -289560,7 +289588,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289571,8 +289599,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-rgw5-rvv9-x895": {
@@ -289592,7 +289624,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289603,8 +289635,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:brace-expansion:GHSA-v6h2-p8h4-qcjw": {
@@ -289624,7 +289660,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289635,8 +289671,12 @@
         "body_hash": 16625479780266965343,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:cross-spawn:GHSA-3xgq-45jj-v275": {
@@ -289656,7 +289696,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289667,8 +289707,12 @@
         "body_hash": 16971968995720928322,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:flatted:GHSA-25h7-pfq9-p65f": {
@@ -289688,7 +289732,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289699,8 +289743,12 @@
         "body_hash": 6972249557990747459,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:flatted:GHSA-rf6f-7fwh-wjgh": {
@@ -289720,7 +289768,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289731,8 +289779,12 @@
         "body_hash": 6972249557990747459,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:glob:GHSA-5j98-mcp5-4vw2": {
@@ -289752,7 +289804,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289763,8 +289815,12 @@
         "body_hash": 1575932545363626895,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:js-yaml:GHSA-2883-xcg3-v3hh": {
@@ -289784,7 +289840,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289795,8 +289851,12 @@
         "body_hash": 3559748322992685644,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:js-yaml:GHSA-52cp-r559-cp3m": {
@@ -289816,7 +289876,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289827,8 +289887,12 @@
         "body_hash": 3559748322992685644,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:js-yaml:GHSA-5p4m-2wfm-xmqj": {
@@ -289846,7 +289910,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289857,8 +289921,12 @@
         "body_hash": 3559748322992685644,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:js-yaml:GHSA-h67p-54hq-rp68": {
@@ -289878,7 +289946,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289889,8 +289957,12 @@
         "body_hash": 3559748322992685644,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:js-yaml:GHSA-mh29-5h37-fv8m": {
@@ -289910,7 +289982,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289921,8 +289993,12 @@
         "body_hash": 3559748322992685644,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:minimatch:GHSA-23c5-xmqv-rm74": {
@@ -289942,7 +290018,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289953,8 +290029,12 @@
         "body_hash": 1926041925521865613,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:minimatch:GHSA-3ppc-4f35-3m26": {
@@ -289974,7 +290054,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -289985,8 +290065,12 @@
         "body_hash": 1926041925521865613,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:minimatch:GHSA-7r86-cg39-jmmj": {
@@ -290006,7 +290090,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290017,8 +290101,12 @@
         "body_hash": 1926041925521865613,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -290038,7 +290126,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290049,8 +290137,12 @@
         "body_hash": 16265576946664764869,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:nanoid:GHSA-2v37-7h3g-55p8": {
@@ -290070,7 +290162,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290081,8 +290173,12 @@
         "body_hash": 16265576946664764869,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:nanoid:GHSA-mwcw-c2x4-8c55": {
@@ -290102,7 +290198,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290113,8 +290209,12 @@
         "body_hash": 16265576946664764869,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:nanoid:GHSA-xwg4-73v4-xw9w": {
@@ -290134,7 +290234,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290145,8 +290245,12 @@
         "body_hash": 16265576946664764869,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-2464-fhr4-w9xw": {
@@ -290164,7 +290268,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290175,8 +290279,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-267c-6grr-h53f": {
@@ -290196,7 +290304,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290207,8 +290315,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-26hh-7cqf-hhc6": {
@@ -290228,7 +290340,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290239,8 +290351,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-2xp9-vwfh-vxw4": {
@@ -290258,7 +290374,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290269,8 +290385,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-36qx-fr4f-26g5": {
@@ -290290,7 +290410,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290301,8 +290421,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-39w2-rjm5-chcv": {
@@ -290322,7 +290446,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290333,8 +290457,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-3g8h-86w9-wvmq": {
@@ -290354,7 +290482,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290365,8 +290493,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-4633-3j49-mh5q": {
@@ -290386,7 +290518,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290397,8 +290529,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-492v-c6pp-mqqv": {
@@ -290418,7 +290554,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290429,8 +290565,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-4c39-4ccg-62r3": {
@@ -290450,7 +290590,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290461,8 +290601,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-4jqv-mc3x-m676": {
@@ -290482,7 +290626,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290493,8 +290637,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-673q-mjm6-r5xr": {
@@ -290512,7 +290660,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290523,8 +290671,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-68g3-v927-f742": {
@@ -290544,7 +290696,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290555,8 +290707,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-6gpp-xcg3-4w24": {
@@ -290576,7 +290732,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290587,8 +290743,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -290608,7 +290768,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290619,8 +290779,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-8h8q-6873-q5fj": {
@@ -290638,7 +290802,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290649,8 +290813,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-955p-x3mx-jcvp": {
@@ -290670,7 +290838,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290681,8 +290849,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-c4j6-fc7j-m34r": {
@@ -290702,7 +290874,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290713,8 +290885,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-cjq9-62q9-8jv4": {
@@ -290734,7 +290910,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290745,8 +290921,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
@@ -290766,7 +290946,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290777,8 +290957,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -290798,7 +290982,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290809,8 +290993,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-gx5p-jg67-6x7h": {
@@ -290830,7 +291018,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290841,8 +291029,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-h64f-5h5j-jqjh": {
@@ -290862,7 +291054,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290873,8 +291065,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-m99w-x7hq-7vfj": {
@@ -290894,7 +291090,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290905,8 +291101,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-mcj8-r9mp-w47p": {
@@ -290926,7 +291126,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290937,8 +291137,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-mg66-mrh9-m8jx": {
@@ -290958,7 +291162,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -290969,8 +291173,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-p293-qw3h-jr36": {
@@ -290990,7 +291198,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291001,8 +291209,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-p3m5-59mp-jv5r": {
@@ -291022,7 +291234,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291033,8 +291245,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-p9j2-gv94-2wf4": {
@@ -291054,7 +291270,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291065,8 +291281,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-q8wf-6r8g-63ch": {
@@ -291086,7 +291306,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291097,8 +291317,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-vcvr-r3jv-pc5j": {
@@ -291116,7 +291340,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291127,8 +291351,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-vfv6-92ff-j949": {
@@ -291148,7 +291376,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291159,8 +291387,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:next:GHSA-wfc6-r584-vfw7": {
@@ -291180,7 +291412,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291191,8 +291423,12 @@
         "body_hash": 13887002828586954143,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:picomatch:GHSA-3v7f-55p6-f55p": {
@@ -291212,7 +291448,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291223,8 +291459,12 @@
         "body_hash": 8901863668101641618,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:picomatch:GHSA-c2c7-rcm5-vvqj": {
@@ -291244,7 +291484,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291255,8 +291495,12 @@
         "body_hash": 8901863668101641618,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
@@ -291276,7 +291520,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291287,8 +291531,12 @@
         "body_hash": 3329665382475395701,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:postcss-selector-parser:GHSA-w9m9-85wc-3x92": {
@@ -291308,7 +291556,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291319,8 +291567,12 @@
         "body_hash": 3329665382475395701,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
@@ -291340,7 +291592,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291351,8 +291603,12 @@
         "body_hash": 2538934127653297623,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:postcss:GHSA-fxqj-rqcc-2cmp": {
@@ -291372,7 +291628,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291383,8 +291639,12 @@
         "body_hash": 2538934127653297623,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:postcss:GHSA-qx2v-qp2m-jg93": {
@@ -291404,7 +291664,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291415,8 +291675,12 @@
         "body_hash": 2538934127653297623,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:postcss:GHSA-r28c-9q8g-f849": {
@@ -291436,7 +291700,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291447,8 +291711,12 @@
         "body_hash": 2538934127653297623,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:sharp:GHSA-f88m-g3jw-g9cj": {
@@ -291468,7 +291736,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291479,8 +291747,12 @@
         "body_hash": 3273319528424290297,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:sharp:GHSA-rgj7-g3m4-5g8c": {
@@ -291500,7 +291772,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291511,8 +291783,12 @@
         "body_hash": 3273319528424290297,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:sharp:GHSA-wq5f-xc86-pv6w": {
@@ -291532,7 +291808,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291543,8 +291819,12 @@
         "body_hash": 3273319528424290297,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:source-map-js:GHSA-68fv-2mgg-jv7q": {
@@ -291564,7 +291844,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291575,8 +291855,12 @@
         "body_hash": 5598043712843599846,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Norms_Spotify:front-page/package-lock.json:npm:yaml:GHSA-48c2-rrv3-qjmp": {
@@ -291596,7 +291880,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-30T21:01:23.534750674Z",
       "resolved_at": null,
@@ -291607,8 +291891,12 @@
         "body_hash": 16195942720366637999,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 28,
+        "url": "https://github.com/dennislee928/Norms_Spotify/pull/28",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Nuclear_Energy_EIA:front-page/package-lock.json:npm:@babel/core:GHSA-4x5r-pxfx-6jf8": {
