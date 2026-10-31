@@ -297932,8 +297932,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 7.29.6 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T14_45_24_287Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 7.29.6 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T20_18_10_071Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Nuclear_Energy_EIA:front-page/package-lock.json:npm:@babel/helpers:GHSA-968p-4wvh-cqc8": {
       "finding": {
