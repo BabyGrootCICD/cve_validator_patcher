@@ -52685,7 +52685,7 @@
         "new_today": true
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:33:43.207794273Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -52696,8 +52696,12 @@
         "body_hash": 13414395385040540391,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 11,
+        "url": "https://github.com/Jest-Test-Team/HOMELAB/pull/11",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:next:GHSA-2464-fhr4-w9xw": {
@@ -66317,7 +66321,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 14.0.2 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:image-size:GHSA-5p2g-fcmc-qvqq": {
@@ -66507,7 +66511,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 11.0.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:ms:GHSA-w9mr-4mfr-499f": {
@@ -67079,7 +67083,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-4487-j8r4-4g2f": {
@@ -67111,7 +67115,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-4642-5mcj-2rqw": {
@@ -67143,7 +67147,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-525v-9gp9-w22h": {
@@ -67175,7 +67179,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-5cwg-6vw7-rj6p": {
@@ -67207,7 +67211,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-5m6q-g25r-mvwx": {
@@ -67239,7 +67243,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-5x38-2vff-x55p": {
@@ -67271,7 +67275,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-6wvx-3r32-xmcg": {
@@ -67303,7 +67307,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-7wch-p9px-956x": {
@@ -67335,7 +67339,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-86w9-cpqp-85rv": {
@@ -67369,7 +67373,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-8hrf-8g6f-7xwp": {
@@ -67401,7 +67405,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-h6cr-wjv9-3cpp": {
@@ -67433,7 +67437,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-hqq3-7jhf-c5jx": {
@@ -67465,7 +67469,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-jc66-7q78-782g": {
@@ -67497,7 +67501,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-ppp5-5v6c-4jwp": {
@@ -67531,7 +67535,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-q67f-28xg-22rw": {
@@ -67563,7 +67567,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 1.4.1 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:on-headers:GHSA-76c9-3jph-rj3q": {
@@ -84987,7 +84991,7 @@
         "new_today": true
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:33:43.207794273Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -84998,8 +85002,12 @@
         "body_hash": 16771555746267619847,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 26,
+        "url": "https://github.com/Jest-Test-Team/next-js-project/pull/26",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/next-js-project:stable-aqi-app/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -105729,8 +105737,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 11.0.1 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_17_14_653Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 11.0.1 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_35_877Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:minimist:GHSA-vh95-rmgr-6w4m": {
       "finding": {
@@ -193903,8 +193911,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_18_51_012Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_43_977Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/BingX_Vue_project:front-page/package-lock.json:npm:glob:GHSA-5j98-mcp5-4vw2": {
       "finding": {
@@ -193935,8 +193943,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_18_51_012Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_43_977Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/BingX_Vue_project:front-page/package-lock.json:npm:js-cookie:GHSA-qjx8-664m-686j": {
       "finding": {
@@ -194253,8 +194261,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_18_48_645Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_41_602Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/BingX_Vue_project:front-page/package-lock.json:npm:minimatch:GHSA-3ppc-4f35-3m26": {
       "finding": {
@@ -194285,8 +194293,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_18_48_645Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_41_602Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/BingX_Vue_project:front-page/package-lock.json:npm:minimatch:GHSA-7r86-cg39-jmmj": {
       "finding": {
@@ -194317,8 +194325,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_18_48_645Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_41_602Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/BingX_Vue_project:front-page/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
       "finding": {
@@ -194349,8 +194357,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_18_48_645Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_41_602Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/BingX_Vue_project:front-page/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
       "finding": {
@@ -217687,8 +217695,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_20_11_985Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_47_497Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/CoinGecko_api_vue:front-page/package-lock.json:npm:glob:GHSA-5j98-mcp5-4vw2": {
       "finding": {
@@ -217719,8 +217727,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_20_11_985Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_47_497Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/CoinGecko_api_vue:front-page/package-lock.json:npm:js-cookie:GHSA-qjx8-664m-686j": {
       "finding": {
@@ -218037,8 +218045,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_20_10_958Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_46_506Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/CoinGecko_api_vue:front-page/package-lock.json:npm:minimatch:GHSA-3ppc-4f35-3m26": {
       "finding": {
@@ -218069,8 +218077,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_20_10_958Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_46_506Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/CoinGecko_api_vue:front-page/package-lock.json:npm:minimatch:GHSA-7r86-cg39-jmmj": {
       "finding": {
@@ -218101,8 +218109,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_20_10_958Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_46_506Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/CoinGecko_api_vue:front-page/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
       "finding": {
@@ -218133,8 +218141,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_20_10_958Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_35_46_506Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/CoinGecko_api_vue:front-page/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
       "finding": {
@@ -224560,7 +224568,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -224571,8 +224579,12 @@
         "body_hash": 17038393707706940811,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 24,
+        "url": "https://github.com/dennislee928/EnvShield/pull/24",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -227804,7 +227816,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -227815,8 +227827,12 @@
         "body_hash": 6017232191082643696,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 97,
+        "url": "https://github.com/dennislee928/Ethic-Latex/pull/97",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Ethic-Latex:desktop/package-lock.json:npm:http-cache-semantics:GHSA-ch52-4w7c-c8xp": {
@@ -227968,7 +227984,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -227979,8 +227995,12 @@
         "body_hash": 17840175362349131557,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 97,
+        "url": "https://github.com/dennislee928/Ethic-Latex/pull/97",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Ethic-Latex:desktop/package-lock.json:npm:tar:GHSA-23hp-3jrh-7fpw": {
@@ -228993,7 +229013,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -229004,8 +229024,12 @@
         "body_hash": 6017232191082643696,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 97,
+        "url": "https://github.com/dennislee928/Ethic-Latex/pull/97",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Ethic-Latex:erh-security-app/frontend/package-lock.json:npm:glob:GHSA-5j98-mcp5-4vw2": {
@@ -229311,7 +229335,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -229322,8 +229346,12 @@
         "body_hash": 17840175362349131557,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 97,
+        "url": "https://github.com/dennislee928/Ethic-Latex/pull/97",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Ethic-Latex:erh-security-app/frontend/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -234113,7 +234141,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -234124,8 +234152,12 @@
         "body_hash": 17840175362349131557,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 97,
+        "url": "https://github.com/dennislee928/Ethic-Latex/pull/97",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Ethic-Latex:frontend/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -247957,7 +247989,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -247968,8 +248000,12 @@
         "body_hash": 2554409100237406771,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 6,
+        "url": "https://github.com/dennislee928/Feeder-of-the-Future-Prize/pull/6",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Feeder-of-the-Future-Prize:frontend/ide-frontend/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -262978,7 +263014,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -262989,8 +263025,12 @@
         "body_hash": 4562428312316648779,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:@simple-git/argv-parser:GHSA-v5rq-49vh-5v5c": {
@@ -263958,7 +263998,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -263969,8 +264009,12 @@
         "body_hash": 9687603588660008008,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:launch-editor:GHSA-587h-7wmj-h5pm": {
@@ -264134,7 +264178,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264145,8 +264189,12 @@
         "body_hash": 10054335590224022035,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -264378,7 +264426,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264389,8 +264437,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-4642-5mcj-2rqw": {
@@ -264410,7 +264462,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264421,8 +264473,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-525v-9gp9-w22h": {
@@ -264442,7 +264498,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264453,8 +264509,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-5cwg-6vw7-rj6p": {
@@ -264474,7 +264534,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264485,8 +264545,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-5x38-2vff-x55p": {
@@ -264506,7 +264570,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264517,8 +264581,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-6wvx-3r32-xmcg": {
@@ -264538,7 +264606,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264549,8 +264617,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-7wch-p9px-956x": {
@@ -264570,7 +264642,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264581,8 +264653,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-86w9-cpqp-85rv": {
@@ -264604,7 +264680,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264615,9 +264691,13 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
-      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
+      "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-8hrf-8g6f-7xwp": {
       "finding": {
@@ -264636,7 +264716,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264647,8 +264727,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-h6cr-wjv9-3cpp": {
@@ -264668,7 +264752,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264679,8 +264763,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-hqq3-7jhf-c5jx": {
@@ -264700,7 +264788,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264711,8 +264799,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:node-forge:GHSA-jc66-7q78-782g": {
@@ -264732,7 +264824,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -264743,8 +264835,12 @@
         "body_hash": 9569531208725068114,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:nuxt:GHSA-48hr-524c-v5w3": {
@@ -272264,8 +272360,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_36_35_573Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:glob:GHSA-5j98-mcp5-4vw2": {
       "finding": {
@@ -272296,8 +272392,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 10.5.0 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_58_29_656Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 14.0.2 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_36_35_573Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:js-cookie:GHSA-qjx8-664m-686j": {
       "finding": {
@@ -272774,8 +272870,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 9.0.7 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_58_18_159Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_36_16_858Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:minimatch:GHSA-3ppc-4f35-3m26": {
       "finding": {
@@ -272806,8 +272902,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 9.0.7 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_58_18_159Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_36_16_858Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:minimatch:GHSA-7r86-cg39-jmmj": {
       "finding": {
@@ -272838,8 +272934,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 9.0.7 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_58_18_159Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_36_16_858Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
       "finding": {
@@ -272870,8 +272966,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 11.0.1 failed in `front-page/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-31T06_36_16_858Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "dennislee928/Max_api_project:front-page/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
       "finding": {
@@ -276446,7 +276542,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -276457,8 +276553,12 @@
         "body_hash": 2139896432069733237,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 30,
+        "url": "https://github.com/dennislee928/Max_api_project/pull/30",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Max_api_project:front-page/yarn.lock:npm:glob:GHSA-5j98-mcp5-4vw2": {
@@ -277124,7 +277224,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -277135,8 +277235,12 @@
         "body_hash": 16011314381861818748,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 30,
+        "url": "https://github.com/dennislee928/Max_api_project/pull/30",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Max_api_project:front-page/yarn.lock:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -281212,7 +281316,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -281223,8 +281327,12 @@
         "body_hash": 9901714898404904060,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:http-cache-semantics:GHSA-ch52-4w7c-c8xp": {
@@ -281988,7 +282096,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -281999,8 +282107,12 @@
         "body_hash": 8318673470871789467,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -282164,7 +282276,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282175,8 +282287,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-4642-5mcj-2rqw": {
@@ -282196,7 +282312,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282207,8 +282323,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-525v-9gp9-w22h": {
@@ -282228,7 +282348,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282239,8 +282359,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-5cwg-6vw7-rj6p": {
@@ -282260,7 +282384,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282271,8 +282395,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-5m6q-g25r-mvwx": {
@@ -282328,7 +282456,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282339,8 +282467,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-6wvx-3r32-xmcg": {
@@ -282360,7 +282492,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282371,8 +282503,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-7wch-p9px-956x": {
@@ -282392,7 +282528,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282403,8 +282539,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-86w9-cpqp-85rv": {
@@ -282462,7 +282602,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282473,8 +282613,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-h6cr-wjv9-3cpp": {
@@ -282494,7 +282638,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282505,8 +282649,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-hqq3-7jhf-c5jx": {
@@ -282526,7 +282674,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282537,8 +282685,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-jc66-7q78-782g": {
@@ -282558,7 +282710,7 @@
         "new_today": false
       },
       "day": "2026-10-31",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-31T06:13:16.978504291Z",
       "last_seen": "2026-10-31T06:33:43.207794273Z",
       "resolved_at": null,
@@ -282569,8 +282721,12 @@
         "body_hash": 9993261856858153930,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/dennislee928/MediCanna-AI/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/MediCanna-AI:frontend-angular/package-lock.json:npm:node-forge:GHSA-ppp5-5v6c-4jwp": {
@@ -286474,8 +286630,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 14.0.2 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-31T06_36_53_347Z-debug-0.log\n"
     },
     "dennislee928/Mighty_Eagle:package-lock.json:npm:glob:GHSA-5j98-mcp5-4vw2": {
       "finding": {
@@ -286506,8 +286662,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 10.5.0 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-29T08_24_34_895Z-debug-0.log\n"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 14.0.2 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-31T06_36_53_347Z-debug-0.log\n"
     },
     "dennislee928/Mighty_Eagle:package-lock.json:npm:ip-address:GHSA-h3mg-xc3c-68pw": {
       "finding": {
@@ -286984,8 +287140,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 9.0.7 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-29T08_24_28_214Z-debug-0.log\n"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.0.1 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-31T06_36_50_424Z-debug-0.log\n"
     },
     "dennislee928/Mighty_Eagle:package-lock.json:npm:minimatch:GHSA-3ppc-4f35-3m26": {
       "finding": {
@@ -287016,8 +287172,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 9.0.7 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-29T08_24_28_214Z-debug-0.log\n"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.0.1 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-31T06_36_50_424Z-debug-0.log\n"
     },
     "dennislee928/Mighty_Eagle:package-lock.json:npm:minimatch:GHSA-7r86-cg39-jmmj": {
       "finding": {
@@ -287048,8 +287204,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 9.0.7 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-29T08_24_28_214Z-debug-0.log\n"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.0.1 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-31T06_36_50_424Z-debug-0.log\n"
     },
     "dennislee928/Mighty_Eagle:package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
       "finding": {
@@ -287080,8 +287236,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 11.0.1 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: npm error Invalid Version: \nnpm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-10-31T06_36_50_424Z-debug-0.log\n"
     },
     "dennislee928/Mighty_Eagle:package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
       "finding": {
