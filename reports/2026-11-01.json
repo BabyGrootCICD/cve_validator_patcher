@@ -1,0 +1,3724 @@
+{
+  "since": "2026-10-31T07:02:45.541982683Z",
+  "until": "2026-11-01T07:02:45.541982683Z",
+  "feeds": [
+    {
+      "source": "CVE (NVD)",
+      "status": "ok",
+      "count": 113
+    },
+    {
+      "source": "OSV",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "source": "ENISA EUVD",
+      "status": "ok",
+      "count": 86
+    },
+    {
+      "source": "GitHub Advisory Database",
+      "status": "ok",
+      "count": 113
+    },
+    {
+      "source": "OpenSSF Malicious Packages",
+      "status": "ok",
+      "count": 16
+    },
+    {
+      "source": "Vulners",
+      "status": "skipped",
+      "reason": "VULNERS_API_KEY not set"
+    },
+    {
+      "source": "AttackerKB",
+      "status": "skipped",
+      "reason": "ATTACKERKB_API_KEY not set"
+    },
+    {
+      "source": "Sploitus",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "source": "OWASP Top 10 (CWE mapping)",
+      "status": "ok",
+      "count": 109
+    }
+  ],
+  "advisories": [
+    {
+      "id": "CVE-2026-120189",
+      "aliases": [
+        "EUVD-2026-114738",
+        "GHSA-2j25-rfrh-cphw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is publicly available and might be used.",
+      "published": "2026-11-01T00:00:23Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189",
+      "packages": [],
+      "cwes": [
+        "CWE-119",
+        "CWE-121"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120195",
+      "aliases": [
+        "EUVD-2026-114767",
+        "GHSA-3wx6-ffgj-fwjg"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure.",
+      "published": "2026-11-01T04:18:46.687Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195",
+      "packages": [],
+      "cwes": [
+        "CWE-77",
+        "CWE-78"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120198",
+      "aliases": [
+        "EUVD-2026-114773",
+        "GHSA-cq8m-m2p5-jxxm"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117. Affected is the function con_check_read_finish of the file /protocol.csp. Such manipulation of the argument group_name/IP-FROM leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure.",
+      "published": "2026-11-01T05:18:57.620Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120198",
+      "packages": [],
+      "cwes": [
+        "CWE-74",
+        "CWE-77"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-3306F82C-C708-5D34-9D91-84D815CF7BB6",
+      "aliases": [
+        "CVE-2026-112816",
+        "SPLOITUS-BED73FA8-7E00-5C29-9C8F-2D775526F0A8"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-112816",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://sploitus.com/exploit?id=3306F82C-C708-5D34-9D91-84D815CF7BB6",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Sotrano-dev/cve-2026-112816",
+        "https://github.com/dehasoft-tr/cve-2026-112816"
+      ]
+    },
+    {
+      "id": "SPLOITUS-DE0BF324-B0EB-50C2-8AE9-22490B19C3F0",
+      "aliases": [
+        "CVE-2026-101767",
+        "CVE-2026-101809"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-101767",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://sploitus.com/exploit?id=DE0BF324-B0EB-50C2-8AE9-22490B19C3F0",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/aduli198/CVE-2026-101767"
+      ]
+    },
+    {
+      "id": "SPLOITUS-F8D54D22-FEA8-523E-A2E4-D307A90B5411",
+      "aliases": [
+        "CVE-2026-88773"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for HTTP Request Smuggling in Citrix Netscaler_Application_Delivery_Controller",
+      "published": "2026-11-01T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://sploitus.com/exploit?id=F8D54D22-FEA8-523E-A2E4-D307A90B5411",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Fyyre/CVE-2026-88773"
+      ]
+    },
+    {
+      "id": "CVE-2026-120196",
+      "aliases": [
+        "EUVD-2026-114768",
+        "GHSA-fmc2-w58f-qqpv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_forward of the file /cgi-bin/wapi.cgi. The manipulation of the argument Name results in os command injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was contacted early about this disclosure.",
+      "published": "2026-11-01T04:18:46.943Z",
+      "severity": "HIGH",
+      "score": 9.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120196",
+      "packages": [],
+      "cwes": [
+        "CWE-77",
+        "CWE-78"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120197",
+      "aliases": [
+        "EUVD-2026-114769",
+        "GHSA-jq5g-pp5w-q8h6"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_forward of the file /cgi-bin/wapi.cgi. This manipulation of the argument Name causes os command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure.",
+      "published": "2026-11-01T04:18:47.147Z",
+      "severity": "HIGH",
+      "score": 9.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120197",
+      "packages": [],
+      "cwes": [
+        "CWE-77",
+        "CWE-78"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-3BC2D061-172B-580E-9A45-541907C7EB58",
+      "aliases": [
+        "CVE-2026-116241",
+        "CVE-2026-1162412",
+        "SPLOITUS-5C41072F-027F-5640-8499-C9207E41602E"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-1162412",
+      "published": "2026-11-01T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "url": "https://sploitus.com/exploit?id=3BC2D061-172B-580E-9A45-541907C7EB58",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/4m3rr0r/CVE-2026-116241-poc",
+        "https://github.com/4m3rr0r/CVE-2026-1162412-poc"
+      ]
+    },
+    {
+      "id": "CVE-2026-109220",
+      "aliases": [
+        "GHSA-5f8r-hw67-6cx4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 7.1.1 via the 'customer_note' parameter parameter. This is due to insufficient sanitization of the customer_note checkout field, which is inlined verbatim into invoice HTML, entity-decoded back into a live tag by simplehtmldom, reassembled into raw bytes by mPDF, and passed to unserialize() in _getObjAttr without validation. This makes it possible for unauthenticated attackers to execute code on the server. An unauthenticated attacker can trigger the vulnerable code path on a default install by placing an anonymous WooCommerce checkout via the public Store API (POST /wc/store/v1/checkout) using a Direct Bank Transfer or cheque payment method, which automatically transitions the order to 'on-hold' status and fires the plugin's invoice-generation hook.",
+      "published": "2026-10-31T07:16:34.367Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109220",
+      "packages": [],
+      "cwes": [
+        "CWE-502"
+      ],
+      "owasp": [
+        "A08:2025 Software or Data Integrity Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116512",
+      "aliases": [
+        "EUVD-2026-114653",
+        "GHSA-3j45-2638-6g5h"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is due to unsanitized 'id' parameter value concatenated directly into the pipe-delimited validation rule string, which is then split and each token invoked as a dynamic PHP function with no allowlist check. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable by unauthenticated attackers because WordPress core executes the route argument's validate_callback inside WP_REST_Server::dispatch() before the route's permission_callback is invoked, meaning the Project_Manage_Capability authorization gate is never reached on the vulnerable code path.",
+      "published": "2026-10-31T07:46:51Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512",
+      "packages": [],
+      "cwes": [
+        "CWE-434"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118235",
+      "aliases": [
+        "EUVD-2026-114672",
+        "GHSA-wjww-5gvr-r96j"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.10.2 via the handle_upload function. This is due to missing server-side file key allowlist and pre-sanitization extension derivation that allows a trailing-dot filename to bypass all extension and MIME validation in handle_upload. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. The only access control is a nonce that is printed into every public form's data-nonce attribute, making it trivially obtainable by any unauthenticated visitor on a page embedding the form shortcode.",
+      "published": "2026-10-31T08:30:45Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118235",
+      "packages": [],
+      "cwes": [
+        "CWE-434"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118636",
+      "aliases": [
+        "EUVD-2026-114734",
+        "GHSA-gcvh-r85p-53mh"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "**UNSUPPORTED WHEN ASSIGNED** \n\nJavaNativeMessageDecoder in the MINA 3.0 codec module calls ObjectInputStream.readObject() on frame bytes with no class filter, so an\napplication that puts it in front of an untrusted peer is open to gadget-chain RCE.\n\nAs the 3.0.0 branch is inactive, we do not plan to release a version that fixes this issue. \n\nUsers are recommended to use the latest Apache MINA 2.2.X branch.",
+      "published": "2026-10-31T20:17:11Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118636",
+      "packages": [],
+      "cwes": [
+        "CWE-502"
+      ],
+      "owasp": [
+        "A08:2025 Software or Data Integrity Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119096",
+      "aliases": [
+        "EUVD-2026-114649",
+        "GHSA-c7cc-xqvj-xcq2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.8.2 via the `email` parameter of the `uo_login_action()` function. This is due to a parser-differential flaw in which the plugin's account-verification gate resolves the submitted `email` value using the raw, unsanitized string passed to `get_user_by()`, while the subsequent `wp_signon()` call relies on WordPress core's internal `sanitize_user()` to strip appended junk characters — causing the gate lookup to fail and be skipped entirely while the real account is still resolved and authenticated. This makes it possible for unauthenticated attackers to log in to unverified or administrator-suspended accounts whose credentials they already possess, obtaining a valid `wordpress_logged_in` session cookie and defeating the plugin's account-approval and account-suspension controls. The nonce required to reach the handler is freely obtainable in the same request from the unauthenticated `ult-refresh-nonce` endpoint, making exploitation trivial for any attacker with network access to the site and knowledge of a target account's credentials.",
+      "published": "2026-10-31T07:46:49Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096",
+      "packages": [],
+      "cwes": [
+        "CWE-287"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120201",
+      "aliases": [
+        "EUVD-2026-114722",
+        "GHSA-mr28-xw2h-9rw4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condition parser treats as an operator, then execute commands through Jpom's script features.",
+      "published": "2026-10-31T17:25:50Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120201",
+      "packages": [],
+      "cwes": [
+        "CWE-943"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120209",
+      "aliases": [
+        "EUVD-2026-114730",
+        "GHSA-p83w-vf54-73v4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execution.",
+      "published": "2026-10-31T17:25:56Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
+      "packages": [],
+      "cwes": [
+        "CWE-321"
+      ],
+      "owasp": [
+        "A04:2025 Cryptographic Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-0A55729B-D361-5566-9D51-E6413306D11F",
+      "aliases": [
+        "CVE-2019-11043",
+        "CVE-2024-4577",
+        "CVE-2026-10961",
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "CVE-2026-111497",
+        "CVE-2026-115560",
+        "CVE-2026-116366",
+        "SPLOITUS-2D9EA349-5948-58B7-A2C1-D0D12C87435A",
+        "SPLOITUS-55AAA452-08C9-5603-8BA0-9CBE8C489928",
+        "SPLOITUS-97AE6D1B-7759-50CC-9054-193ED6C62D7E",
+        "SPLOITUS-BE96A21D-9A13-5BE4-9A01-AB7AFAC89EB3",
+        "SPLOITUS-F05AA5BD-DC7D-53A1-9594-1CA6EE75971E",
+        "SPLOITUS-F7681F37-ADA1-58A0-8270-FF53E1110912"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "php2shell-lab",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=0A55729B-D361-5566-9D51-E6413306D11F",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/0x4e-lab/PHP2Shell-expo",
+        "https://github.com/DarkGlitchLegion/php2shell-lab",
+        "https://github.com/esskslifetech/PROTECTION2Shell",
+        "https://github.com/esskslifetech/php-secure-patch",
+        "https://github.com/googlesky/CVE-2026-116366",
+        "https://github.com/haseebanjum/php-patch-check",
+        "https://github.com/riyadh920/php2shell-2026-incident-analysis"
+      ]
+    },
+    {
+      "id": "SPLOITUS-1DF82DDB-26AC-5777-985D-A71799C3DE63",
+      "aliases": [
+        "CVE-2026-98432",
+        "SPLOITUS-320FE90D-8390-56A7-92D5-716B2E0951D5",
+        "SPLOITUS-969E61D3-BAAC-50A5-989D-A9EACE345AA2",
+        "SPLOITUS-A2D3911E-77AA-54E1-8820-EDF4EE152124",
+        "SPLOITUS-AFEB1B02-16FD-5B8A-B5D6-CC80BCAC9773",
+        "SPLOITUS-BC84B630-A5D7-5209-A35C-1034EBD454DD",
+        "SPLOITUS-C21670BA-F7DD-58F2-9343-B8DDDBAEC8D9"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-98432",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=1DF82DDB-26AC-5777-985D-A71799C3DE63",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/alvaroguzmancode/cve-2026-98432",
+        "https://github.com/brett6320/fix_CVE-2026-98432",
+        "https://github.com/googlesky/CVE-2026-98432",
+        "https://github.com/ndeet/cve-2026-98432",
+        "https://github.com/sevaepsteyn/cve-2026-98432-ebpf",
+        "https://github.com/soroushneshati/cve-2026-98432-ubuntu-mitigation",
+        "https://github.com/tiendungdev/cve-2026-98432-guard"
+      ]
+    },
+    {
+      "id": "SPLOITUS-BA42BDB4-C033-593B-9748-4E23020A615A",
+      "aliases": [
+        "CVE-2026-89633"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-89633",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=BA42BDB4-C033-593B-9748-4E23020A615A",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/woshigenm/CVE-2026-89633"
+      ]
+    },
+    {
+      "id": "SPLOITUS-EF3BFD7B-F5FF-508B-A3DE-21AEC8A7FA82",
+      "aliases": [
+        "CVE-2026-103039"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-103039",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=EF3BFD7B-F5FF-508B-A3DE-21AEC8A7FA82",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/noxcrypt-x/CVE-2026-103039"
+      ]
+    },
+    {
+      "id": "SPLOITUS-07FD3D30-8C0E-5772-B95A-17216400802B",
+      "aliases": [
+        "CVE-2026-54523"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-54523",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "url": "https://sploitus.com/exploit?id=07FD3D30-8C0E-5772-B95A-17216400802B",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/TeamN4C/SG-2026-0037"
+      ]
+    },
+    {
+      "id": "CVE-2026-103882",
+      "aliases": [
+        "EUVD-2026-114675",
+        "GHSA-rqhh-g82f-mjjr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the post_delete_assessment_file_by_id function in all versions up to, and including, 1.1.9. This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). The route's permission callback only verifies a generic wp_rest nonce that the plugin itself emits inside the public acadlixOptions JavaScript object on every frontend page, effectively reducing the authentication requirement to unauthenticated.",
+      "published": "2026-10-31T08:30:46Z",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103882",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116557",
+      "aliases": [
+        "GHSA-wwrg-9g45-mxcv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WP Booking System - Booking Calendar plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the wpbs_action_ajax_calendar_remove_note() function in versions up to, and including, 2.1.0.5 This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary calendar notes belonging to any calendar.",
+      "published": "2026-10-31T07:16:35.857Z",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116557",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-89270",
+      "aliases": [
+        "GHSA-94hg-gmrm-ppjj"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Popup Builder – Create highly converting, mobile friendly marketing popups. plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 4.4.5 This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to trash all published popups on the site with a single unauthenticated GET request. The attack is amplified by a second flaw in SGPopup::find(), which returns false for every normally published popup when the sg_popup_preview_id parameter is present, causing the trash branch to fire against every popup on the site simultaneously.",
+      "published": "2026-10-31T07:16:37.707Z",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89270",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-104012",
+      "aliases": [
+        "EUVD-2026-114645",
+        "GHSA-8cr7-x3xr-ppw5"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Rox Appointment Booking – Appointment Booking Scheduling Solution plugin for WordPress is vulnerable to Privilege Escalation via Mass Assignment in all versions up to, and including, 1.3.1 This is due to the public `/rox-appointment-booking/v1/public/booking` REST endpoint performing mass-assignment of the raw request body into a new customer row while `CustomerModel::$fillable` includes the internal `wp_user_id` column, allowing an unauthenticated attacker to persist an arbitrary WordPress user ID alongside an attacker-controlled email address with no authorization check. When an administrator subsequently opens the poisoned customer record and clicks Update Customer, `SaveCustomer::handleRequest()` passes the stored `wp_user_id` and attacker-supplied email to `wp_update_user()` — succeeding because `LinkedAccount::canChange()` unconditionally returns true when the acting user holds the `edit_users` capability — thereby overwriting the targeted administrator's email address and enabling full account takeover via a standard WordPress password-reset request. Successful exploitation requires an administrator to open and save the poisoned record, and the attacker must know or guess a valid administrator user ID (such as the default user ID 1).",
+      "published": "2026-10-31T07:46:47Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104012",
+      "packages": [],
+      "cwes": [
+        "CWE-269"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116086",
+      "aliases": [
+        "EUVD-2026-114680",
+        "GHSA-h98f-8r5p-hq5j"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw was found in konflux-ci. An attacker with permission to trigger automated workflow runs can cause an information disclosure by providing crafted issue titles to workflow scripts. The affected script incorporates user-provided titles directly into data queries without adequate sanitization, allowing the attacker to inject malicious filter commands. As a result, sensitive information such as API credentials, deployment keys, and internal notes returned from repository queries may be exposed in workflow logs.",
+      "published": "2026-10-31T08:55:12Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116086",
+      "packages": [],
+      "cwes": [
+        "CWE-94"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120070",
+      "aliases": [
+        "EUVD-2026-114657",
+        "GHSA-558h-x4v5-3hwr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The User Frontend – Membership, User Registration, User Profile, User Directory & Content Restriction with Frontend Post Submission plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.3.13 via the `post_content` parameter of the `submit_post()` function. The vulnerability exists because the protected-shortcode blocklist guard inspects the `sanitize_textarea_field()` copy of the submitted `post_content`, while the copy actually persisted to the database is processed through `wp_kses()`, whose `wp_kses_no_null()` step strips C0 control bytes — allowing an attacker to inject a single `\\x01` byte inside the `[wpuf-registration]` tag name to defeat the `strpos()` blocklist check while the clean, functional shortcode is stored verbatim; `strip_shortcodes()` does not neutralize the stored shortcode either, because the Frontend container that registers it via `add_shortcode()` is only instantiated when `is_admin()` is false, and `admin-ajax` requests have `is_admin() === true`. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject a `[wpuf-registration role=\"editor\"]` shortcode into a published post, causing a live Editor-role registration form to be rendered publicly on the frontend that any visitor — or the attacker themselves — can submit to mint a WordPress Editor account with an immediately active privileged session when the default `autologin_after_registration` setting is enabled.",
+      "published": "2026-10-31T07:46:53Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120070",
+      "packages": [],
+      "cwes": [
+        "CWE-269"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120203",
+      "aliases": [
+        "EUVD-2026-114724",
+        "GHSA-fm4v-42hr-rpgp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a template via MockController::add with escaped parentheses that mockjs evaluates with eval(), then trigger it through MockController::infoByKey to run commands, as root in the official Docker image.",
+      "published": "2026-10-31T17:25:52Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120203",
+      "packages": [],
+      "cwes": [
+        "CWE-94"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-76010",
+      "aliases": [
+        "EUVD-2026-114701",
+        "GHSA-3x55-4c6j-rgh3"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Photo Gallery, Sliders, Proofing and Themes – NextGEN Gallery plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.4.1 via the render_image function. This is due to unrestricted mass assignment of caller-supplied meta_data keys onto the image model combined with missing realpath containment in path construction and a bypassable signature check on the public image delivery route. This makes it possible for authenticated attackers, with custom-level access and above, to execute code on the server. Exploitation requires the authenticated attacker to own at least one NextGEN gallery — a condition that can be satisfied by any Subscriber who was ever granted the 'NextGEN Manage gallery' capability, and that access is retained indefinitely due to the stored gallery-author equality fallback in _can_manage_gallery() even after the capability is revoked.",
+      "published": "2026-10-31T09:29:25Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76010",
+      "packages": [],
+      "cwes": [
+        "CWE-434"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-234FD82A-F46B-5261-B3F9-56C05D4CC4D6",
+      "aliases": [
+        "CVE-2026-111585"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-111585",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://sploitus.com/exploit?id=234FD82A-F46B-5261-B3F9-56C05D4CC4D6",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-111585"
+      ]
+    },
+    {
+      "id": "SPLOITUS-511986F5-621A-5A78-AA28-5D54F839481E",
+      "aliases": [
+        "CVE-2026-31431",
+        "CVE-2026-43284",
+        "CVE-2026-43494",
+        "CVE-2026-43499",
+        "CVE-2026-43500",
+        "CVE-2026-46331",
+        "CVE-2026-64531",
+        "SPLOITUS-646390B0-C6EF-5617-BBCA-231E4DED48F5",
+        "SPLOITUS-E7125BAF-D3BF-5455-84E0-16BD1DEE4EFB"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Use After Free in Linux Linux_Kernel",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://sploitus.com/exploit?id=511986F5-621A-5A78-AA28-5D54F839481E",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/RetributionByRevenue/motogstylus2023-root",
+        "https://github.com/noobcjk/dirtychains",
+        "https://github.com/noobcjk/dirtyfrag"
+      ]
+    },
+    {
+      "id": "CVE-2026-114217",
+      "aliases": [
+        "EUVD-2026-114679",
+        "GHSA-jw7j-xrxx-59jm"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw was found in konflux-ci. Continuous Integration (CI) automation scripts store sensitive GitHub access tokens in plaintext on the runner without cleaning them up after execution. A local attacker with access to the CI environment can read these stored credentials to gain unauthorized repository access, potentially allowing them to modify source code or release artifacts.",
+      "published": "2026-10-31T08:55:09Z",
+      "severity": "HIGH",
+      "score": 8.6,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114217",
+      "packages": [],
+      "cwes": [
+        "CWE-312"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-102212",
+      "aliases": [
+        "EUVD-2026-114719",
+        "GHSA-6gjc-q635-685r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Heap-based buffer overflow in Opengear IM72XX, CM71XX, and ACM70XX firmware versions 4.8.0 through 5.5.2 on console server appliances allows an unauthenticated remote attacker to crash the index.cgi process via a crafted multipart/form-data POST request containing an overlong Content-Disposition name field.",
+      "published": "2026-10-31T16:01:56Z",
+      "severity": "HIGH",
+      "score": 8.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102212",
+      "packages": [],
+      "cwes": [
+        "CWE-122"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116964",
+      "aliases": [
+        "EUVD-2026-114681",
+        "GHSA-7c88-x24c-93mg"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw was found in konflux-ci. An attacker with repository write access can achieve arbitrary code execution within the Continuous Integration and Continuous Delivery (CI/CD) workflow environment. By injecting shell commands into environment export scripts, the attacker causes manifest synchronization scripts to dynamically evaluate unvalidated script output. Successful exploitation allows the attacker to compromise CI/CD pipelines, steal sensitive authentication tokens and deployment credentials, and gain unauthorized access to production systems.",
+      "published": "2026-10-31T08:57:31Z",
+      "severity": "HIGH",
+      "score": 8.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116964",
+      "packages": [],
+      "cwes": [
+        "CWE-94"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120135",
+      "aliases": [
+        "EUVD-2026-114735",
+        "GHSA-663r-q6wf-5j93"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Uncontrolled Recursion vulnerability in Apache Thrift Java bindings.\n\n\n\nThis issue affects Apache Thrift: before 0.24.0.\n\n\n\nUsers are recommended to upgrade to version 0.24.0, which fixes the issue.",
+      "published": "2026-10-31T20:33:00Z",
+      "severity": "HIGH",
+      "score": 8.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120135",
+      "packages": [],
+      "cwes": [
+        "CWE-674"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-684CED4C-31AA-56B9-88AB-450CE907112E",
+      "aliases": [
+        "CVE-2026-116242",
+        "CVE-2026-116244",
+        "CVE-2026-116245",
+        "CVE-2026-116246",
+        "CVE-2026-116247"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-116244",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.2,
+      "url": "https://sploitus.com/exploit?id=684CED4C-31AA-56B9-88AB-450CE907112E",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-116244"
+      ]
+    },
+    {
+      "id": "CVE-2026-103898",
+      "aliases": [
+        "EUVD-2026-114656",
+        "GHSA-g8pp-vmv3-x6hw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Wp Social Login and Register Social Counter plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 3.2.2. This is due to the social login REST callback registered at `/wp-json/wslu-social-login/type/{provider}/` with `permission_callback => __return_true` locating an existing WordPress account solely by the email string returned from the OAuth provider and calling `wp_set_auth_cookie()` without a password check, while the only verification guard — `!empty($getProfile->emailVerified)` in `inc/admin-create-user.php` — is a no-op for the bundled Hybridauth Facebook and Twitter adapters, both of which assign the raw email string rather than a boolean verified flag to `emailVerified`. This makes it possible for unauthenticated attackers to obtain a fully authenticated session as any existing WordPress user, including Administrators, whose registered email address can be presented through a configured Facebook or Twitter login on the target site. Exploitation requires only that the attacker control an OAuth account whose provider-returned email matches the target account's registered WordPress email address; no local credentials, nonce, or prior foothold is needed.",
+      "published": "2026-10-31T07:46:52Z",
+      "severity": "HIGH",
+      "score": 8.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103898",
+      "packages": [],
+      "cwes": [
+        "CWE-287"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-117681",
+      "aliases": [
+        "EUVD-2026-114682",
+        "GHSA-6rhq-p65w-3v27"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw was found in konflux-ci. This vulnerability allows privilege escalation when the user interface proxy automatically disables Transport Layer Security (TLS) certificate verification for connections to internal backend services in environments lacking a default service certificate authority. Because the proxy attaches a cluster-scoped authentication token with user impersonation rights to these requests, an adjacent network attacker capable of intercepting traffic can capture the credentials to gain full administrative control of the cluster.",
+      "published": "2026-10-31T08:57:35Z",
+      "severity": "HIGH",
+      "score": 8.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117681",
+      "packages": [],
+      "cwes": [
+        "CWE-295"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120205",
+      "aliases": [
+        "EUVD-2026-114726",
+        "GHSA-pfq9-82gg-2grp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Thelia before 3.1.0 contains a stored cross-site scripting vulnerability in ForSomeCustomers::getSummary() that allows unauthenticated attackers to inject scripts via unescaped customer names. Attackers can register with a script payload as their name that executes when administrators view related coupons, stealing CSRF tokens to create administrator accounts.",
+      "published": "2026-10-31T17:25:53Z",
+      "severity": "HIGH",
+      "score": 8.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120205",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-3A8B4449-D950-5E39-9972-0582A30F1781",
+      "aliases": [
+        "CVE-2026-46300"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Write-what-where Condition in Linux Linux_Kernel",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.8,
+      "url": "https://sploitus.com/exploit?id=3A8B4449-D950-5E39-9972-0582A30F1781",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/foxcornlab/fragnesia-scanner"
+      ]
+    },
+    {
+      "id": "SPLOITUS-77A5DC3B-8736-58D5-AF01-866A0EFC32F9",
+      "aliases": [
+        "CVE-2026-64560"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-64560",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.8,
+      "url": "https://sploitus.com/exploit?id=77A5DC3B-8736-58D5-AF01-866A0EFC32F9",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/exumeOAO/plr110-6.12.38-cve-2026-64560-ksu"
+      ]
+    },
+    {
+      "id": "CVE-2026-120208",
+      "aliases": [
+        "EUVD-2026-114729",
+        "GHSA-wqmc-6h9q-v6wp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "libheif 1.18.0 before 1.23.3 contains a heap-based buffer overflow vulnerability in unc_decoder_mixed_interleave::processTile() that allows attackers to write out of bounds by supplying chroma components with unequal bit depths. Attackers can craft a HEIF file declaring, for example, 16-bit Cb and 8-bit Cr to trigger file-controlled heap writes past the Cr plane, potentially achieving code execution in image-processing pipelines.",
+      "published": "2026-10-31T17:25:55Z",
+      "severity": "HIGH",
+      "score": 7.7,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120208",
+      "packages": [],
+      "cwes": [
+        "CWE-122"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-8BCA6340-2BFB-5B6C-9060-C4A1612B858C",
+      "aliases": [
+        "CVE-2026-100105"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-100105",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.7,
+      "url": "https://sploitus.com/exploit?id=8BCA6340-2BFB-5B6C-9060-C4A1612B858C",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-100105"
+      ]
+    },
+    {
+      "id": "CVE-2026-109197",
+      "aliases": [
+        "EUVD-2026-114703",
+        "GHSA-xf7x-7w69-85mx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WP Directory Kit plugin for WordPress is vulnerable to generic SQL Injection via the 'idfield' parameter in all versions up to, and including, 1.6.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "published": "2026-10-31T09:29:26Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109197",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119163",
+      "aliases": [
+        "GHSA-3h7v-9626-9c6v"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The FunnelKit Automations – Email Marketing Automation and CRM for WordPress & WooCommerce plugin for WordPress is vulnerable to time-based SQL Injection via the 'bwfan_cart_id' parameter in all versions up to, and including, 3.8.5.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. Exploitation is a two-step persisted attack: an unauthenticated attacker submits a crafted bwfan_cart_id value during a guest Store API checkout (requiring only a publicly obtainable WooCommerce cart nonce), and the injection fires when a scheduled Action Scheduler job later reloads the stored meta upon order status transition out of pending, failed, or cancelled.",
+      "published": "2026-10-31T07:16:36.600Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119163",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120040",
+      "aliases": [
+        "GHSA-7xhr-q895-ggjm"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Mail logging & Catcher plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.2.0 via the 'message' parameter. This makes it possible for authenticated attackers, with subscriber-level access and above, to extract valid administrator password-reset keys from stored email logs and complete the WordPress password-reset flow to escalate privileges to administrator. Exploitation requires an administrator to have previously configured the plugin's default_view_role setting to a capability held by low-privileged users such as 'read'; on an untouched install the default of 'manage_options' restricts log access to administrators only.",
+      "published": "2026-10-31T07:16:37.370Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120040",
+      "packages": [],
+      "cwes": [
+        "CWE-269"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120194",
+      "aliases": [
+        "EUVD-2026-114712",
+        "GHSA-pc2w-7g9p-pr43"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw was found in json-glib. The JSONPath slice evaluator used by json_path_query() can enter an infinite loop when given a slice expression with a negative step. An application that evaluates attacker-controlled JSONPath expressions can be forced into a hang, leading to a denial of service.",
+      "published": "2026-10-31T10:11:47Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120194",
+      "packages": [],
+      "cwes": [
+        "CWE-835"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-870911BF-5AC6-5253-9C61-EEB55CC505CC",
+      "aliases": [
+        "CVE-2026-63686"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for NULL Pointer Dereference in Apache Http_Server",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://sploitus.com/exploit?id=870911BF-5AC6-5253-9C61-EEB55CC505CC",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/timothyckl/CVE-2026-63686"
+      ]
+    },
+    {
+      "id": "CVE-2026-118147",
+      "aliases": [
+        "EUVD-2026-114732",
+        "GHSA-hqh8-88g9-j6xw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network.",
+      "published": "2026-10-31T18:13:37Z",
+      "severity": "HIGH",
+      "score": 7.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118147",
+      "packages": [],
+      "cwes": [
+        "CWE-295"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120191",
+      "aliases": [
+        "EUVD-2026-114750",
+        "GHSA-jxrg-fcrf-gm4j"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A weakness has been identified in Presenton up to 0.9.11-beta. Affected by this issue is some unknown functionality of the component API. This manipulation causes missing authentication. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for attacks. Upgrading to version 0.9.12-beta can resolve this issue. Patch name: 44c8a61122b21f17642d717b0c4d6f2c54c0f180. You should upgrade the affected component.",
+      "published": "2026-11-01T01:00:26Z",
+      "severity": "MEDIUM",
+      "score": 7.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120191",
+      "packages": [],
+      "cwes": [
+        "CWE-287",
+        "CWE-306"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107653",
+      "aliases": [
+        "GHSA-phr2-h83q-x5jf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The SureCart – Ecommerce Made Easy For Selling Physical Products, Digital Downloads, Subscriptions, Donations, & Payments plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 4.9.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Successful execution requires the injected comment to be visible on a page that loads SureCart's web-component bundle (e.g. a page containing a SureCart Buy Button block), and the comment must be auto-approved or approved by a moderator.",
+      "published": "2026-10-31T07:16:32.940Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107653",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107750",
+      "aliases": [
+        "GHSA-wr38-p24w-wp68"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The PDF Invoices & Packing Slips for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'billing_address.first_name / last_name / company, customer_note' parameter in all versions up to, and including, 5.16.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This is an incomplete fix for CVE-2026-92244: the wp_kses() allow-list introduced in 5.16.2 correctly blocks raw-tag payloads but is bypassed by entity-encoded payloads (e.g., &lt;img onerror=…&gt;) that contain no literal angle-bracket characters and are therefore passed through unmodified before the trailing decode rematerializes them.",
+      "published": "2026-10-31T07:16:33.920Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107750",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107759",
+      "aliases": [
+        "EUVD-2026-114654",
+        "GHSA-jg4v-r26p-p7r2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via wp_mail/PHPMailer, e.g. CF7 your-subject)' parameter in all versions up to, and including, 6.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The payload is stored without authentication via any mail-sending feature that forwards a submitter-controlled subject (e.g. a Contact Form 7 form) when the Graph Mailer is enabled but OAuth authorization has not been completed, a default state immediately after plugin activation.",
+      "published": "2026-10-31T07:46:52Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107759",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-110530",
+      "aliases": [
+        "EUVD-2026-114677",
+        "GHSA-cr3r-cx3j-65fh"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The FeedWordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 2026.0517 via syndicated RSS/Atom feed content. The plugin's SyndicatedPost::sanitize_content() function only strips the 'target' attribute (the lines that would strip 'style' and 'on[a-z]+' event-handler attributes are commented out), and SyndicatedPost::insert_post() deliberately removes WordPress's wp_filter_kses and wp_filter_post_kses filters from content_save_pre before persisting imported feed items via wp_insert_post(). This makes it possible for unauthenticated attackers who control an external feed that a site has already subscribed to to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "published": "2026-10-31T08:30:47Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110530",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-111254",
+      "aliases": [
+        "GHSA-9wg2-5m8p-rghq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The W3 Total Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 2.10.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires that a Pro license was previously active with REST caching enabled and has since become inactive while Disk Enhanced page caching remains configured, and that the attacker holds a previously approved commenter identity.",
+      "published": "2026-10-31T07:16:34.987Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111254",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-115840",
+      "aliases": [
+        "GHSA-9wp3-78x4-p2p5"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'poplink' parameter in all versions up to, and including, 1.4.9 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The handler requires only a WordPress nonce (vikwp_nonce), which the plugin itself emits to unauthenticated visitors on the public booking-confirmation page, allowing an attacker to obtain a valid token without any account.",
+      "published": "2026-10-31T07:16:35.140Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115840",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116522",
+      "aliases": [
+        "GHSA-cqrq-24rf-5fg8"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Relevanssi – A Better Search plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 4.28.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This requires the site to have both the comment indexing and comment highlighting options enabled, and the payload only fires when a visitor reaches a singular page via a Relevanssi search-result permalink carrying the highlight query parameter.",
+      "published": "2026-10-31T07:16:35.410Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116522",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116548",
+      "aliases": [
+        "GHSA-m43v-pqm7-q733"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The VikRentCar Car Rental Management System plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'optionals' parameter in all versions up to, and including, 1.4.10 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "published": "2026-10-31T07:16:35.717Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116548",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118057",
+      "aliases": [
+        "EUVD-2026-114648",
+        "GHSA-832v-j8jj-hrq5"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Shield Security – Smart Bot Blocking, Brute-Force Login Protection & File Scanning plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'REQUEST_URI' parameter in all versions up to, and including, 22.3.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The hidden 'path' column in ForTraffic.php lacks a client-side render function, so DataTables builds its cell via innerHTML, causing stored HTML in the path value to be parsed into live DOM nodes; a prior partial fix in version 18.5.8 added esc_html() only to the visible 'page' column, leaving the hidden 'path' field unescaped and exploitable through version 22.2.6.",
+      "published": "2026-10-31T07:46:48Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118057",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118070",
+      "aliases": [
+        "GHSA-8pvj-wmxx-5r34"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Welcart e-Commerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'gid' parameter in all versions up to, and including, 2.12.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The payload is staged by an unauthenticated visitor who forges the ROBOT PAYMENT browser-return request, storing the malicious gid value in order metadata; the script then fires when an administrator opens that order in the WordPress admin panel.",
+      "published": "2026-10-31T07:16:36.007Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118070",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119065",
+      "aliases": [
+        "GHSA-jj4c-mvqc-72v2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Shipping Zones by Drawing for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'szbd-picked' checkout parameter in versions up to, and including, 3.3.0 The szbd_checkout_field_update_order_meta() handler stores stripslashes(sanitize_text_field($_POST['szbd-picked'])) in order meta without validating the JSON structure or restricting dangerous characters, and the szbd_show_checkout_field_admin_order_meta() handler later concatenates the decoded lat and lng values directly into a double-quoted href attribute without esc_url() or esc_attr(). This makes it possible for unauthenticated attackers, by submitting an ordinary guest-checkout order with a crafted szbd-picked JSON payload, to inject arbitrary attributes (such as onmouseover) onto the Google Maps link in the WooCommerce admin order view that will execute whenever an administrator accesses an injected order.",
+      "published": "2026-10-31T07:16:36.163Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119065",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119089",
+      "aliases": [
+        "GHSA-f35f-w577-x9q2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The ThirstyAffiliates – Affiliate Links, Link Branding, Link Tracking & Marketing Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 3.12.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This vulnerability is only exploitable on block themes (such as Twenty Twenty-Five) where the Comment Content block causes comment HTML to flow through render_block, triggering the plugin's transformer. Additionally, a successful attack requires the attacker to have had one prior comment approved, after which subsequent crafted comments are auto-approved and rendered publicly.",
+      "published": "2026-10-31T07:16:36.313Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119089",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119162",
+      "aliases": [
+        "GHSA-3mxh-mc2j-6w4v"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The User Submitted Posts – Enable Users to Submit Posts from the Front End plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'user-submitted-content' parameter in all versions up to, and including, 20260916 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. On a default installation the submitted post is held as Pending and requires admin approval before the payload is reachable by other visitors; however, if the plugin's \"publish immediately\" option is enabled, no approval step exists and the stored payload becomes live without any moderator interaction.",
+      "published": "2026-10-31T07:16:36.457Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119162",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120075",
+      "aliases": [
+        "EUVD-2026-114676",
+        "GHSA-2c56-765v-m493"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WP Activity Log plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 5.6.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "published": "2026-10-31T08:30:46Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120075",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120114",
+      "aliases": [
+        "EUVD-2026-114705",
+        "GHSA-36wm-h889-8m5h"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Debug Log Manager – Conveniently Monitor and Inspect Errors plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'message (and pageUrl)' parameter in all versions up to, and including, 2.5.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Successful exploitation requires that the site administrator has debug logging enabled with JS error logging active, and that the attacker can obtain the publicly emitted dlmVars.jsErrorLogging nonce — which is broadcast on every frontend page — to pass the nonce check on the unauthenticated endpoint.",
+      "published": "2026-10-31T09:29:27Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120114",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120202",
+      "aliases": [
+        "EUVD-2026-114723",
+        "GHSA-6cmq-892m-x8wh"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Highflame ramparts 0.8.1 through 0.8.10 contains a security scan bypass vulnerability that allows attackers to hide malicious payloads because collect_bundle_siblings and walk_bundle_subdir skip nested directories and .pyc files. Attackers can distribute a skill bundle with an unchecked-hash .pyc under scripts/<subdir>/__pycache__/ that ramparts silently ignores, while CPython executes it when the skill runs.",
+      "published": "2026-10-31T17:25:51Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120202",
+      "packages": [],
+      "cwes": [
+        "CWE-693"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120207",
+      "aliases": [
+        "EUVD-2026-114728",
+        "GHSA-h2jf-7chq-2q39"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Thelia Page Module before 2.0.4 contains a cross-site request forgery vulnerability that allows remote attackers to delete page tags, documents and images by abusing back-office delete routes lacking CSRF tokens and permission checks. Attackers can lure a logged-in administrator into navigating to crafted GET requests that walk sequential ids, removing TheliaLibrary images, their files and variants across pages, products and categories.",
+      "published": "2026-10-31T17:25:54Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120207",
+      "packages": [],
+      "cwes": [
+        "CWE-352"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-BB570373-E50D-5F64-9DEA-7218FC511CBE",
+      "aliases": [
+        "CVE-2026-77396"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Heap-based Buffer Overflow in Teluu Pjsip",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://sploitus.com/exploit?id=BB570373-E50D-5F64-9DEA-7218FC511CBE",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/saretawa/CVE-2026-77396"
+      ]
+    },
+    {
+      "id": "SPLOITUS-CB0F1B7C-0CF8-5E19-A609-9FDD499C4DF5",
+      "aliases": [
+        "CVE-2026-119710",
+        "CVE-2026-119711",
+        "CVE-2026-119712"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-119712",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://sploitus.com/exploit?id=CB0F1B7C-0CF8-5E19-A609-9FDD499C4DF5",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/hyderpwn/CVE-pipeshub"
+      ]
+    },
+    {
+      "id": "CVE-2026-120192",
+      "aliases": [
+        "EUVD-2026-114751",
+        "GHSA-rgjm-77r7-28xg"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A security vulnerability has been detected in Presenton up to 0.9.11-beta. This affects an unknown part of the file /app_data of the component Desktop Authentication Middleware. Such manipulation leads to information disclosure. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 0.9.12-beta is able to mitigate this issue. The name of the patch is 44c8a61122b21f17642d717b0c4d6f2c54c0f180. The affected component should be upgraded.",
+      "published": "2026-11-01T01:45:24Z",
+      "severity": "MEDIUM",
+      "score": 6.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120192",
+      "packages": [],
+      "cwes": [
+        "CWE-200",
+        "CWE-284"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120249",
+      "aliases": [
+        "EUVD-2026-114746",
+        "GHSA-j499-8gjf-h2jf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Thelia Back-office Default Twig Template before 1.1.1 contains a cross-site request forgery vulnerability in the /admin/product/combinations/update and /admin/product/default-price/update routes, which accept GET requests without anti-CSRF token checks. Attackers can lure a logged-in administrator into following a crafted link to rewrite product combination prices, stock, weight, EAN and sale flags, zeroing omitted prices.",
+      "published": "2026-11-01T00:57:13Z",
+      "severity": "MEDIUM",
+      "score": 6.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120249",
+      "packages": [],
+      "cwes": [
+        "CWE-352"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120243",
+      "aliases": [
+        "EUVD-2026-114740",
+        "GHSA-hcx6-ffr8-ff2w"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "FFmpeg 2.0 through 9.0.2 contains a use of uninitialized variable vulnerability in the Go2Meeting decoder that allows attackers to leak stack memory through out-of-range palette indices. Attackers can craft a G2M3/G2M4 stream with a short Kempf palette so kempf_restore_buf() copies uninitialized stack bytes, including pointers or stack guards, into decoded output.",
+      "published": "2026-11-01T00:57:09Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120243",
+      "packages": [],
+      "cwes": [
+        "CWE-457"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120244",
+      "aliases": [
+        "EUVD-2026-114741",
+        "GHSA-6hg3-f9xg-2hg4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "FFmpeg 2.1 through 9.0.2 contains a use of uninitialized resource vulnerability in the PCX decoder that allows attackers to leak heap memory through truncated RLE scanlines. Attackers can craft a PCX image whose RLE data ends early, causing pcx_decode_frame() to copy uninitialized av_malloc() buffer contents into visible decoded pixels.",
+      "published": "2026-11-01T00:57:10Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120244",
+      "packages": [],
+      "cwes": [
+        "CWE-908"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120245",
+      "aliases": [
+        "EUVD-2026-114742",
+        "GHSA-c346-mwjq-88hv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "FFmpeg 0.10 through 9.0.2 contains a use of uninitialized resource vulnerability in sunrast_decode_frame() that leaks heap memory when decoding truncated 1-bit and 4-bit paletted Sun Raster images. Attackers can craft a truncated Sun Raster file so the uncleared temporary bitmap is expanded into PAL8 pixels, exposing stale heap contents such as allocator words in decoded output.",
+      "published": "2026-11-01T00:57:10Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120245",
+      "packages": [],
+      "cwes": [
+        "CWE-908"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120246",
+      "aliases": [
+        "EUVD-2026-114743",
+        "GHSA-76cq-jhfp-r489"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "FFmpeg 4.4 through 9.0.2 contains a use of uninitialized variable vulnerability in the CDXL decoder that leaks stack memory into decoded pixels via unfilled HAM palette entries. Attackers can craft a type-0 CDXL file whose HAM pixels select unfilled new_palette entries in cdxl_decode_ham8() or cdxl_decode_ham6(), exposing stack bytes and pointer fragments in the BGR24 output.",
+      "published": "2026-11-01T00:57:11Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120246",
+      "packages": [],
+      "cwes": [
+        "CWE-457"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120247",
+      "aliases": [
+        "EUVD-2026-114744",
+        "GHSA-rp9m-mw76-ppmp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "FFmpeg 2.3 through 9.0.2 contains a use of uninitialized resource vulnerability in the Huffyuv decoder that allows attackers to leak heap memory into decoded pixels via short packed-BGR bitstreams. Attackers can craft a Huffyuv BGR24/BGRA video whose entropy data ends early, causing decode_slice() to add uninitialized s->temp[0] bytes into output frames, exposing heap contents.",
+      "published": "2026-11-01T00:57:12Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120247",
+      "packages": [],
+      "cwes": [
+        "CWE-908"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120251",
+      "aliases": [
+        "EUVD-2026-114748",
+        "GHSA-j736-6c4x-7rx7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "imagecodecs 2026.3.6 through 2026.10.10 contains an infinite loop vulnerability in ccitt_fax4_decode_size() that allows attackers to hang the calling process by supplying a crafted CCITT Group 4 stream. Attackers can provide an 8-byte G4 stream lacking EOFB to ccittfax4_decode() or the numcodecs Ccittfax4 codec, consuming full CPU until the process is killed.",
+      "published": "2026-11-01T00:57:14Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120251",
+      "packages": [],
+      "cwes": [
+        "CWE-835"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120252",
+      "aliases": [
+        "EUVD-2026-114749",
+        "GHSA-89vm-wj4q-hr3r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "imagecodecs 2023.1.23 through 2026.10.10 contains a stack-based buffer overflow vulnerability in the lossless JPEG Define Huffman Table parser in decode_jpegsof3(). Attackers can supply a crafted lossless JPEG whose DHT symbol counts wrap an 8-bit sum, overflowing the 32-entry HufVal and HufSz stack arrays and crashing the calling process.",
+      "published": "2026-11-01T00:57:15Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120252",
+      "packages": [],
+      "cwes": [
+        "CWE-121"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2025-9462",
+      "aliases": [
+        "EUVD-2025-211229",
+        "GHSA-mfr2-x32q-q762"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WP2LEADS plugin for WordPress is vulnerable to time-based SQL Injection via the ‘order’ parameter in all versions up to, and including, 3.5.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "published": "2026-10-31T07:46:50Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9462",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-103997",
+      "aliases": [
+        "EUVD-2026-114652",
+        "GHSA-w873-g6gg-whrv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Redux Framework plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 4.5.15. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with subscriber-level access and above, to view the entire Redux options payload — including plaintext password field values, API keys, license keys, and SMTP credentials — exposed in the inline redux_&lt;opt_name&gt; JavaScript block on wp-admin/profile.php. The Users extension is loaded automatically for every Redux instance registered by any installed theme or plugin, meaning any site running Redux Framework is affected regardless of whether the developer explicitly configured the Users extension.",
+      "published": "2026-10-31T07:46:51Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103997",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118598",
+      "aliases": [
+        "EUVD-2026-114698",
+        "GHSA-pv7g-824r-3xmg"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A logic error in Epiphany's site permission handling can cause camera and microphone access to be granted when the user only approves a different permission.\n\nIn src/ephy-window.c, set_permission() stores the user's Allow/Deny choice after a WebKit permission dialog. Types CLIPBOARD and WEBSITE_DATA_ACCESS are not stored by ephy_permission_is_stored_by_permissions_manager(), so control fell into an else-if that was written as:\n\n  } else if (EPHY_PERMISSION_TYPE_ACCESS_WEBCAM_AND_MICROPHONE) {\n\nBecause that expression is a non-zero enum constant, the branch always ran for those types and wrote EPHY_PERMISSION_PERMIT for both ACCESS_WEBCAM and ACCESS_MICROPHONE for the site origin. The user only saw a Clipboard or Website Data Access dialog.\n\nA malicious site that obtains approval for clipboard or third-party storage access can afterwards use getUserMedia without a further camera/microphone prompt, exposing audiovisual confidentiality.\n\nRequirements: the victim must visit a malicious page and click Allow on a clipboard or website-data-access prompt.\n\nAffected: Epiphany >= 45.0 (bug present at least through 51.x).\nFixed: https://gitlab.gnome.org/GNOME/epiphany/-/merge_requests/2249 (commit 480c3648).\nUpstream: https://gitlab.gnome.org/GNOME/epiphany/-/work_items/2976\nReporter acknowledgment: Fernando Munoz",
+      "published": "2026-10-31T09:29:34Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118598",
+      "packages": [],
+      "cwes": [
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119980",
+      "aliases": [
+        "GHSA-8qfx-8gpq-wc4q"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The UsersWP – Front-end login form, User Registration, User Profile & Members Directory plugin for WordPress is vulnerable to unauthorized account access via Use of Predictable Password in all versions up to, and including, 1.2.78 The vulnerability exists because `get_dummy_user_passowrd()` derives the shared password for all 25 built-in dummy user accounts as the first 15 characters of `substr(hash('SHA256', AUTH_KEY . site_url()), 0, 25)`, while the full 25-character value of that same hash is simultaneously embedded in the hidden `uwp_register_hash` field rendered on every registration form response — reachable without authentication via both the public `/register/` page and the `wp_ajax_nopriv_uwp_ajax_register_form` AJAX handler, even when user registration is disabled. This makes it possible for unauthenticated attackers to recover the dummy user password directly from a single HTTP request and use it to authenticate as any of the 25 built-in dummy accounts (such as antawn, chynna, or kiki) through `wp-login.php`, potentially achieving privilege escalation if any dummy account holds an elevated role. Exploitation requires that an administrator has previously created dummy users via the plugin's Tools page.",
+      "published": "2026-10-31T07:16:36.920Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119980",
+      "packages": [],
+      "cwes": [
+        "CWE-287"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-15272",
+      "aliases": [
+        "EUVD-2026-114713",
+        "GHSA-gxv8-xvj3-3gm9"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Web 2.0 Directory plugin for WordPress is vulnerable to time-based SQL Injection via the 'w2dc_level_filter' parameter in all versions up to, and including, 2.10.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. Because the parameter is used in integer context without surrounding quotes, WordPress's built-in addslashes/magic_quotes escaping provides no protection against time-based payloads such as SLEEP-based conditionals.",
+      "published": "2026-10-31T11:28:43Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15272",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107711",
+      "aliases": [
+        "EUVD-2026-114695",
+        "GHSA-2c44-25vc-hm3p"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The FlexStock – Product Stock Sync with Google Sheets for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'products[].post_content' parameter in all versions up to, and including, 3.17.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This is exploitable by any Subscriber-level user because the plugin's admin_enqueue_scripts callback exposes the REST bearer token in the Dashboard page source via wp_localize_script() without a capability check, and the REST endpoint's permission_callback validates only that bearer token rather than performing a current_user_can() capability check.",
+      "published": "2026-10-31T09:29:27Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107711",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107765",
+      "aliases": [
+        "GHSA-g4vp-m5pr-g7mx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Discussion Board – WordPress Forum Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 2.6.0 via the user profile Website (user_url) field. This is due to insufficient output escaping in the ctdb_filter_comment_author_name() callback hooked to get_comment_author_link, which interpolates the raw user_url value into a single-quoted href attribute without esc_url() or esc_attr(). This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses a Discussion Board topic containing the attacker's reply.",
+      "published": "2026-10-31T07:16:34.070Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107765",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-111592",
+      "aliases": [
+        "EUVD-2026-114646",
+        "GHSA-6x99-gc47-w4j4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Co-Authors, Multiple Authors and Guest Authors in an Author Box with PublishPress Authors plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'name (maps to display_name)' parameter in all versions up to, and including, 4.17.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires the attacker's user account to have a mapped author term, which occurs when an administrator has assigned them as a co-author on content or has enabled automatic author term creation for their role — this mapping is not present by default for new users on a stock install.",
+      "published": "2026-10-31T07:46:48Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111592",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116535",
+      "aliases": [
+        "EUVD-2026-114650",
+        "GHSA-3rrf-p83h-c57v"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The SEOPress – AI SEO Plugin & On-site SEO plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'display_name' parameter in all versions up to, and including, 10.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This is exploitable by any Subscriber who sets their display_name to a string containing the literal %%archive_title%% token alongside HTML event-handler payloads, as WordPress stores display names without HTML filtering and the plugin substitutes the token after escaping has already occurred.",
+      "published": "2026-10-31T07:46:49Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116535",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116546",
+      "aliases": [
+        "GHSA-7vc8-973p-5r63"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WP Job Portal – AI-Powered Recruitment System for Company or Job Board website plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'degreetitle' parameter in all versions up to, and including, 2.7.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The plugin's self-registration flow allows any visitor to create a Subscriber-backed Employer account, meaning this vulnerability is effectively exploitable by any user who can register on the site.",
+      "published": "2026-10-31T07:16:35.563Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116546",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-116752",
+      "aliases": [
+        "EUVD-2026-114700",
+        "GHSA-w72p-j4h7-wwg8"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'post_images' parameter in all versions up to, and including, 2.8.197 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The injected payload does not fire for the attacker directly; it executes in the browser of any Administrator or Editor who opens the pending listing's edit screen, making this a privilege-escalation-capable stored XSS chain triggered through normal editorial workflow.",
+      "published": "2026-10-31T09:29:25Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116752",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119160",
+      "aliases": [
+        "EUVD-2026-114674",
+        "GHSA-ghqm-2rqq-524j"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Smart Post – Post Grid, Post Carousel, Post Slider Gutenberg Blocks for Blog & News plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'display_name' parameter in all versions up to, and including, 4.0.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires the victim page to contain an Author Filter block alongside a grid or live-filter block, and execution is triggered by a visitor clicking the attacker's author entry in the dropdown — a standard filter interaction requiring no elevated privileges from the victim.",
+      "published": "2026-10-31T08:30:46Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119160",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-96554",
+      "aliases": [
+        "EUVD-2026-114702",
+        "GHSA-fjfj-gq95-wvgm"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The BuddyBoss Platform plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Group Name in all versions up to, and including, 3.6.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This requires the \"Enable social group creation by all members\" setting to be enabled, which is the default and permits Subscriber-level users to create groups; exploitation is not possible if group creation is restricted to administrators.",
+      "published": "2026-10-31T09:29:26Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96554",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120204",
+      "aliases": [
+        "EUVD-2026-114725",
+        "GHSA-qv68-3gfq-wxpc"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "DeepInfer through 0.1.0 contains a path traversal vulnerability in the unauthenticated /profile endpoint that allows remote attackers to create arbitrary directories via the output_dir parameter. Attackers, including cross-site GET requests from an operator's browser, can write chrome trace files to exhaust disk or inodes and use error messages as a filesystem oracle.",
+      "published": "2026-10-31T17:25:52Z",
+      "severity": "MEDIUM",
+      "score": 6.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120204",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-A4AEF240-08BE-59AB-8660-5A848B9C6DC7",
+      "aliases": [
+        "CVE-2026-116521"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-116521",
+      "published": "2026-11-01T00:00:00Z",
+      "severity": "MEDIUM",
+      "score": 6.2,
+      "url": "https://sploitus.com/exploit?id=A4AEF240-08BE-59AB-8660-5A848B9C6DC7",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/4m3rr0r/CVE-2026-116521-poc"
+      ]
+    },
+    {
+      "id": "CVE-2026-100151",
+      "aliases": [
+        "EUVD-2026-114704",
+        "GHSA-qf5g-wf7g-22vp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Ninja Forms – Contact Form Builder with Calculators, Quizzes, Signatures & AI Form Builder plugin for WordPress is vulnerable to Reflected DOM-Based Cross-Site Scripting via 'querystring:<key>' URL Parameter in all versions up to, and including, 3.15.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. This bypass is triggered when an attacker supplies a matching field:&lt;key&gt; URL parameter that causes the server to fully resolve the {field:*} placeholder, forcing the client-side else-branch to abandon the server-sanitized value and reconstruct field content from the raw query string.",
+      "published": "2026-10-31T09:29:26Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100151",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-103962",
+      "aliases": [
+        "EUVD-2026-114651",
+        "GHSA-g38f-36qr-wwhh"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The User Frontend – Membership, User Registration, User Profile, User Directory & Content Restriction with Frontend Post Submission plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'field_attr[required]' parameter in all versions up to, and including, 4.3.13 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. The nonce check on the wpuf_get_child_cat AJAX action is not an effective security barrier because the wpuf_nonce value is publicly localized to every anonymous visitor of any page containing a WPUF shortcode, making it freely harvestable by an unauthenticated attacker.",
+      "published": "2026-10-31T07:46:50Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103962",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-104926",
+      "aliases": [
+        "EUVD-2026-114697",
+        "GHSA-354v-273m-m777"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WooCommerce Extra Product Options Pro plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the '<fieldname>_start / <fieldname>_end' parameter in all versions up to, and including, 3.3.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. This vulnerability is only exploitable on product pages where a Date & Time Range Picker extra field is configured, though the required field name is visible in the product page source and requires no prior knowledge to discover.",
+      "published": "2026-10-31T09:29:28Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104926",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-111109",
+      "aliases": [
+        "GHSA-98q7-93hh-5593"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Webmention plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Open Graph og:title meta tag of a webmention source URL in versions up to, and including, 5.10.1. This is due to insufficient input sanitization: Meta::add_properties() maps og:title to the Item::name property, but Item has no concrete set_name() method, so Item::__call() stores the value raw while sibling set_content()/set_summary() paths route through webmention_sanitize_html(); Item::get_content() then falls back to the raw name when content and summary are empty, and Receiver::process() explicitly removes the core wp_filter_kses / wp_filter_post_kses hooks on pre_comment_content before calling wp_new_comment(), so the payload is persisted to comment_content as-is. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, after an administrator approves the resulting pending webmention comment. Successful exploitation additionally requires an action by an administrator — the attacker cannot trigger the vulnerability on their own.",
+      "published": "2026-10-31T07:16:34.827Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111109",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-88942",
+      "aliases": [
+        "GHSA-gcmh-9x86-4rvc"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Product Filter for WooCommerce by WBW plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via 'wpf_fid' JSON Parameter in all versions up to, and including, 3.4.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. The vulnerability persists in versions that received the 3.4.3 patch because absint() was applied only to the getVar() read path, leaving the wpf_fid value read from the JSON-decoded filterSettings payload entirely unsanitized.",
+      "published": "2026-10-31T07:16:37.540Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88942",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-CD89DF78-9BC4-5967-BAA3-F0ED61BBEFC5",
+      "aliases": [
+        "CVE-2026-112487"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-112487",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://sploitus.com/exploit?id=CD89DF78-9BC4-5967-BAA3-F0ED61BBEFC5",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Lyutoon/CVE-2026-112487"
+      ]
+    },
+    {
+      "id": "CVE-2026-120250",
+      "aliases": [
+        "EUVD-2026-114747",
+        "GHSA-pxjx-g7g8-jwq6"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "OpenAlgo 1.0.0.29 before 2.0.3.1 contains an improper certificate validation vulnerability in utils/email_utils.py and utils/email_debug.py that disables TLS hostname and certificate checks for STARTTLS and SMTPS. Network-positioned attackers can present a forged certificate to intercept SMTP credentials and all later mail, including password-reset links.",
+      "published": "2026-11-01T00:57:14Z",
+      "severity": "MEDIUM",
+      "score": 6.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120250",
+      "packages": [],
+      "cwes": [
+        "CWE-295"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-110023",
+      "aliases": [
+        "EUVD-2026-114647",
+        "GHSA-xvpx-j2j6-gqv3"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The WP Data Access – App Builder for Tables, Forms, Dashboards, Charts & Maps plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 5.5.88 via the 'rel_tab' parameter. This makes it possible for unauthenticated attackers to extract every row and column of the underlying database table backing any anonymously published app, including WordPress user password hashes, email addresses, and password-reset keys from wp_users. Exploitation requires that an administrator has published at least one app with its REST API authorization set to 'anonymous', which is the standard configuration for publicly embedded apps.",
+      "published": "2026-10-31T07:46:48Z",
+      "severity": "MEDIUM",
+      "score": 5.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110023",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120206",
+      "aliases": [
+        "EUVD-2026-114727",
+        "GHSA-2qjc-j63h-9f97"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Thelia before 3.2.0 contains a cross-site request forgery vulnerability in the back office that allows attackers to forge administrative actions because per-session CSRF tokens leak via URL query strings. Attackers can reuse leaked tokens or target the unprotected setToggleVisibilityAction and updatePositionAction to make logged-in administrators delete, hide or reorder catalogue and configuration objects.",
+      "published": "2026-10-31T17:25:54Z",
+      "severity": "MEDIUM",
+      "score": 5.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120206",
+      "packages": [],
+      "cwes": [
+        "CWE-352"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-5F09C06F-3FA7-55B9-91BA-5D75F65B776A",
+      "aliases": [
+        "CVE-2026-120218"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-120218",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "MEDIUM",
+      "score": 5.7,
+      "url": "https://sploitus.com/exploit?id=5F09C06F-3FA7-55B9-91BA-5D75F65B776A",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/capivara-research/CVE-2026-120218"
+      ]
+    },
+    {
+      "id": "SPLOITUS-A985CA9A-24B7-5E1E-89ED-7B53E83D7692",
+      "aliases": [
+        "CVE-2026-98937"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-98937",
+      "published": "2026-10-31T00:00:00Z",
+      "severity": "MEDIUM",
+      "score": 5.7,
+      "url": "https://sploitus.com/exploit?id=A985CA9A-24B7-5E1E-89ED-7B53E83D7692",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/woshigenm/CVE-2026-98937"
+      ]
+    },
+    {
+      "id": "CVE-2026-118599",
+      "aliases": [
+        "EUVD-2026-114699",
+        "GHSA-h27g-h5mg-6hm2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A file overwrite vulnerability exists in Epiphany when installing WebExtension packages from .xpi files.\n\nIn src/webextension/ephy-web-extension-manager.c, decompress_xpi_thread() used libarchive with archive_read_support_format_all() (and filters), so the installer did not require a real ZIP. A TAR file named *.xpi was extracted. TAR supports hard-link entry types; with Epiphany's archive_write_disk options (including ARCHIVE_EXTRACT_PERM), a crafted hard-link target can cause an attacker-chosen existing user-writable file to be truncated and overwritten with attacker-controlled content and mode bits, without a dedicated warning dialog, when the user installs or opens the crafted .xpi.\n\nThis is related to but separate from the ZIP-slip path traversal fixed as CVE-2026-77679 (#2922 / MR !2143).\n\nRequirements: the victim must install or open a malicious WebExtension (.xpi).\n\nAffected: Epiphany >= 47.0 (WebExtension XPI install path).\nFixed: https://gitlab.gnome.org/GNOME/epiphany/-/merge_requests/2248 (commit 0cc9ab55 — only enable ZIP format support).\nUpstream: https://gitlab.gnome.org/GNOME/epiphany/-/work_items/2988\nReporter acknowledgment: Fernando Munoz",
+      "published": "2026-10-31T09:29:37Z",
+      "severity": "MEDIUM",
+      "score": 5.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118599",
+      "packages": [],
+      "cwes": [
+        "CWE-59"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-110251",
+      "aliases": [
+        "GHSA-qm3q-4mg3-2277"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Photo Reviews for WooCommerce plugin for WordPress is vulnerable to unauthorized Media Library File Deletion in all versions up to, and including, 1.2.31. This is due to the `delete_reviews_image()` function's `delete_comment` hook trusting attachment IDs supplied via the `wcpr_image_upload_id` POST parameter that were stored in comment meta without any ownership or capability check — `viwcpr_filter_review_image_ids()` verifies only that each submitted ID refers to an attachment post type, not that the submitter uploaded or owns it. This makes it possible for unauthenticated attackers to permanently delete any WordPress media library attachment — including its files on disk as recorded by `wp_delete_attachment()` — by embedding attacker-chosen attachment IDs into a review comment, then waiting for a moderator to remove the review or for WordPress core's `wp_scheduled_delete` cron to purge it after `EMPTY_TRASH_DAYS`. The nonce required to submit the parameter (`wcpr_image_upload`) is a shared public value printed on every product page for guest commenters and does not function as an authentication barrier, making this trivially exploitable without any account.",
+      "published": "2026-10-31T07:16:34.673Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110251",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-111070",
+      "aliases": [
+        "EUVD-2026-114655",
+        "GHSA-2r7v-fqcv-v2p7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Content Pilot – Autoblogging & Affiliate Marketing Suite plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 2.2.4. This is due to the plugin extracting the HTML meta description from each remotely-fetched article (WPCP_Readability::parse_meta()), piping that value through the article template substitution and html_entity_decode() in WPCP_Module::insert_post(), and then calling wp_insert_post() after switching the current user to the configured campaign author (an Administrator with the unfiltered_html capability by default) — so no wp_kses_post sanitization is applied to the attacker-controlled HTML before it is persisted as post_content and rendered on the front end. This makes it possible for unauthenticated attackers who control the content of any RSS source an administrator has configured a Content Pilot RSS campaign to consume to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "published": "2026-10-31T07:46:52Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111070",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120019",
+      "aliases": [
+        "GHSA-59h3-w5qx-76fv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The W3 Total Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 2.10.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This requires HTML Minify to be enabled with the default 'mfunc' entry present in the ignored-comment stems list, and exploitation depends on the attacker predicting the md5(time()) placeholder namespace by reading the server clock via the HTTP Date response header within the applicable time window.",
+      "published": "2026-10-31T07:16:37.227Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120019",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120200",
+      "aliases": [
+        "EUVD-2026-114721",
+        "GHSA-qprx-3355-vjrx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Nexterm through 1.2.2-BETA contains a missing authorization vulnerability that allows authenticated users to hibernate, resume, or terminate other users' remote sessions via session lifecycle routes. Attackers who obtain a session ID can call the hibernate, resume, or DELETE connection endpoints to disrupt live SSH, RDP, VNC, or SFTP sessions.",
+      "published": "2026-10-31T17:25:50Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120200",
+      "packages": [],
+      "cwes": [
+        "CWE-639"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-101325",
+      "aliases": [
+        "EUVD-2026-114678",
+        "GHSA-92x8-ggpg-wv3x"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Newsletters plugin for WordPress is vulnerable to time-based SQL Injection via the 'id' parameter in all versions up to, and including, 4.18.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. An attacker can obtain the required nonce and subscriberauth cookie without a WordPress account by simply subscribing through the public newsletter form and opening the management link sent via email; the ownership check verifies only the subscriber_id field and does not validate that the injected id parameter belongs to the authenticated subscriber.",
+      "published": "2026-10-31T08:30:47Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101325",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-103915",
+      "aliases": [
+        "EUVD-2026-114671",
+        "GHSA-v33c-8q9v-p4jw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Booking for Appointments and Events Calendar – Amelia plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.4.12 via the 'page' parameter. This makes it possible for unauthenticated attackers to extract staff personally identifiable information — including full name, email address, phone number, gender, and timezone — as well as administrator-authored internal notes for every published event, all serialized into the JSON response because the raw providers array is never stripped before output.",
+      "published": "2026-10-31T08:30:44Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103915",
+      "packages": [],
+      "cwes": [
+        "CWE-200"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-109217",
+      "aliases": [
+        "GHSA-8j84-cw28-3pw7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The PDF Invoices & Packing Slips for WooCommerce plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 5.16.5 via the 'invoice_number (via document filename)' parameter. This makes it possible for unauthenticated attackers to extract another customer's complete invoice PDF — including billing identity, shipping address, private order notes, line items, prices, dates, order ID, and invoice number — delivered directly to the attacker's email as an order confirmation attachment. Exploitation requires the plugin's yearly invoice number reset option to be enabled, and the attacker's guest-checkout order must trigger a processing email within 60 seconds of a victim order that shares the same yearly-reset invoice number.",
+      "published": "2026-10-31T07:16:34.220Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109217",
+      "packages": [],
+      "cwes": [
+        "CWE-524"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-109367",
+      "aliases": [
+        "EUVD-2026-114673",
+        "GHSA-jwgh-953r-2r77"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The All in One SEO – AI SEO Plugin to Boost SEO Rankings & Traffic (Schema, Local SEO, Sitemap & SEO Insights) plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 5.0.3 via the 's' parameter. This makes it possible for unauthenticated attackers to extract arbitrary non-public post meta values, including sensitive custom fields such as API keys and internal notes, emitted verbatim into the HTML title element and JSON-LD SearchResultsPage schema.",
+      "published": "2026-10-31T08:30:45Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109367",
+      "packages": [],
+      "cwes": [
+        "CWE-200"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-11396",
+      "aliases": [
+        "GHSA-xhg4-2xwf-g98x"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Product Filter for WooCommerce by WBW plugin for WordPress is vulnerable to Missing Authorization / Information Disclosure in all versions up to, and including, 3.4.6 via the 'filterSettings[default_query]' parameter of the 'filtersFrontend' AJAX action. The handler is registered as 'wp_ajax_nopriv_filtersFrontend' and performs no capability or nonce check; raw POST data is JSON-decoded into $filterSettings and the attacker-controlled 'default_query' array is unconditionally array_merge()'d into the WP_Query arguments, overriding the plugin's safe defaults (most notably post_status, post_type, posts_per_page, and nopaging). This makes it possible for unauthenticated attackers to enumerate non-public WooCommerce products (draft, future, pending) — including their count and rendered listing markup — and to force unbounded queries that load all products in a single request.",
+      "published": "2026-10-31T07:16:37.073Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11396",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-119166",
+      "aliases": [
+        "GHSA-4367-rh2q-m2rx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Welcart e-Commerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 2.12.5 via the 'member[ID]' parameter due to missing validation on a user controlled key. This makes it possible for unauthenticated attackers to overwrite any existing Welcart shop-member account's email address and password by supplying that member's numeric ID, then authenticate as that member to achieve full account takeover. The only authentication barrier is a wp_verify_nonce() check against a nonce printed to every unauthenticated visitor on the auto-published New Enrollment Form, meaning no existing account, no WordPress login, and no non-default configuration is required to exploit this vulnerability.",
+      "published": "2026-10-31T07:16:36.750Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119166",
+      "packages": [],
+      "cwes": [
+        "CWE-287"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120199",
+      "aliases": [
+        "EUVD-2026-114720",
+        "GHSA-3gfx-j948-6jm4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "LearnHouse before 1.1.1 contains a missing authorization vulnerability in the assignment API that allows authenticated users to read other users' grades and submissions. Attackers can supply another user_id to the submissions grade endpoint or query submission read functions to view other students' work, grades and instructor feedback.",
+      "published": "2026-10-31T17:25:49Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120199",
+      "packages": [],
+      "cwes": [
+        "CWE-639"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120210",
+      "aliases": [
+        "EUVD-2026-114731",
+        "GHSA-437x-xcvf-w98c"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "FFmpeg 5.0 through 9.0.2 contains a path traversal vulnerability in the IMF demuxer that allows attackers to open files outside the package via unvalidated ASSETMAP Path elements. Attackers can supply a crafted IMF package with '..' or absolute paths to demux local MXF files, probe file existence and size, or trigger server-side requests.",
+      "published": "2026-10-31T17:25:56Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120210",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-90960",
+      "aliases": [
+        "GHSA-c769-pvxm-w832"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Seraphinite Accelerator plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.29.24 via the WP_Object_Cache::_getFilePath. This makes it possible for unauthenticated attackers to extract complete WordPress user records — including plaintext user_login, user_email, hashed user_pass, and user_activation_key — from predictable gzip-serialized cache files at wp-content/cache/seraphinite-accelerator/oc/g/users/g/<USER_ID>.dat.gz. This vulnerability is only exploitable when the plugin's Object Cache feature is enabled, and requires the attacker to first trigger caching of the target user record (e.g., via an unauthenticated REST API request) before retrieving the resulting cache file.",
+      "published": "2026-10-31T07:16:37.860Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90960",
+      "packages": [],
+      "cwes": [
+        "CWE-200"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120185",
+      "aliases": [
+        "EUVD-2026-114736",
+        "GHSA-r68q-24fh-c39p"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A security flaw has been discovered in ken678 YznCMS up to 2.2.0. The affected element is the function Backend of the file app/admin/controller/auth/Group.php of the component Auth Group Handler. Performing a manipulation results in improper privilege management. The attack can be initiated remotely. Upgrading to version 2.2.1 is sufficient to fix this issue. The patch is named ed16cd7f7f73e0316ffa8a148d. You should upgrade the affected component.",
+      "published": "2026-10-31T22:15:20Z",
+      "severity": "MEDIUM",
+      "score": 5.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120185",
+      "packages": [],
+      "cwes": [
+        "CWE-266",
+        "CWE-269"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120190",
+      "aliases": [
+        "EUVD-2026-114739",
+        "GHSA-ggpr-cj64-vcq3"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A security flaw has been discovered in PostyBirb Plus up to 3.1.75. Affected by this vulnerability is an unknown functionality of the file ui/src/views/submissions/submission-forms/form-components/DescriptionInput.tsx of the component Submission Description Editor. The manipulation results in cross site scripting. The attack may be performed from remote. The exploit has been released to the public and may be used for attacks. Upgrading to version 3.1.76 addresses this issue. The patch is identified as 6b11c2345ad98ae59fd5404a9f1024eb1d10c8a4. It is advisable to upgrade the affected component.",
+      "published": "2026-11-01T00:30:25Z",
+      "severity": "MEDIUM",
+      "score": 5.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120190",
+      "packages": [],
+      "cwes": [
+        "CWE-79",
+        "CWE-94"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120248",
+      "aliases": [
+        "EUVD-2026-114745",
+        "GHSA-xxr4-v6q3-9x28"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Thelia before 3.1.1 contains a stored cross-site scripting vulnerability that allows authenticated back-office administrators with store update permission to inject scripts by uploading unsanitized SVG logo_file or banner_file images. Attackers can upload an SVG with an onload payload served from /admin/store-media/logo or the public cache/images/store/ directory to execute scripts against visitors and higher-privileged administrators.",
+      "published": "2026-11-01T00:57:12Z",
+      "severity": "MEDIUM",
+      "score": 4.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120248",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2025-11455",
+      "aliases": [
+        "EUVD-2025-211230",
+        "GHSA-4rv8-269g-jgjf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Perfect Images plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the /wp-json/wp-retina-2x/v1/replace REST API in all versions up to, and including, 7.2.0 This makes it possible for authenticated attackers, with Author-level access and above, to replace files that do not belong to them.",
+      "published": "2026-10-31T07:46:50Z",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11455",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-109231",
+      "aliases": [
+        "EUVD-2026-114696",
+        "GHSA-c79g-76jm-qrx5"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Germanized for WooCommerce plugin for WordPress is vulnerable to Unauthorized Access of Private Data via Activation Token Reuse in versions up to, and including, 4.1.4. This is due to the `on_user_email_changed` hook — which is responsible for rotating the activation token and recording a pending-email-change marker on an unactivated Customer account — only being registered inside the `is_double_opt_in_login_enabled()` branch when \"Disable login for unactivated customers\" is set to Yes, leaving the original `?activate=` token valid and entirely unbound to the email address it was issued for when that setting is No. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change their account email to a victim's billing email via the standard `/my-account/edit-account/` form and then redeem their original activation token through `customer_account_activate()`, triggering `link_customer_past_orders()` to reassign any matching guest order to the attacker's account and exposing the original buyer's billing name, street address, phone number, and purchased items on the attacker's My Account order page. Exploitation requires the site to have double opt-in enabled with \"Disable login for unactivated customers\" explicitly set to No (a non-default configuration), public customer registration enabled, and the original activation token redeemed within its one-day expiry window.",
+      "published": "2026-10-31T09:29:27Z",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109231",
+      "packages": [],
+      "cwes": [
+        "CWE-841"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-109386",
+      "aliases": [
+        "GHSA-qhrf-9mrq-hpj6"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Hustle – Email Marketing, Lead Generation, Optins, Popups plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 7.8.14.3. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with custom-level access and above, to overwrite the site's active ESP integration credentials (AWeber, Constant Contact, Infusionsoft, ConvertKit, or HubSpot API keys) with attacker-controlled values — diverting all subsequent Hustle form lead submissions to the attacker's ESP tenant — and, for HubSpot, irreversibly delete the operator's OAuth token, OAuth referer, and OAuth current-page option rows. This requires the attacker to hold the plugin-granted hustle_create capability (e.g., an Editor delegated hustle_create but not hustle_edit_integrations via Hustle's Permissions tab), which allows them to load a Hustle module wizard page and obtain the hustle_provider_action nonce needed to reach the vulnerable handlers.",
+      "published": "2026-10-31T07:16:34.517Z",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109386",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107342",
+      "aliases": [
+        "EUVD-2026-114775",
+        "GHSA-3h5r-7p7q-xv68"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Kali Forms — Contact Form & Drag-and-Drop Builder WordPress plugin before 2.4.30 does not perform a capability check when its test-email handler resolves and returns a user's email address, relying only on a nonce that is available to any logged-in user, allowing authenticated users with minimal privileges (Subscriber and above) to disclose the email address of any registered user, including administrators.",
+      "published": "2026-11-01T05:18:56.717Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107342",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107343",
+      "aliases": [
+        "EUVD-2026-114776",
+        "GHSA-r3f9-h5m2-87ch"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Kali Forms — Contact Form & Drag-and-Drop Builder WordPress plugin before 2.4.30 does not perform a capability check on its test-email handler, relying only on a nonce that is available to any logged-in user, so a low-privileged user such as a Subscriber can make the site send email to an arbitrary recipient with a spoofed sender address.",
+      "published": "2026-11-01T05:18:56.843Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107343",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-113481",
+      "aliases": [
+        "EUVD-2026-114777",
+        "GHSA-hqj9-3pgq-546r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Media Library Assistant WordPress plugin before 3.44 does not check that the requesting user is allowed to view a post before disclosing which taxonomy terms are assigned to it, allowing any authenticated user, such as a subscriber, to learn the term assignments of private attachments and posts.",
+      "published": "2026-11-01T05:18:57.110Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113481",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-113482",
+      "aliases": [
+        "EUVD-2026-114778",
+        "GHSA-894j-4953-62g7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Media Library Assistant WordPress plugin before 3.44 does not escape one of its shortcode attributes before outputting it in an attribute of generated links, allowing users with the Contributor role and above to perform Stored Cross-Site Scripting attacks.",
+      "published": "2026-11-01T05:18:57.247Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113482",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-115946",
+      "aliases": [
+        "EUVD-2026-114737",
+        "GHSA-3jf5-xc4h-mr9m"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "XS::libbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder.\n\nAffected versions compile a bundled brotli into static archives that dependent XS modules link against at build time, rather than using the system library. The bundled copy, 1.0.7 or 1.1.0 across the range, carries the decoder out-of-bounds write described in CVE-2026-111497. Version 1.2.1.0 updates it to brotli 1.2.1.\n\nXS::libbrotli has no Perl interface, so the decoder is reached through any dependent module that decompresses untrusted data with it. An attacker supplying a crafted brotli stream can corrupt decoder state, disclose memory, crash the process, or potentially execute arbitrary code. Upgrading the system brotli does not remediate this.",
+      "published": "2026-10-31T23:49:36Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115946",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118168",
+      "aliases": [
+        "EUVD-2026-114779",
+        "GHSA-wfgm-582m-23r9"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The MapPress  WordPress plugin before 2.97.15 does not restrict which user's data its front-end map embed handler renders, allowing unauthenticated visitors to retrieve the email address and display name of any user on the site by enumerating user IDs.",
+      "published": "2026-11-01T05:18:57.360Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118168",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-78188",
+      "aliases": [
+        "EUVD-2026-114714",
+        "GHSA-939g-4f3p-xc2m"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "WebDyne versions from 2.014 before 3.022 for Perl issue session cookies without the Secure, HttpOnly and SameSite attributes.\n\nWebDyne::Session sets its session cookie with only a name, value and path.\n\nBrowsers then send the session ID over plain HTTP and with cross-site requests, and expose it to page scripts. A network attacker or an injected script can steal the session, and another site can make requests that carry it.",
+      "published": "2026-10-31T14:33:37Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78188",
+      "packages": [],
+      "cwes": [
+        "CWE-1004",
+        "CWE-1275",
+        "CWE-614"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control",
+        "A02:2025 Security Misconfiguration"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-78189",
+      "aliases": [
+        "EUVD-2026-114715",
+        "GHSA-vhwh-fhm6-mq7v"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "WebDyne versions from 3.007 before 3.022 for Perl execute .psp files outside the document root via path traversal in the PSGI API route fallback.\n\nWhen a request matches no file, the PSGI handler retries it as an API route through api_filename. That keeps .. segments in the request path and only checks that the joined path starts with the document root, which a request for /../private passes.\n\nA remote attacker can run the embedded Perl in any .psp file the server can read, such as one uploaded to a directory outside the document root.",
+      "published": "2026-10-31T14:33:55Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78189",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-78190",
+      "aliases": [
+        "EUVD-2026-114716",
+        "GHSA-f457-wm99-2w49"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "WebDyne versions from 2.014 before 3.022 for Perl reflect request parameters unescaped into form field values, allowing cross-site scripting.\n\nThe textfield, password_field and filefield tags fill their value attribute from the request parameter of the same name. WEBDYNE_CGI_AUTOESCAPE, which controls escaping of these values, defaults to off. From 2.022, WebDyne::HTML::Tiny also replaced its entity_encode method with one that returns its input unchanged, so enabling WEBDYNE_CGI_AUTOESCAPE has no effect.\n\nA remote attacker can inject script into any page using these tags through a crafted link.",
+      "published": "2026-10-31T14:34:14Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78190",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-78191",
+      "aliases": [
+        "EUVD-2026-114717",
+        "GHSA-xv5f-qcmp-v8w2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "WebDyne versions from 2.031 before 3.022 for Perl execute files with .psp anywhere in the name as Perl pages.\n\nWebDyne decides whether to run a requested file as a page by matching its name against WEBDYNE_PSP_EXT_RE, which has no end anchor.\n\nAn application that accepts uploads by checking only the final extension lets a remote attacker upload a file such as report.psp.pdf and run its embedded Perl by requesting it.",
+      "published": "2026-10-31T14:34:30Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78191",
+      "packages": [],
+      "cwes": [
+        "CWE-777"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-78192",
+      "aliases": [
+        "EUVD-2026-114718",
+        "GHSA-hf35-9v4j-23x2"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "WebDyne versions from 2.022 before 3.022 for Perl disclose application source to unauthenticated clients via the viewer in the default index page.\n\nWebDyne's wrapper scripts, such as webdyne.psgi, enable the built-in index page by default. Its source viewer returns files under the document root named in the source parameter of an HTMX request, including .psp, .pm and .pl files.\n\nA remote attacker can read the application's Perl code, including the __PERL__ blocks of .psp pages and any credentials they hold.",
+      "published": "2026-10-31T14:34:49Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78192",
+      "packages": [],
+      "cwes": [
+        "CWE-1188",
+        "CWE-540"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-48206e4f7c0d0f0f",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: dsh-volcengine-provider",
+      "published": "2026-10-31T12:21:20Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-48206e4f7c0d0f0f",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "dsh-volcengine-provider"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-a5080387e9f0ad39",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: @mamans2973/maman",
+      "published": "2026-10-31T16:17:42Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-a5080387e9f0ad39",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@mamans2973/maman"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-bddef1c4c8e802c4",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: local-commander-agent",
+      "published": "2026-10-31T08:19:32Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-bddef1c4c8e802c4",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "local-commander-agent"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-415c95c384a9901b",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: skills-analyzer",
+      "published": "2026-10-31T13:10:24Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-415c95c384a9901b",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "skills-analyzer"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-63d1834ac6733034",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: multi-convert",
+      "published": "2026-10-31T13:35:51Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-63d1834ac6733034",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "multi-convert"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-6a8580750a7d490d",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: is-it-ai",
+      "published": "2026-10-31T13:10:24Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-6a8580750a7d490d",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "is-it-ai"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-9609b278449fb9d1",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: doctreelstm",
+      "published": "2026-10-31T14:10:23Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-9609b278449fb9d1",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "doctreelstm"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-9f8b8630f88afc0b",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: pystr-codec",
+      "published": "2026-11-01T00:35:58Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-9f8b8630f88afc0b",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "pystr-codec"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-ad55bf608a0d98ad",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: skills-analyzer",
+      "published": "2026-10-31T13:35:51Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-ad55bf608a0d98ad",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "skills-analyzer"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-b11c84f48dc5185c",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: md-to-slides",
+      "published": "2026-10-31T13:35:51Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-b11c84f48dc5185c",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "md-to-slides"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18425",
+      "aliases": [
+        "GHSA-7j62-5j84-72fv"
+      ],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in local-commander-agent (npm)",
+      "published": "2026-10-31T07:57:13Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18425",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "local-commander-agent"
+        }
+      ],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18426",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in is-it-ai (PyPI)",
+      "published": "2026-10-31T12:48:49Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18426",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "is-it-ai"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18427",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in skills-analyzer (PyPI)",
+      "published": "2026-10-31T12:55:07Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18427",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "skills-analyzer"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18428",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in md-to-slides (PyPI)",
+      "published": "2026-10-31T12:57:43Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18428",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "md-to-slides"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18429",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in multi-convert (PyPI)",
+      "published": "2026-10-31T13:01:05Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18429",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "multi-convert"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18430",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in doctreelstm (PyPI)",
+      "published": "2026-10-31T13:39:43Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18430",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "doctreelstm"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18431",
+      "aliases": [
+        "GHSA-fg5w-8hhw-8j6h"
+      ],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in @mamans2973/maman (npm)",
+      "published": "2026-10-31T16:09:39Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18431",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@mamans2973/maman"
+        }
+      ],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-18432",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in pystr-codec (PyPI)",
+      "published": "2026-11-01T00:13:02Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-18432",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "pystr-codec"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    }
+  ]
+}
