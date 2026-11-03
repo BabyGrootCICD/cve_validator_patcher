@@ -64114,7 +64114,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-9hj8-73fh-9963": {
@@ -64146,7 +64146,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-hjqx-j4rw-g7xv": {
@@ -64178,7 +64178,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-m665-v7pm-7grj": {
@@ -64210,7 +64210,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-q7v9-x93c-xqv3": {
@@ -64243,7 +64243,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0367": {
@@ -64275,7 +64275,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 8,
+      "fix_attempts": 9,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0368": {
@@ -64307,7 +64307,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 8,
+      "fix_attempts": 9,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0369": {
@@ -64339,7 +64339,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 8,
+      "fix_attempts": 9,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0429": {
@@ -64372,7 +64372,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:package-lock.json:npm:@azure/msal-node:GHSA-xcx6-jx8p-x3h5": {
@@ -211500,7 +211500,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:GHSA-m665-v7pm-7grj": {
@@ -211532,7 +211532,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:GHSA-q7v9-x93c-xqv3": {
@@ -211565,7 +211565,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0367": {
@@ -211597,7 +211597,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0368": {
@@ -211629,7 +211629,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0369": {
@@ -211661,7 +211661,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0429": {
@@ -211694,7 +211694,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zvariant:RUSTSEC-2026-0370": {
