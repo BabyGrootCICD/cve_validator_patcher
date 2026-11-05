@@ -29786,7 +29786,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:quinn-proto:GHSA-4w2j-m93h-cj5j": {
       "finding": {
@@ -30752,7 +30752,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:quinn-proto:GHSA-4w2j-m93h-cj5j": {
       "finding": {
@@ -58930,7 +58930,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:proc-macro-error2:RUSTSEC-2026-0173": {
       "finding": {
@@ -89606,7 +89606,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/redis-lab:apps/engine/Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
       "finding": {
@@ -95005,7 +95005,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/redis-lab:apps/identity/Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
       "finding": {
@@ -123179,7 +123179,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/those_forgotten:Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
       "finding": {
@@ -170073,7 +170073,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:quinn-proto:GHSA-4w2j-m93h-cj5j": {
       "finding": {
@@ -223507,7 +223507,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/EnvShield:Cargo.lock:crates.io:proc-macro-error2:RUSTSEC-2026-0173": {
       "finding": {
@@ -279577,7 +279577,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/MediCanna-AI:backend-rust-gateway/Cargo.lock:crates.io:rustls-pemfile:RUSTSEC-2025-0134": {
       "finding": {
