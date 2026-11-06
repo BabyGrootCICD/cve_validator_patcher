@@ -17522,8 +17522,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `services/go/identity-access-service/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/go/identity-access-service/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -20017,8 +20017,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `services/go/lab-transfer-service/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/go/lab-transfer-service/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -22512,8 +22512,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `services/go/order-clinical-service/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/go/order-clinical-service/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -25007,8 +25007,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `services/go/patient-chart-service/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/go/patient-chart-service/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -27502,8 +27502,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `services/go/sync-gateway-service/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/go/sync-gateway-service/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -37193,8 +37193,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6840": {
       "finding": {
@@ -37226,8 +37226,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6842": {
       "finding": {
@@ -37259,8 +37259,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6872": {
       "finding": {
@@ -37292,8 +37292,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6873": {
       "finding": {
@@ -37325,8 +37325,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6875": {
       "finding": {
@@ -37358,8 +37358,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6876": {
       "finding": {
@@ -37391,8 +37391,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6877": {
       "finding": {
@@ -37424,8 +37424,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6878": {
       "finding": {
@@ -37457,8 +37457,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6879": {
       "finding": {
@@ -37490,8 +37490,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6881": {
       "finding": {
@@ -37523,8 +37523,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6883": {
       "finding": {
@@ -37556,8 +37556,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:github.com/labstack/echo/v4:GO-2026-6885": {
       "finding": {
@@ -37589,8 +37589,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp:GHSA-8wmf-6v46-5gfg": {
       "finding": {
@@ -50833,8 +50833,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `backend/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Devloh-Artificial-intelligence-ESG-analysis:go.mod:Go:github.com/klauspost/compress:GHSA-259r-337f-4rfw": {
       "finding": {
@@ -50940,8 +50940,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Devloh-Artificial-intelligence-ESG-analysis:go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -54820,8 +54820,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.20.2 failed in `house-edge-sniper/go-coordinator/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/go-coordinator/go.mod:Go:github.com/redis/go-redis/v9:GO-2025-3540": {
       "finding": {
@@ -71239,8 +71239,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6840": {
       "finding": {
@@ -71272,8 +71272,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6842": {
       "finding": {
@@ -71305,8 +71305,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6872": {
       "finding": {
@@ -71338,8 +71338,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6873": {
       "finding": {
@@ -71371,8 +71371,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6875": {
       "finding": {
@@ -71404,8 +71404,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6876": {
       "finding": {
@@ -71437,8 +71437,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6877": {
       "finding": {
@@ -71470,8 +71470,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6878": {
       "finding": {
@@ -71503,8 +71503,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6879": {
       "finding": {
@@ -71536,8 +71536,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6881": {
       "finding": {
@@ -71569,8 +71569,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6883": {
       "finding": {
@@ -71602,8 +71602,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6885": {
       "finding": {
@@ -71635,8 +71635,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp:GHSA-8wmf-6v46-5gfg": {
       "finding": {
@@ -127820,8 +127820,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6840": {
       "finding": {
@@ -127853,8 +127853,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6842": {
       "finding": {
@@ -127886,8 +127886,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6872": {
       "finding": {
@@ -127919,8 +127919,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6873": {
       "finding": {
@@ -127952,8 +127952,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6875": {
       "finding": {
@@ -127985,8 +127985,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6876": {
       "finding": {
@@ -128018,8 +128018,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6877": {
       "finding": {
@@ -128051,8 +128051,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6878": {
       "finding": {
@@ -128084,8 +128084,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6879": {
       "finding": {
@@ -128117,8 +128117,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6881": {
       "finding": {
@@ -128150,8 +128150,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6883": {
       "finding": {
@@ -128183,8 +128183,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:github.com/labstack/echo/v4:GO-2026-6885": {
       "finding": {
@@ -128216,8 +128216,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v4.16.1 failed in `services/api-go/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:services/api-go/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
       "finding": {
@@ -173779,7 +173779,7 @@
         "new_today": false
       },
       "day": "2026-11-06",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-06T07:18:35.675549245Z",
       "last_seen": "2026-11-06T07:18:35.675549245Z",
       "resolved_at": null,
@@ -173790,8 +173790,12 @@
         "body_hash": 193595879707497782,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 11,
+        "url": "https://github.com/dennislee928/AscendOS/pull/11",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AscendOS:services/core-gateway/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
