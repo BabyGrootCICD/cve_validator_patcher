@@ -34500,8 +34500,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.10.0 failed in `analysis/Cargo.lock`: cargo update -p rsa@0.9.10 --precise 0.10.0: d which didn't match: 0.10.0\nlocation searched: crates.io index\nrequired by package `sqlx-mysql v0.7.4`\n    ... which satisfies dependency `sqlx-mysql = \"=0.7.4\"` (locked to 0.7.4) of package `sqlx v0.7.4`\n    ... which satisfies dependency `sqlx = \"^0.7\"` (locked to 0.7.4) of package `adm-analysis v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest-Test"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:rustls-pemfile:RUSTSEC-2025-0134": {
       "finding": {
@@ -64613,8 +64613,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.10.0 failed in `analyzers/rust/Cargo.lock`: cargo update -p rsa@0.9.10 --precise 0.10.0: es.io index\nerror: failed to select a version for the requirement `rsa = \"^0.9.10\"`\ncandidate versions found which didn't match: 0.10.0\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Je"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:GHSA-mghf-wjfp-p5xm": {
       "finding": {
@@ -123894,8 +123894,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.10.0 failed in `services/review-api/Cargo.lock`: cargo update -p rsa@0.9.10 --precise 0.10.0:  found which didn't match: 0.10.0\nlocation searched: crates.io index\nrequired by package `sqlx-mysql v0.8.6`\n    ... which satisfies dependency `sqlx-mysql = \"=0.8.6\"` (locked to 0.8.6) of package `sqlx v0.8.6`\n    ... which satisfies dependency `sqlx = \"^0.8\"` (locked to 0.8.6) of package `review-api v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest-T"
     },
     "Jest-Test-Team/software-poe:services/review-api/Cargo.lock:crates.io:rustls-webpki:RUSTSEC-2026-0382": {
       "finding": {
