@@ -34289,7 +34289,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.39.0 failed in `analysis/Cargo.lock`: cargo update -p libsqlite3-sys@0.27.0 --precise 0.39.0: which didn't match: 0.39.0\nlocation searched: crates.io index\nrequired by package `sqlx-sqlite v0.7.4`\n    ... which satisfies dependency `sqlx-sqlite = \"=0.7.4\"` (locked to 0.7.4) of package `sqlx v0.7.4`\n    ... which satisfies dependency `sqlx = \"^0.7\"` (locked to 0.7.4) of package `adm-analysis v0.1.0 (/home/runner/work/_temp/vuln-sentine"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:paste:RUSTSEC-2024-0436": {
@@ -53512,8 +53512,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.39.0 failed in `Cargo.lock`: cargo update -p libsqlite3-sys@0.37.0 --precise 0.39.0:  versions found which didn't match: 0.39.0\nlocation searched: crates.io index\nrequired by package `sqlx-sqlite v0.9.0`\n    ... which satisfies dependency `sqlx-sqlite = \"=0.9.0\"` (locked to 0.9.0) of package `sqlx v0.9.0`\n    ... which satisfies dependency `sqlx = \"^0.9.0\"` (locked to 0.9.0) of package `homelab-api v0.1.0 (/home/runner/work/_"
     },
     "Jest-Test-Team/HOMELAB:Cargo.lock:crates.io:rmcp:RUSTSEC-2026-0462": {
       "finding": {
@@ -53532,7 +53532,7 @@
         "new_today": false
       },
       "day": "2026-11-10",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-10T07:57:55.451806386Z",
       "last_seen": "2026-11-10T07:57:55.451806386Z",
       "resolved_at": null,
@@ -53543,8 +53543,12 @@
         "body_hash": 13628198667977991999,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 14,
+        "url": "https://github.com/Jest-Test-Team/HOMELAB/pull/14",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
@@ -59755,7 +59759,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:paste:RUSTSEC-2024-0436": {
@@ -120896,7 +120900,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.39.0 failed in `Cargo.lock`: cargo update -p libsqlite3-sys@0.30.1 --precise 0.39.0:  index\nrequired by package `rusqlite v0.32.1`\n    ... which satisfies dependency `rusqlite = \"^0.32\"` (locked to 0.32.1) of package `rp-dns v0.3.0 (/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/crates/rp-dns)`\n    ... which satisfies path dependency `rp-dns` (locked to 0.3.0) of package `rp-agent v0.3.0 (/home/runner/work/_temp"
     },
     "Jest-Test-Team/software-poe:frontend/package-lock.json:npm:nanoid:GHSA-2v37-7h3g-55p8": {
@@ -124058,7 +124062,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.39.0 failed in `services/review-api/Cargo.lock`: cargo update -p libsqlite3-sys@0.30.1 --precise 0.39.0: ound which didn't match: 0.39.0\nlocation searched: crates.io index\nrequired by package `sqlx-sqlite v0.8.6`\n    ... which satisfies dependency `sqlx-sqlite = \"=0.8.6\"` (locked to 0.8.6) of package `sqlx v0.8.6`\n    ... which satisfies dependency `sqlx = \"^0.8\"` (locked to 0.8.6) of package `review-api v0.1.0 (/home/runner/work/_temp/vuln-sent"
     },
     "Jest-Test-Team/software-poe:services/review-api/Cargo.lock:crates.io:rsa:RUSTSEC-2023-0071": {
