@@ -60162,7 +60162,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0473": {
@@ -60195,7 +60195,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0474": {
@@ -60228,7 +60228,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0475": {
@@ -60261,7 +60261,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0476": {
@@ -60294,7 +60294,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0477": {
@@ -60327,7 +60327,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0478": {
@@ -60360,7 +60360,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:openssl:RUSTSEC-2026-0479": {
@@ -60393,7 +60393,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.10.80 failed in `house-edge-sniper/rust-sniper/Cargo.lock`: cargo update -p openssl@0.10.75 --precise 0.10.80: error: package ID specification `openssl@0.10.75` did not match any packages\nhelp: there are similar package ID specifications:\n\n  openssl@0.10.80\n"
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:paste:RUSTSEC-2024-0436": {
@@ -68747,7 +68747,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-2vgq-wchc-25w7": {
@@ -68779,7 +68779,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-4487-j8r4-4g2f": {
@@ -68811,7 +68811,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-4642-5mcj-2rqw": {
@@ -68843,7 +68843,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-525v-9gp9-w22h": {
@@ -68875,7 +68875,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-5cwg-6vw7-rj6p": {
@@ -68907,7 +68907,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-5m6q-g25r-mvwx": {
@@ -68939,7 +68939,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-5x38-2vff-x55p": {
@@ -68971,7 +68971,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-6889-vf6x-f3g5": {
@@ -69003,7 +69003,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-6cv4-p8m7-4r25": {
@@ -69035,7 +69035,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-6qrw-m8cv-hcxf": {
@@ -69067,7 +69067,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-6wvx-3r32-xmcg": {
@@ -69099,7 +69099,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-7wch-p9px-956x": {
@@ -69131,7 +69131,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-86w9-cpqp-85rv": {
@@ -69165,7 +69165,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-8hrf-8g6f-7xwp": {
@@ -69197,7 +69197,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-9wg5-mj3p-v49q": {
@@ -69229,7 +69229,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-h46v-rmh6-fq4f": {
@@ -69261,7 +69261,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-h6cr-wjv9-3cpp": {
@@ -69293,7 +69293,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-hqq3-7jhf-c5jx": {
@@ -69325,7 +69325,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-j8rw-jp99-435v": {
@@ -69357,7 +69357,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-jc66-7q78-782g": {
@@ -69389,7 +69389,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-ppp5-5v6c-4jwp": {
@@ -69423,7 +69423,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-q67f-28xg-22rw": {
@@ -69455,7 +69455,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-rhr8-3pm8-cq29": {
@@ -69487,7 +69487,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-w4xr-hqv8-ch44": {
@@ -69519,7 +69519,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 1.4.3 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:on-headers:GHSA-76c9-3jph-rj3q": {
@@ -105969,8 +105969,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 5.12.0 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_27_865Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 5.12.0 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_31_101Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:fast-xml-parser:GHSA-gh4j-gqv2-49f6": {
       "finding": {
@@ -108745,8 +108745,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_26_887Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_29_598Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:node-forge:GHSA-6cv4-p8m7-4r25": {
       "finding": {
@@ -108777,8 +108777,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_26_887Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_29_598Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:node-forge:GHSA-86w9-cpqp-85rv": {
       "finding": {
@@ -108989,8 +108989,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_26_887Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_29_598Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:node-forge:GHSA-ppp5-5v6c-4jwp": {
       "finding": {
@@ -109095,8 +109095,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
-      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_26_887Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 3,
+      "note": "Automatic upgrade to 1.4.3 failed in `src/ru-dev-path-py-master/frontend/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_29_598Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:node-forge:GHSA-wxgw-qj99-44c2": {
       "finding": {
@@ -149865,8 +149865,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
-      "note": "Automatic upgrade to 19.2.9 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_31_010Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 5,
+      "note": "Automatic upgrade to 19.2.9 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_34_484Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:react-server-dom-webpack:GHSA-xqc2-xf4c-x3h3": {
       "finding": {
@@ -149897,8 +149897,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 19.2.9 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_03_31_010Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 19.2.9 failed in `package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-11T07_29_34_484Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:satori:GHSA-wx4j-mvgx-mqwp": {
       "finding": {
