@@ -34553,7 +34553,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -34564,8 +34564,12 @@
         "body_hash": 18325839411453843954,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:rustls-pemfile:RUSTSEC-2025-0134": {
@@ -39376,7 +39380,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -39387,8 +39391,12 @@
         "body_hash": 7360342851378098696,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/DAW-Plugin-MCP/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/DAW-Plugin-MCP:Cargo.lock:crates.io:rustls-webpki:RUSTSEC-2026-0382": {
@@ -60703,7 +60711,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -60714,8 +60722,12 @@
         "body_hash": 3779484512412369391,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/On-chain-Casino-Arb-Bot-/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:rustls-pemfile:RUSTSEC-2025-0134": {
@@ -61941,7 +61953,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -61952,8 +61964,12 @@
         "body_hash": 7417499248171011840,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/SDR/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:rustls-pemfile:RUSTSEC-2025-0134": {
@@ -65531,7 +65547,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -65542,8 +65558,12 @@
         "body_hash": 15212107480033896925,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 3,
+        "url": "https://github.com/Jest-Test-Team/ide-extension/pull/3",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:GHSA-mghf-wjfp-p5xm": {
@@ -122076,8 +122096,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 0.26.1 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.1:     Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.1\nlocation searched: crates.io index\nrequired by package `rp-dns v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/crates/rp-dns)`\n"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0119": {
       "finding": {
@@ -122109,8 +122129,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 0.26.1 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.1:     Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.1\nlocation searched: crates.io index\nrequired by package `rp-dns v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/crates/rp-dns)`\n"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0487": {
       "finding": {
@@ -122141,8 +122161,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0489": {
       "finding": {
@@ -122173,8 +122193,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0490": {
       "finding": {
@@ -122206,8 +122226,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0491": {
       "finding": {
@@ -122238,8 +122258,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:libsqlite3-sys:RUSTSEC-2026-0459": {
       "finding": {
@@ -126065,7 +126085,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -126076,8 +126096,12 @@
         "body_hash": 5385509237424385674,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/those_forgotten/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/those_forgotten:Cargo.lock:crates.io:tokio:RUSTSEC-2026-0386": {
@@ -143020,7 +143044,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -143031,8 +143055,12 @@
         "body_hash": 2615776061751011174,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/BLE-off-seat-Presence-Lock/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/BLE-off-seat-Presence-Lock:Cargo.lock:crates.io:tokio:RUSTSEC-2026-0386": {
@@ -144952,7 +144980,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -144963,8 +144991,12 @@
         "body_hash": 12207838560863326559,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:ui/package-lock.json:npm:esbuild:GHSA-67mh-4wv8-2f99": {
@@ -216392,7 +216424,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -216403,8 +216435,12 @@
         "body_hash": 5800706496157952617,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 11,
+        "url": "https://github.com/dennislee928/Claude_Devboard_Pet/pull/11",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:ttf-parser:RUSTSEC-2026-0192": {
@@ -228624,7 +228660,7 @@
         "new_today": false
       },
       "day": "2026-11-11",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-11T16:33:38.864752086Z",
       "last_seen": "2026-11-11T16:33:38.864752086Z",
       "resolved_at": null,
@@ -228635,8 +228671,12 @@
         "body_hash": 5186803203409544543,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 27,
+        "url": "https://github.com/dennislee928/EnvShield/pull/27",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:Cargo.lock:crates.io:rustls-webpki:GHSA-82j2-j2ch-gfr8": {
@@ -248965,8 +249005,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 13.0.0 failed in `uv.lock`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/Ethic-Latex:uv.lock:PyPI:pyjwt:GHSA-2gx3-rcp4-g85q": {
       "finding": {
