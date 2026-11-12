@@ -122096,7 +122096,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0119": {
@@ -122129,7 +122129,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0487": {
@@ -122161,7 +122161,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0489": {
@@ -122193,7 +122193,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0490": {
@@ -122226,7 +122226,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0491": {
@@ -122258,7 +122258,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:libsqlite3-sys:RUSTSEC-2026-0459": {
@@ -249005,7 +249005,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 13.0.0 failed in `uv.lock`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/Ethic-Latex:uv.lock:PyPI:pyjwt:GHSA-2gx3-rcp4-g85q": {
