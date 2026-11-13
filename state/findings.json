@@ -30200,8 +30200,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `services/rust/audit-integrity-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
       "finding": {
@@ -30232,8 +30232,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `services/rust/audit-integrity-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
       "finding": {
@@ -30252,7 +30252,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -30263,8 +30263,12 @@
         "body_hash": 14775206746605090740,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 20,
+        "url": "https://github.com/BabyGrootCICD/modern_hospital_information_system/pull/20",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
@@ -31270,8 +31274,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `services/rust/document-proof-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
       "finding": {
@@ -31302,8 +31306,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `services/rust/document-proof-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
       "finding": {
@@ -31322,7 +31326,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -31333,8 +31337,12 @@
         "body_hash": 14775206746605090740,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 20,
+        "url": "https://github.com/BabyGrootCICD/modern_hospital_information_system/pull/20",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
@@ -34724,8 +34732,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `analysis/Cargo.lock`: cargo update -p quinn-proto@0.11.16 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.16` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
       "finding": {
@@ -34756,8 +34764,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `analysis/Cargo.lock`: cargo update -p quinn-proto@0.11.16 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.16` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
       "finding": {
@@ -34776,7 +34784,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -34787,8 +34795,12 @@
         "body_hash": 15249517830357136480,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:rsa:RUSTSEC-2023-0071": {
@@ -62435,8 +62447,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `Cargo.lock`: cargo update -p quinn-proto@0.11.15 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.15` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
       "finding": {
@@ -62467,8 +62479,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `Cargo.lock`: cargo update -p quinn-proto@0.11.15 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.15` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
       "finding": {
@@ -62487,7 +62499,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -62498,8 +62510,12 @@
         "body_hash": 280196808584028745,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/SDR/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:rustix:RUSTSEC-2026-0486": {
@@ -123030,7 +123046,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0119": {
@@ -123063,7 +123079,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0487": {
@@ -123096,7 +123112,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 6,
+      "fix_attempts": 7,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0489": {
@@ -123129,7 +123145,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 6,
+      "fix_attempts": 7,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0490": {
@@ -123162,7 +123178,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 6,
+      "fix_attempts": 7,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0491": {
@@ -123195,7 +123211,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 6,
+      "fix_attempts": 7,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0505": {
@@ -123229,7 +123245,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0511": {
@@ -123263,7 +123279,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0512": {
@@ -123297,7 +123313,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0530": {
@@ -123331,8 +123347,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0531": {
       "finding": {
@@ -123365,8 +123381,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:libsqlite3-sys:RUSTSEC-2026-0459": {
       "finding": {
@@ -175168,8 +175184,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `backend/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
       "finding": {
@@ -175200,8 +175216,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.11.19 failed in `backend/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
       "finding": {
@@ -175220,7 +175236,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -175231,8 +175247,12 @@
         "body_hash": 13117838973360436481,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/dennislee928/3D_NETWORK_INFRA_TOPOLOGY/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
@@ -229801,7 +229821,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -229812,8 +229832,12 @@
         "body_hash": 9707072980269405965,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 30,
+        "url": "https://github.com/dennislee928/EnvShield/pull/30",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
@@ -229833,7 +229857,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -229844,8 +229868,12 @@
         "body_hash": 9707072980269405965,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 30,
+        "url": "https://github.com/dennislee928/EnvShield/pull/30",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
@@ -229865,7 +229893,7 @@
         "new_today": false
       },
       "day": "2026-11-13",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-13T16:59:08.225594997Z",
       "last_seen": "2026-11-13T16:59:08.225594997Z",
       "resolved_at": null,
@@ -229876,8 +229904,12 @@
         "body_hash": 8207828113125810861,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 30,
+        "url": "https://github.com/dennislee928/EnvShield/pull/30",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:Cargo.lock:crates.io:rand:GHSA-cq8v-f236-94qc": {
