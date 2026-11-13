@@ -602056,6 +602056,62 @@
       "tracker_issue": null,
       "archived": true,
       "archived_at": "2026-11-12T08:42:14.521509068Z"
+    },
+    "2026-11-13": {
+      "advisories": 733,
+      "feeds": [
+        {
+          "source": "CVE (NVD)",
+          "status": "ok",
+          "count": 351
+        },
+        {
+          "source": "OSV",
+          "status": "ok",
+          "count": 137
+        },
+        {
+          "source": "ENISA EUVD",
+          "status": "ok",
+          "count": 343
+        },
+        {
+          "source": "GitHub Advisory Database",
+          "status": "ok",
+          "count": 337
+        },
+        {
+          "source": "OpenSSF Malicious Packages",
+          "status": "ok",
+          "count": 217
+        },
+        {
+          "source": "Vulners",
+          "status": "skipped",
+          "reason": "VULNERS_API_KEY not set"
+        },
+        {
+          "source": "AttackerKB",
+          "status": "skipped",
+          "reason": "ATTACKERKB_API_KEY not set"
+        },
+        {
+          "source": "Sploitus",
+          "status": "ok",
+          "count": 73
+        },
+        {
+          "source": "OWASP Top 10 (CWE mapping)",
+          "status": "ok",
+          "count": 479
+        }
+      ],
+      "repos_scanned": 0,
+      "dependencies": 0,
+      "scan_errors": 0,
+      "tracker_issue": null,
+      "archived": false,
+      "archived_at": null
     }
   }
 }
