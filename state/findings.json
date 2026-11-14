@@ -605088,6 +605088,62 @@
       "tracker_issue": 9,
       "archived": false,
       "archived_at": null
+    },
+    "2026-11-14": {
+      "advisories": 2095,
+      "feeds": [
+        {
+          "source": "CVE (NVD)",
+          "status": "ok",
+          "count": 717
+        },
+        {
+          "source": "OSV",
+          "status": "ok",
+          "count": 744
+        },
+        {
+          "source": "ENISA EUVD",
+          "status": "ok",
+          "count": 731
+        },
+        {
+          "source": "GitHub Advisory Database",
+          "status": "ok",
+          "count": 674
+        },
+        {
+          "source": "OpenSSF Malicious Packages",
+          "status": "ok",
+          "count": 629
+        },
+        {
+          "source": "Vulners",
+          "status": "skipped",
+          "reason": "VULNERS_API_KEY not set"
+        },
+        {
+          "source": "AttackerKB",
+          "status": "skipped",
+          "reason": "ATTACKERKB_API_KEY not set"
+        },
+        {
+          "source": "Sploitus",
+          "status": "ok",
+          "count": 38
+        },
+        {
+          "source": "OWASP Top 10 (CWE mapping)",
+          "status": "ok",
+          "count": 1246
+        }
+      ],
+      "repos_scanned": 0,
+      "dependencies": 0,
+      "scan_errors": 0,
+      "tracker_issue": null,
+      "archived": false,
+      "archived_at": null
     }
   }
 }
