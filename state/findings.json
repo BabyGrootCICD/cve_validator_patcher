@@ -30200,7 +30200,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `services/rust/audit-integrity-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
@@ -30232,7 +30232,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `services/rust/audit-integrity-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
@@ -31274,7 +31274,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `services/rust/document-proof-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
@@ -31306,7 +31306,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `services/rust/document-proof-service/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
@@ -34732,7 +34732,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `analysis/Cargo.lock`: cargo update -p quinn-proto@0.11.16 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.16` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
@@ -34764,7 +34764,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `analysis/Cargo.lock`: cargo update -p quinn-proto@0.11.16 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.16` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
@@ -38078,7 +38078,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -38089,9 +38089,13 @@
         "body_hash": 8041081444689208715,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to v1.45.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 4,
+      "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/sdk:GHSA-q7gw-24fr-5p69": {
       "finding": {
@@ -38110,7 +38114,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -38121,8 +38125,12 @@
         "body_hash": 8041081444689208715,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/sdk:GO-2026-6505": {
@@ -38143,7 +38151,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -38154,9 +38162,13 @@
         "body_hash": 8041081444689208715,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to v1.45.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 4,
+      "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/trace:GHSA-q7gw-24fr-5p69": {
       "finding": {
@@ -38187,8 +38199,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:golang.org/x/crypto:GO-2026-5932": {
       "finding": {
@@ -62511,7 +62523,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `Cargo.lock`: cargo update -p quinn-proto@0.11.15 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.15` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
@@ -62543,7 +62555,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `Cargo.lock`: cargo update -p quinn-proto@0.11.15 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.15` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
@@ -73866,7 +73878,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -73877,9 +73889,13 @@
         "body_hash": 3649013533019612217,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to v1.45.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "pr": {
+        "number": 73,
+        "url": "https://github.com/Jest-Test-Team/inclusive-ai-trust-gateway/pull/73",
+        "auto_merge": false
+      },
+      "fix_attempts": 4,
+      "note": null
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/sdk:GHSA-q7gw-24fr-5p69": {
       "finding": {
@@ -73898,7 +73914,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -73909,8 +73925,12 @@
         "body_hash": 3649013533019612217,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 73,
+        "url": "https://github.com/Jest-Test-Team/inclusive-ai-trust-gateway/pull/73",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/sdk:GO-2026-6505": {
@@ -73931,7 +73951,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -73942,9 +73962,13 @@
         "body_hash": 3649013533019612217,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to v1.45.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "pr": {
+        "number": 73,
+        "url": "https://github.com/Jest-Test-Team/inclusive-ai-trust-gateway/pull/73",
+        "auto_merge": false
+      },
+      "fix_attempts": 4,
+      "note": null
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/trace:GHSA-q7gw-24fr-5p69": {
       "finding": {
@@ -73975,8 +73999,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:golang.org/x/crypto:GO-2026-5932": {
       "finding": {
@@ -98527,8 +98551,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-9x9c-ghc5-jhw9": {
       "finding": {
@@ -98559,8 +98583,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-c57f-mm3j-27q9": {
       "finding": {
@@ -98591,8 +98615,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-qh8j-hqjv-7m4x": {
       "finding": {
@@ -98623,8 +98647,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-qq67-mvv5-fw3g": {
       "finding": {
@@ -98655,8 +98679,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-r3h5-4585-7x3w": {
       "finding": {
@@ -98687,8 +98711,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-r557-wffq-wvrc": {
       "finding": {
@@ -98719,8 +98743,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@astrojs/node:GHSA-xf8x-j4p2-f749": {
       "finding": {
@@ -98751,8 +98775,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_48_433Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 11.1.3 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-14T01_04_21_882Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:@babel/core:GHSA-4x5r-pxfx-6jf8": {
       "finding": {
@@ -99373,7 +99397,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -99384,8 +99408,12 @@
         "body_hash": 6821756224886795688,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 151,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/151",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:astro:GHSA-r3h5-4585-7x3w": {
@@ -99405,7 +99433,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -99416,8 +99444,12 @@
         "body_hash": 6821756224886795688,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 151,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/151",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:astro:GHSA-whqg-ppgf-wp8c": {
@@ -123384,7 +123416,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0119": {
@@ -123417,7 +123449,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0487": {
@@ -123450,7 +123482,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0489": {
@@ -123483,7 +123515,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0490": {
@@ -123516,7 +123548,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0491": {
@@ -123549,7 +123581,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0505": {
@@ -123583,7 +123615,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0511": {
@@ -123617,7 +123649,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0512": {
@@ -123651,7 +123683,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0530": {
@@ -123685,7 +123717,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0531": {
@@ -123719,7 +123751,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:libsqlite3-sys:RUSTSEC-2026-0459": {
@@ -169163,7 +169195,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -169174,8 +169206,12 @@
         "body_hash": 15211913098924660679,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 26,
+        "url": "https://github.com/dennislee928/2024_portfolio/pull/26",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/2024_portfolio:frontpage2/package-lock.json:npm:@nuxt/vite-builder:GHSA-648h-gw55-m2g7": {
@@ -175554,7 +175590,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `backend/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:quinn-proto:RUSTSEC-2026-0524": {
@@ -175586,7 +175622,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.11.19 failed in `backend/Cargo.lock`: cargo update -p quinn-proto@0.11.14 --precise 0.11.19: error: package ID specification `quinn-proto@0.11.14` did not match any packages\nhelp: there are similar package ID specifications:\n\n  quinn-proto@0.11.18\n"
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:quinn-udp:RUSTSEC-2026-0538": {
@@ -180270,7 +180306,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -180281,8 +180317,12 @@
         "body_hash": 8975403053216429584,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/BTC_Rise_Calling/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BTC_Rise_Calling:frontpage2/package-lock.json:npm:@nuxt/vite-builder:GHSA-648h-gw55-m2g7": {
@@ -192559,7 +192599,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -192570,8 +192610,12 @@
         "body_hash": 10939049065266889808,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 17,
+        "url": "https://github.com/dennislee928/BingX_Nuxt_3/pull/17",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BingX_Nuxt_3:front-page/package-lock.json:npm:@nuxt/vite-builder:GHSA-648h-gw55-m2g7": {
@@ -270393,7 +270437,7 @@
         "new_today": false
       },
       "day": "2026-11-14",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-14T01:01:24.643985748Z",
       "last_seen": "2026-11-14T01:01:24.643985748Z",
       "resolved_at": null,
@@ -270404,8 +270448,12 @@
         "body_hash": 7167697580988015073,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:@nuxt/vite-builder:GHSA-648h-gw55-m2g7": {
