@@ -1,0 +1,3553 @@
+{
+  "since": "2026-11-15T07:31:58.841899696Z",
+  "until": "2026-11-16T07:31:58.841899696Z",
+  "feeds": [
+    {
+      "source": "CVE (NVD)",
+      "status": "ok",
+      "count": 101
+    },
+    {
+      "source": "OSV",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "source": "ENISA EUVD",
+      "status": "ok",
+      "count": 101
+    },
+    {
+      "source": "GitHub Advisory Database",
+      "status": "ok",
+      "count": 92
+    },
+    {
+      "source": "OpenSSF Malicious Packages",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "source": "Vulners",
+      "status": "skipped",
+      "reason": "VULNERS_API_KEY not set"
+    },
+    {
+      "source": "AttackerKB",
+      "status": "skipped",
+      "reason": "ATTACKERKB_API_KEY not set"
+    },
+    {
+      "source": "Sploitus",
+      "status": "ok",
+      "count": 36
+    },
+    {
+      "source": "OWASP Top 10 (CWE mapping)",
+      "status": "ok",
+      "count": 105
+    }
+  ],
+  "advisories": [
+    {
+      "id": "CVE-2026-129444",
+      "aliases": [
+        "EUVD-2026-126003",
+        "GHSA-32m9-2655-w25q"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability was identified in D-Link DSL-6740C 20131126. This affects an unknown function of the file /etc/templates/ftpd/ftpd_conf.php of the component FTP Daemon. Such manipulation leads to hard-coded credentials. The attack can be executed remotely. The exploit is publicly available and might be used.",
+      "published": "2026-11-15T08:15:18Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129444",
+      "packages": [],
+      "cwes": [
+        "CWE-259",
+        "CWE-798"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-52D82F2C-C2D6-56E5-9230-5A42279F1FA5",
+      "aliases": [
+        "CVE-2026-129351",
+        "CVE-2026-129352",
+        "SPLOITUS-CF6B9CFF-8B41-5AEE-805E-6A264CD42ADA"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-129352",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://sploitus.com/exploit?id=52D82F2C-C2D6-56E5-9230-5A42279F1FA5",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-129351",
+        "https://github.com/googlesky/CVE-2026-129352"
+      ]
+    },
+    {
+      "id": "SPLOITUS-873163AA-36F9-5249-94A2-AFF449A90143",
+      "aliases": [
+        "CVE-2026-129353",
+        "CVE-2026-129354",
+        "SPLOITUS-DB53D2A9-2BBA-5FAE-A261-75970937EB18"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-129353",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://sploitus.com/exploit?id=873163AA-36F9-5249-94A2-AFF449A90143",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-129353",
+        "https://github.com/googlesky/CVE-2026-129354"
+      ]
+    },
+    {
+      "id": "SPLOITUS-A7CE77FE-81F1-58FF-B6D1-85BCCAD39BD2",
+      "aliases": [
+        "CVE-2026-97229"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Integer Overflow or Wraparound in Gitlab",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "url": "https://sploitus.com/exploit?id=A7CE77FE-81F1-58FF-B6D1-85BCCAD39BD2",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/wa6n3r/cve-2026-97229"
+      ]
+    },
+    {
+      "id": "CVE-2026-129449",
+      "aliases": [
+        "EUVD-2026-126013",
+        "GHSA-6vqp-3x8r-9qrr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A security vulnerability has been detected in DrayTek Vigor2960 up to 1.5.1.6. Affected by this vulnerability is the function sub_14914 of the file /cgi-bin/mainfunction.cgi. The manipulation of the argument swmconfigupload leads to command injection. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 1.5.1.7 addresses this issue. It is advisable to upgrade the affected component. The vendor recommends: \"1.5.1.6 isn't the latest version of 2960, the latest version fixes many security issues. And we have another one in our release plan which should solve the issues reported.\"",
+      "published": "2026-11-15T11:00:20Z",
+      "severity": "HIGH",
+      "score": 9.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129449",
+      "packages": [],
+      "cwes": [
+        "CWE-74",
+        "CWE-77"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129450",
+      "aliases": [
+        "EUVD-2026-126014",
+        "GHSA-4279-9fjh-5w5r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability was detected in DrayTek Vigor2960 1.5.1.6. Affected by this issue is the function sub_1E084 of the file /cgi-bin/mainfunction.cgi?action=doWebBackup. The manipulation of the argument option results in path traversal. It is possible to launch the attack remotely. The exploit is now public and may be used. Upgrading to version 1.5.1.7 can resolve this issue. You should upgrade the affected component. The vendor recommends: \"1.5.1.6 isn't the latest version of 2960, the latest version fixes many security issues. And we have another one in our release plan which should solve the issues reported.\"",
+      "published": "2026-11-15T11:45:15Z",
+      "severity": "HIGH",
+      "score": 9.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129450",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129451",
+      "aliases": [
+        "EUVD-2026-126017",
+        "GHSA-672p-cvhv-7rhx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function app_guest_export of the file /cgi-bin/mainfunction.cgi. This manipulation of the argument filename causes path traversal. The attack can be initiated remotely. The exploit has been published and may be used. Upgrading to version 1.5.1.7 is able to mitigate this issue. The affected component should be upgraded. The vendor recommends: \"1.5.1.6 isn't the latest version of 2960, the latest version fixes many security issues. And we have another one in our release plan which should solve the issues reported.\"",
+      "published": "2026-11-15T12:15:12Z",
+      "severity": "HIGH",
+      "score": 9.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129451",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129453",
+      "aliases": [
+        "EUVD-2026-126031",
+        "GHSA-55c6-c9v3-fgjf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability was found in DrayTek Vigor2960 1.5.1.6. This issue affects the function check_file_exist of the file /cgi-bin/mainfunction.cgi of the component File Existence Check. Performing a manipulation of the argument upload_name results in heap-based buffer overflow. The attack may be initiated remotely. The exploit has been made public and could be used. Upgrading to version 1.5.1.7 is capable of addressing this issue. Upgrading the affected component is recommended. The vendor recommends: \"1.5.1.6 isn't the latest version of 2960, the latest version fixes many security issues. And we have another one in our release plan which should solve the issues reported.\"",
+      "published": "2026-11-15T13:30:11Z",
+      "severity": "HIGH",
+      "score": 9.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129453",
+      "packages": [],
+      "cwes": [
+        "CWE-119",
+        "CWE-122"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-293BB77B-ED5E-5DAF-B7D2-C0052084B7C2",
+      "aliases": [
+        "CVE-2026-123751",
+        "SPLOITUS-52D8B942-46A3-5F57-AB45-BC3F8DA74012"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-123751",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "url": "https://sploitus.com/exploit?id=293BB77B-ED5E-5DAF-B7D2-C0052084B7C2",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Sorganeil/Duplicate2Shell-CVE-2026-123751",
+        "https://github.com/tempiltin/Duplicate2Shell-CVE-2026-123751"
+      ]
+    },
+    {
+      "id": "CVE-2026-122662",
+      "aliases": [
+        "EUVD-2026-126043",
+        "GHSA-v4j4-5mx7-gp87"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Deserialization of Untrusted Data vulnerability in Barn2 Plugins Document Library Pro document-library-pro allows Object Injection.This issue affects Document Library Pro: from n/a before 4.2.2.",
+      "published": "2026-11-15T14:00:44Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122662",
+      "packages": [],
+      "cwes": [
+        "CWE-502"
+      ],
+      "owasp": [
+        "A08:2025 Software or Data Integrity Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125769",
+      "aliases": [
+        "EUVD-2026-126057",
+        "GHSA-vg24-2rxm-rxwg"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Incorrect Privilege Assignment vulnerability in Nasir Ahmed Advanced Form Integration advanced-form-integration allows Privilege Escalation.This issue affects Advanced Form Integration: from n/a through 2.11.3.",
+      "published": "2026-11-15T14:00:47Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125769",
+      "packages": [],
+      "cwes": [
+        "CWE-266"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125795",
+      "aliases": [
+        "EUVD-2026-126084",
+        "GHSA-3cfv-f88w-c563"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Estatik Estatik estatik allows PHP Local File Inclusion.This issue affects Estatik: from n/a through 4.3.6.",
+      "published": "2026-11-15T15:09:10Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125795",
+      "packages": [],
+      "cwes": [
+        "CWE-98"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-25762DD9-FEBD-53BD-A512-D4BA48768F35",
+      "aliases": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "SPLOITUS-2F41F7C0-B6FF-56D1-85C2-8EBFF6575CFF"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Improperly Controlled Sequential Memory Allocation in Php",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=25762DD9-FEBD-53BD-A512-D4BA48768F35",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Rat5ak/PHP2SHELL-PREAUTH-RCE",
+        "https://github.com/VoidCatalyst/php2shell-scanner"
+      ]
+    },
+    {
+      "id": "SPLOITUS-BF980876-8724-5EEC-B4BA-4B411E6CC45B",
+      "aliases": [
+        "CVE-2026-76954",
+        "CVE-2026-85101"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "synology-dsm-scanner",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=BF980876-8724-5EEC-B4BA-4B411E6CC45B",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/foxcornlab/synology-dsm-scanner"
+      ]
+    },
+    {
+      "id": "SPLOITUS-F4E670A0-F4D6-552D-8D4F-B925BD91D01E",
+      "aliases": [
+        "CVE-2026-116779"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Exposed Dangerous Method or Function in Freeswitch",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "url": "https://sploitus.com/exploit?id=F4E670A0-F4D6-552D-8D4F-B925BD91D01E",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/mehmet-emir-eroglu/CVE-2026-116779"
+      ]
+    },
+    {
+      "id": "CVE-2026-129452",
+      "aliases": [
+        "EUVD-2026-126018",
+        "GHSA-v778-r5cg-2pmh"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability has been found in DrayTek Vigor2960 1.5.1.6. This vulnerability affects the function set_table of the file /cgi-bin/mainfunction.cgi. Such manipulation of the argument jsondata leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.5.1.7 is able to resolve this issue. It is suggested to upgrade the affected component. The vendor recommends: \"1.5.1.6 isn't the latest version of 2960, the latest version fixes many security issues. And we have another one in our release plan which should solve the issues reported.\"",
+      "published": "2026-11-15T12:30:14Z",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129452",
+      "packages": [],
+      "cwes": [
+        "CWE-74",
+        "CWE-77"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129445",
+      "aliases": [
+        "EUVD-2026-126011",
+        "GHSA-26cg-q876-qfpq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A security flaw has been discovered in D-Link DIR-850L FW1.20WWb03. This impacts an unknown function of the file /usr/sbin/consolepwd of the component Console Login. Performing a manipulation results in hard-coded credentials. The attack requires a local approach. The exploit has been released to the public and may be used for attacks.",
+      "published": "2026-11-15T10:00:30Z",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129445",
+      "packages": [],
+      "cwes": [
+        "CWE-259",
+        "CWE-798"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129483",
+      "aliases": [
+        "EUVD-2026-126032",
+        "GHSA-h9fw-9v74-m2cr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Cyrus SASL through 2.1.28 contains an authentication bypass vulnerability in the SRP server mechanism because srp_server_mech_step2 does not reject client public values A that are multiples of N. Unauthenticated network clients can send A equal to N to force a zero shared secret, authenticating as any existing user without the password and learning session keys.",
+      "published": "2026-11-15T13:47:23Z",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129483",
+      "packages": [],
+      "cwes": [
+        "CWE-287"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129349",
+      "aliases": [
+        "EUVD-2026-126005",
+        "GHSA-3j37-vw7v-fxxw",
+        "SPLOITUS-8E89ECB9-A87C-5C2E-B069-36E2AE7329DA"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database",
+        "Sploitus"
+      ],
+      "title": "When authentication caching is enabled on DefaultLdapRealm, after a user logs in successfully once, subsequent logins for that user succeed with any password.\nA cached authentication skips the LDAP bind, and the AllowAllCredentialsMatcher installed by default in DefaultLdapRealm accepts any credentials, allowing an attacker who knows a valid username to authenticate as that user.\nThis issue affects all Apache Shiro versions through 3.0.0, only when using DefaultLdapRealm (or JndiLdapRealm) with authenticationCachingEnabled set to true, which is not the default.\n\nMitigation: Upgrade to version 3.0.1 or later, which fixes the issue by no longer installing AllowAllCredentialsMatcher by default.\nAlternatively, disable authentication caching on the LDAP realm (this is the default), or configure a credentials matcher, such as SimpleCredentialsMatcher, that verifies credentials against the cached authentication info.",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129349",
+      "packages": [],
+      "cwes": [
+        "CWE-287"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-129349"
+      ]
+    },
+    {
+      "id": "SPLOITUS-D0EC770B-6E44-5973-9676-0C970084FDF4",
+      "aliases": [
+        "CVE-2025-29927"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Improper Authorization in Vercel Next.Js",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "url": "https://sploitus.com/exploit?id=D0EC770B-6E44-5973-9676-0C970084FDF4",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Seif-Abdelhamid/nextjs-middleware-bypass-lab"
+      ]
+    },
+    {
+      "id": "SPLOITUS-EF452BBF-C73D-5440-950F-45BF5BF154BD",
+      "aliases": [
+        "CVE-2026-119618"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Race Condition in Apache Http_Server",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.9,
+      "url": "https://sploitus.com/exploit?id=EF452BBF-C73D-5440-950F-45BF5BF154BD",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/studiogangster/CVE-2026-119618"
+      ]
+    },
+    {
+      "id": "CVE-2026-125449",
+      "aliases": [
+        "EUVD-2026-126059",
+        "GHSA-73fv-hffw-j8v6"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Deserialization of Untrusted Data vulnerability in Mamunur Rashid Testimonial Slider testimonial-slider-and-showcase allows Object Injection.This issue affects Testimonial Slider: from n/a through 3.0.2.",
+      "published": "2026-11-15T14:00:48Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125449",
+      "packages": [],
+      "cwes": [
+        "CWE-502"
+      ],
+      "owasp": [
+        "A08:2025 Software or Data Integrity Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129540",
+      "aliases": [
+        "EUVD-2026-126163",
+        "GHSA-6ww7-crwx-359p"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "VoAPI 1.0.0 through 1.2.0 contains a sql injection vulnerability that allows authenticated users to inject SQL by supplying crafted column names as search[...] filter keys on list endpoints such as GET /api/log. Attackers can read the HS256 JWT signing secret from the option table and forge a manager role token to take over the /api/m/* management API.",
+      "published": "2026-11-16T01:50:49Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129540",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-82156",
+      "aliases": [
+        "EUVD-2026-126172",
+        "GHSA-8hgj-h7g5-5hrf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Dell PowerStore contains an authorization-bypass vulnerability. A low-privileged attacker could exploit it, potentially leading to elevation of privilege to administrator.",
+      "published": "2026-11-16T04:16:44.230Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82156",
+      "packages": [],
+      "cwes": [
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-292E3F31-C18E-5DBD-9824-9E47308E08F3",
+      "aliases": [
+        "CVE-2026-15315"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Improper Authentication in Tp-Link Tapo_C120_Firmware",
+      "published": "2026-11-16T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://sploitus.com/exploit?id=292E3F31-C18E-5DBD-9824-9E47308E08F3",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/Moyai08/Tapo-CVE-2026-15315-Poc"
+      ]
+    },
+    {
+      "id": "SPLOITUS-4E8C4A47-9F5A-5309-BA47-DDE7BC6EE327",
+      "aliases": [
+        "CVE-2026-126910"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-126910",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://sploitus.com/exploit?id=4E8C4A47-9F5A-5309-BA47-DDE7BC6EE327",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/chrome-v8-maglev-literal-stale"
+      ]
+    },
+    {
+      "id": "SPLOITUS-A88411DA-C105-5E01-8F1B-61635F42CDA7",
+      "aliases": [
+        "CVE-2026-126916"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-126916",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.8,
+      "url": "https://sploitus.com/exploit?id=A88411DA-C105-5E01-8F1B-61635F42CDA7",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/chrome-icu-usearch-ce-overflow"
+      ]
+    },
+    {
+      "id": "CVE-2026-129493",
+      "aliases": [
+        "EUVD-2026-126155",
+        "GHSA-j548-r5c7-vvjh"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Bolo (bolo-solo) 1.7 through 2.6.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read article view passwords via the public GET /articles endpoint. Attackers can retrieve the plaintext articleViewPwd field returned by ArticleProcessor.getArticlesByPage and submit it to read password-protected article content.",
+      "published": "2026-11-16T00:00:37Z",
+      "severity": "HIGH",
+      "score": 8.7,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129493",
+      "packages": [],
+      "cwes": [
+        "CWE-201"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129494",
+      "aliases": [
+        "EUVD-2026-126154",
+        "GHSA-q4wf-rcwf-h4xf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "CloudPaste 1.1.0 through 1.9.1 contains an information disclosure vulnerability that allows unauthenticated attackers to obtain WebDAV storage credentials through the unauthenticated /api/proxy/link endpoint. Attackers who know a public share slug can retrieve the Basic Authorization header containing the WebDAV username and password, then read, modify, or delete files on the WebDAV server.",
+      "published": "2026-11-16T00:00:36Z",
+      "severity": "HIGH",
+      "score": 8.7,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129494",
+      "packages": [],
+      "cwes": [
+        "CWE-522"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-0A3A8911-97C4-555E-B6B0-EE364879DF9A",
+      "aliases": [
+        "CVE-2026-126915"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Use of Uninitialized Variable in Google Chrome",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.6,
+      "url": "https://sploitus.com/exploit?id=0A3A8911-97C4-555E-B6B0-EE364879DF9A",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/skia-vk-uninit-renderpass"
+      ]
+    },
+    {
+      "id": "SPLOITUS-B870F9CB-B4E1-563E-878C-C751E404A3C7",
+      "aliases": [
+        "CVE-2026-126902"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for Use of Incorrectly-Resolved Name or Reference in Google Chrome",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 8.6,
+      "url": "https://sploitus.com/exploit?id=B870F9CB-B4E1-563E-878C-C751E404A3C7",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/chrome-mac-webshare-symlink"
+      ]
+    },
+    {
+      "id": "CVE-2026-125832",
+      "aliases": [
+        "EUVD-2026-126051",
+        "GHSA-vm95-ggm6-cwvq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Passionate Programmer Peter WP Data Access wp-data-access allows SQL Injection.This issue affects WP Data Access: from n/a through 5.5.92.",
+      "published": "2026-11-15T14:00:46Z",
+      "severity": "HIGH",
+      "score": 8.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125832",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129091",
+      "aliases": [
+        "EUVD-2026-126104",
+        "GHSA-m7wp-f42q-68h4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Mikado-Themes GrandPrix Core grandprix-core allows PHP Local File Inclusion.This issue affects GrandPrix Core: from n/a through 1.0.",
+      "published": "2026-11-15T19:00:23Z",
+      "severity": "HIGH",
+      "score": 8.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129091",
+      "packages": [],
+      "cwes": [
+        "CWE-98"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-D7E4BA11-EB80-51D4-8F20-BD796A3326A1",
+      "aliases": [
+        "CVE-2022-38694"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "android-carrier-lock-field-kit",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.8,
+      "url": "https://sploitus.com/exploit?id=D7E4BA11-EB80-51D4-8F20-BD796A3326A1",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/ArchLinuxAddict/android-carrier-lock-field-kit"
+      ]
+    },
+    {
+      "id": "SPLOITUS-1C7664EB-FFD1-5477-B01E-6CE3A616859A",
+      "aliases": [
+        "CVE-2025-1912",
+        "CVE-2026-118989"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-118989",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.6,
+      "url": "https://sploitus.com/exploit?id=1C7664EB-FFD1-5477-B01E-6CE3A616859A",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/sarvarr1/CVE-2026-118989-webtoffee-ssrf"
+      ]
+    },
+    {
+      "id": "CVE-2026-125780",
+      "aliases": [
+        "EUVD-2026-126060",
+        "GHSA-65cc-2fpw-8g5v"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Acowebs Woocommerce Custom Product Addons Pro woo-custom-product-addons-pro allows Path Traversal.This issue affects Woocommerce Custom Product Addons Pro: from n/a through 5.9.0.",
+      "published": "2026-11-15T14:00:48Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125780",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125799",
+      "aliases": [
+        "EUVD-2026-126087",
+        "GHSA-cv56-w7x2-5fq7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Insertion of Sensitive Information into Externally-Accessible File or Directory vulnerability in Looks Awesome Flow-Flow Social Stream flow-flow-social-streams allows Retrieve Embedded Sensitive Data.This issue affects Flow-Flow Social Stream: from n/a through 5.0.5.",
+      "published": "2026-11-15T15:09:09Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125799",
+      "packages": [],
+      "cwes": [
+        "CWE-538"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125823",
+      "aliases": [
+        "EUVD-2026-126111",
+        "GHSA-fgpr-pjcx-qv58"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Allocation of Resources Without Limits or Throttling vulnerability in Jegstudio Gutenverse gutenverse allows HTTP DoS.This issue affects Gutenverse: from n/a through 4.2.2.",
+      "published": "2026-11-15T19:00:24Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125823",
+      "packages": [],
+      "cwes": [
+        "CWE-770"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-82568",
+      "aliases": [
+        "EUVD-2026-126006",
+        "GHSA-vfgp-2gcg-5hrw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Give - Peer-to-Peer plugin for WordPress is vulnerable to time-based SQL Injection via the 'sort' parameter in all versions up to, and including, 2.9.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. Successful exploitation requires the existence of at least one Peer-to-Peer campaign. This vulnerability can be combined with CVE-2026-82663 to achieve unauthenticated remote code execution.",
+      "published": "2026-11-15T09:34:45Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82568",
+      "packages": [],
+      "cwes": [
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-82663",
+      "aliases": [
+        "EUVD-2026-126007",
+        "GHSA-4v5x-9cc6-q6fj"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Give - Peer-to-Peer plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.9.5. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers who know or discover an existing campaign and team ID to modify the team's name, story, goal, access and notification settings, set its profile image URL, and upload WordPress-allowed media files as parentless attachments. This vulnerability can be combined with CVE-2026-82568 to achieve unauthenticated remote code execution.",
+      "published": "2026-11-15T09:34:46Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82663",
+      "packages": [],
+      "cwes": [
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-D87E788B-5C23-53A6-AFCE-CCF4F7EE3D76",
+      "aliases": [
+        "CVE-2026-129359",
+        "CVE-2026-129360",
+        "SPLOITUS-E624BACE-E95A-5BE1-BFAF-341543EBBAEC"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-129360",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.5,
+      "url": "https://sploitus.com/exploit?id=D87E788B-5C23-53A6-AFCE-CCF4F7EE3D76",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-129359",
+        "https://github.com/googlesky/CVE-2026-129360"
+      ]
+    },
+    {
+      "id": "SPLOITUS-5C31CFAC-CF2D-538C-9A08-252DB488BA5C",
+      "aliases": [
+        "CVE-2026-126919"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-126919",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.4,
+      "url": "https://sploitus.com/exploit?id=5C31CFAC-CF2D-538C-9A08-252DB488BA5C",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/CVE-2026-126919-mimehandler-postmessage-uaf"
+      ]
+    },
+    {
+      "id": "CVE-2026-125771",
+      "aliases": [
+        "EUVD-2026-126090",
+        "GHSA-w68m-3rvm-5xxq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege Escalation.This issue affects MCP Server for WordPress: from n/a through 2.0.3.",
+      "published": "2026-11-15T15:09:09Z",
+      "severity": "HIGH",
+      "score": 7.2,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125771",
+      "packages": [],
+      "cwes": [
+        "CWE-266"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-124254",
+      "aliases": [
+        "EUVD-2026-126050",
+        "GHSA-9xcg-jm89-xrc6"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Exactly WWW LLC EWWW Image Optimizer ewww-image-optimizer allows Stored XSS.This issue affects EWWW Image Optimizer: from n/a through 8.9.1.",
+      "published": "2026-11-15T14:00:46Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124254",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-124259",
+      "aliases": [
+        "EUVD-2026-126055",
+        "GHSA-chwf-wrq5-ghgp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Franky Events Made Easy events-made-easy allows Reflected XSS.This issue affects Events Made Easy: from n/a through 3.3.5.",
+      "published": "2026-11-15T14:00:47Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124259",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-124270",
+      "aliases": [
+        "EUVD-2026-126046",
+        "GHSA-qmcj-48c3-vhg7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Basix NEX-Forms nex-forms-express-wp-form-builder allows Reflected XSS.This issue affects NEX-Forms: from n/a through 9.3.3.",
+      "published": "2026-11-15T14:00:45Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124270",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-124995",
+      "aliases": [
+        "EUVD-2026-126047",
+        "GHSA-wm25-rgf8-wg5c"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Michal Jaworski Track, Analyze & Optimize by WP Tao wp-tao allows Stored XSS.This issue affects Track, Analyze & Optimize by WP Tao: from n/a through 1.3.1.",
+      "published": "2026-11-15T14:00:45Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124995",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125443",
+      "aliases": [
+        "EUVD-2026-126048",
+        "GHSA-8x3h-vm7j-7cqm"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Denishua WPJAM Basic wpjam-basic allows DOM-Based XSS.This issue affects WPJAM Basic: from n/a through 7.1.2.",
+      "published": "2026-11-15T14:00:45Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125443",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125447",
+      "aliases": [
+        "EUVD-2026-126088",
+        "GHSA-x7w3-qfv5-xqhx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kaliforms Kali Forms kali-forms allows Reflected XSS.This issue affects Kali Forms: from n/a through 2.4.31.",
+      "published": "2026-11-15T15:09:09Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125447",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125733",
+      "aliases": [
+        "EUVD-2026-126089",
+        "GHSA-v5rm-xcgp-m6f9"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DevItems ShopLentor woolentor-addons allows Reflected XSS.This issue affects ShopLentor: from n/a through 3.5.7.",
+      "published": "2026-11-15T15:09:09Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125733",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125760",
+      "aliases": [
+        "EUVD-2026-126109",
+        "GHSA-89pv-vg5m-qxfq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bit Apps Bit Assist bit-assist allows DOM-Based XSS.This issue affects Bit Assist: from n/a through 1.8.4.",
+      "published": "2026-11-15T19:00:24Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125760",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125764",
+      "aliases": [
+        "EUVD-2026-126056",
+        "GHSA-xf56-g55g-xff4"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in E2Pdf.com e2pdf e2pdf allows Stored XSS.This issue affects e2pdf: from n/a through 1.32.65.",
+      "published": "2026-11-15T14:00:47Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125764",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125765",
+      "aliases": [
+        "EUVD-2026-126083",
+        "GHSA-c72f-v7mx-6x4q"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ShortPixel ShortPixel Adaptive Images shortpixel-adaptive-images allows Stored XSS.This issue affects ShortPixel Adaptive Images: from n/a through 3.11.6.",
+      "published": "2026-11-15T15:09:10Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125765",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125775",
+      "aliases": [
+        "EUVD-2026-126041",
+        "GHSA-93q8-h264-76v7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CRM Perks CRM Perks Forms crm-perks-forms allows Reflected XSS.This issue affects CRM Perks Forms: from n/a through 1.1.8.",
+      "published": "2026-11-15T14:00:44Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125775",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125789",
+      "aliases": [
+        "EUVD-2026-126045",
+        "GHSA-wv4v-xxp3-r59x"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS vikbooking allows Stored XSS.This issue affects VikBooking Hotel Booking Engine & PMS: from n/a through 1.8.20.",
+      "published": "2026-11-15T14:00:45Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125789",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125790",
+      "aliases": [
+        "EUVD-2026-126044",
+        "GHSA-chpw-chc9-57cx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS vikbooking allows Stored XSS.This issue affects VikBooking Hotel Booking Engine & PMS: from n/a through 1.8.20.",
+      "published": "2026-11-15T14:00:44Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125790",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125791",
+      "aliases": [
+        "EUVD-2026-126052",
+        "GHSA-r6cp-gr2p-wxmc"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in iWorks Orphans sierotki allows Stored XSS.This issue affects Orphans: from n/a through 3.4.6.",
+      "published": "2026-11-15T14:00:46Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125791",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125793",
+      "aliases": [
+        "EUVD-2026-126085",
+        "GHSA-4v7x-gc7x-7rxx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in flexmls Flexmls® IDX flexmls-idx allows Reflected XSS.This issue affects Flexmls® IDX: from n/a through 4.1.2.",
+      "published": "2026-11-15T15:09:10Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125793",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125798",
+      "aliases": [
+        "EUVD-2026-126103",
+        "GHSA-cp2f-39m3-jm58"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Zaytech Smart Online Order for Clover clover-online-orders allows DOM-Based XSS.This issue affects Smart Online Order for Clover: from n/a through 1.6.6.",
+      "published": "2026-11-15T19:00:23Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125798",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125804",
+      "aliases": [
+        "EUVD-2026-126107",
+        "GHSA-q33v-36xg-w3wv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Meow Apps AI Engine ai-engine allows Stored XSS.This issue affects AI Engine: from n/a through 3.9.3.",
+      "published": "2026-11-15T19:00:24Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125804",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125813",
+      "aliases": [
+        "EUVD-2026-126049",
+        "GHSA-65rq-g26g-q93r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Ays Pro Survey Maker survey-maker allows Reflected XSS.This issue affects Survey Maker: from n/a through 5.2.4.3.",
+      "published": "2026-11-15T14:00:46Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125813",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125817",
+      "aliases": [
+        "EUVD-2026-126105",
+        "GHSA-ffqj-qwg5-w926"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themeisle Feedzy feedzy-rss-feeds allows Stored XSS.This issue affects Feedzy: from n/a through 5.2.15.",
+      "published": "2026-11-15T19:00:23Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125817",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125818",
+      "aliases": [
+        "EUVD-2026-126112",
+        "GHSA-r2w9-mx5w-pgxf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AdvancedCoding wpDiscuz wpdiscuz allows Stored XSS.This issue affects wpDiscuz: from n/a through 7.6.75.",
+      "published": "2026-11-15T19:00:24Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125818",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125822",
+      "aliases": [
+        "EUVD-2026-126106",
+        "GHSA-cjq3-978g-3gcq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Nickboss WordPress File Upload wp-file-upload allows Stored XSS.This issue affects WordPress File Upload: from n/a through 5.2.3.",
+      "published": "2026-11-15T19:00:23Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125822",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125828",
+      "aliases": [
+        "EUVD-2026-126053",
+        "GHSA-4fh9-vrw7-hx7g"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Liquid Web / StellarWP BookIt bookit allows Stored XSS.This issue affects BookIt: from n/a through 2.6.0.7.",
+      "published": "2026-11-15T14:00:46Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125828",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125830",
+      "aliases": [
+        "EUVD-2026-126108",
+        "GHSA-fc57-x79w-xfxp"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Belingo belingoGeo belingogeo allows Reflected XSS.This issue affects belingoGeo: from n/a through 1.13.3.",
+      "published": "2026-11-15T19:00:24Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125830",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-128893",
+      "aliases": [
+        "EUVD-2026-126086",
+        "GHSA-3f93-7g24-w86g"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Marcin Wise Chat wise-chat allows Reflected XSS.This issue affects Wise Chat: from n/a through 3.4.5.",
+      "published": "2026-11-15T15:09:09Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128893",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129539",
+      "aliases": [
+        "EUVD-2026-126164",
+        "GHSA-j86m-5x66-8h64"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "SSCMS 7.2.0 through 7.4.0 contains an arbitrary file read vulnerability that allows any registered user-center account to copy server files by supplying source paths to the layerImageUpload endpoint. Attackers can send siteId 0 with crafted filePaths entries to copy configuration files into their public sitefiles/home upload directory and download them anonymously.",
+      "published": "2026-11-16T01:50:50Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129539",
+      "packages": [],
+      "cwes": [
+        "CWE-73"
+      ],
+      "owasp": [
+        "A06:2025 Insecure Design"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129606",
+      "aliases": [
+        "EUVD-2026-126176",
+        "GHSA-xfmm-86vr-x3pj"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in Samsung Open Source mTower allows Overflow Buffers.",
+      "published": "2026-11-16T06:16:49.183Z",
+      "severity": "HIGH",
+      "score": 7.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129606",
+      "packages": [],
+      "cwes": [
+        "CWE-120"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-59EBF45B-8383-5408-9FAD-FEEA2E1EC7D3",
+      "aliases": [
+        "CVE-2026-126912"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-126912",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.0,
+      "url": "https://sploitus.com/exploit?id=59EBF45B-8383-5408-9FAD-FEEA2E1EC7D3",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/skia-convex-oob"
+      ]
+    },
+    {
+      "id": "SPLOITUS-BBB08203-E68C-55D1-AE45-6F204DFAB2DE",
+      "aliases": [
+        "CVE-2026-126909"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-126909",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "HIGH",
+      "score": 7.0,
+      "url": "https://sploitus.com/exploit?id=BBB08203-E68C-55D1-AE45-6F204DFAB2DE",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/abraxas/chrome-autosignin-toast-uaf"
+      ]
+    },
+    {
+      "id": "CVE-2026-129469",
+      "aliases": [
+        "EUVD-2026-126019",
+        "GHSA-8pjf-7rrv-hw3r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Course-tencent-cloud before 2.0.2 contains an insecure direct object reference vulnerability that allows unauthenticated attackers to view other users' refund previews by supplying an order sn to /api/refund/confirm. Attackers can compute valid sn values from Sqids-encoded sequential order ids using the default key to disclose ordered items, prices, refund amounts, fees and deadlines.",
+      "published": "2026-11-15T12:48:22Z",
+      "severity": "MEDIUM",
+      "score": 6.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129469",
+      "packages": [],
+      "cwes": [
+        "CWE-639"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129478",
+      "aliases": [
+        "EUVD-2026-126029",
+        "GHSA-4wfg-wh54-rm56"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Assimp through 6.0.6 contains a heap out-of-bounds read vulnerability in glTFCommon::Util::ParseDataURI caused by storing the data offset in a signed char. Attackers can supply a crafted glTF file with a raw data URI whose segment starts beyond byte 127 to crash applications or leak adjacent heap memory.",
+      "published": "2026-11-15T13:12:09Z",
+      "severity": "MEDIUM",
+      "score": 6.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129478",
+      "packages": [],
+      "cwes": [
+        "CWE-125"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129485",
+      "aliases": [
+        "EUVD-2026-126082",
+        "GHSA-976x-w3hh-23xw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Kroki before 0.36.0 contains a server-side request forgery vulnerability in the BlockDiag family of engines that allows unauthenticated attackers to make server requests via node icon and background attributes. Attackers can send crafted diagrams to POST /blockdiag/svg or sibling endpoints to query internal services or cloud metadata and read local image files from the server.",
+      "published": "2026-11-15T15:33:11Z",
+      "severity": "MEDIUM",
+      "score": 6.9,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129485",
+      "packages": [],
+      "cwes": [
+        "CWE-918"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-3217948A-E5C2-5FCC-96E5-0E5B8D32C966",
+      "aliases": [
+        "CVE-2026-129355"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "Exploit for CVE-2026-129355",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "MEDIUM",
+      "score": 6.9,
+      "url": "https://sploitus.com/exploit?id=3217948A-E5C2-5FCC-96E5-0E5B8D32C966",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/googlesky/CVE-2026-129355"
+      ]
+    },
+    {
+      "id": "CVE-2025-71466",
+      "aliases": [
+        "EUVD-2025-211341",
+        "GHSA-w4qp-345f-74q7"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "GPAC before 26.02.0 contains a NULL pointer dereference vulnerability in m2tsdmx_update_sdt() in src/filters/dmx_m2ts.c that allows attackers to crash the MPEG-2 TS demuxer. Attackers can supply a crafted .ts file with an invalid service descriptor leaving service or provider names NULL to crash MP4Box and cause denial of service.",
+      "published": "2026-11-15T15:51:22Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71466",
+      "packages": [],
+      "cwes": [
+        "CWE-476"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2025-71467",
+      "aliases": [
+        "EUVD-2025-211340",
+        "GHSA-9pfc-f7m3-wf73"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "GPAC before 26.02.0 contains a NULL pointer dereference vulnerability in gf_node_get_field_by_name() in src/scenegraph/base_scenegraph.c that lets attackers crash applications. Attackers can supply a crafted XMT scene referencing a never-created node to crash MP4Box or GPAC scene loader applications, causing denial of service.",
+      "published": "2026-11-15T15:51:21Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71467",
+      "packages": [],
+      "cwes": [
+        "CWE-476"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2025-71468",
+      "aliases": [
+        "EUVD-2025-211339",
+        "GHSA-6f4x-75w7-4j6r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "GPAC before 26.02.0 contains a NULL pointer dereference vulnerability in gf_dash_group_get_audio_channels() in src/media_tools/dash_client.c that allows attackers to crash applications via crafted DASH manifests. Attackers can supply an MPD whose AudioChannelConfiguration element omits schemeIdUri or value, crashing MP4Box or GPAC DASH clients and causing denial of service.",
+      "published": "2026-11-15T15:51:21Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71468",
+      "packages": [],
+      "cwes": [
+        "CWE-476"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2025-71469",
+      "aliases": [
+        "EUVD-2025-211338",
+        "GHSA-fm9r-fwrg-q26v"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "GPAC before 26.02.0 contains a type confusion vulnerability in ctxload_process() that passes non-object descriptors to ODS_SetupOD() without checking the descriptor tag. Attackers can supply a crafted XMT file with a URL-bearing descriptor that crashes MP4Box or other GPAC-based applications in gf_scene_ns_connect_object(), causing denial of service.",
+      "published": "2026-11-15T15:51:20Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71469",
+      "packages": [],
+      "cwes": [
+        "CWE-843"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2025-71470",
+      "aliases": [
+        "EUVD-2025-211342",
+        "GHSA-72q4-34j8-jv5x"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "MicroQuickJS (mquickjs) before commit 99eed3f contains an out-of-bounds read vulnerability because JS_Call() raises exceptions during frame setup without updating ctx->sp and ctx->fp. Attackers can supply JavaScript that calls a non-function value, causing build_backtrace() to walk stale frame pointers and crash the engine for denial of service.",
+      "published": "2026-11-15T15:51:19Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71470",
+      "packages": [],
+      "cwes": [
+        "CWE-125"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129477",
+      "aliases": [
+        "EUVD-2026-126030",
+        "GHSA-xqmq-hm32-g484"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Assimp through 6.0.6 contains a path traversal vulnerability in the glTF and glTF2 importers that allows attackers to read local files via crafted buffers[].uri values. Attackers can supply glTF models with '..' segments or absolute paths in buffer URIs to load files like /etc/passwd into imported mesh vertex data.",
+      "published": "2026-11-15T13:12:10Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129477",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129479",
+      "aliases": [
+        "EUVD-2026-126028",
+        "GHSA-f8x5-qxqq-cgrr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Assimp through 6.0.6 contains an integer overflow vulnerability in OgreBinarySerializer::ReadSubMesh that allows attackers to crash applications by supplying crafted Ogre binary .mesh files. Attackers can set a large index count so the 32-bit buffer size wraps, causing a segmentation fault in aiMesh::~aiMesh() during scene teardown.",
+      "published": "2026-11-15T13:12:09Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129479",
+      "packages": [],
+      "cwes": [
+        "CWE-190"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129490",
+      "aliases": [
+        "EUVD-2026-126101",
+        "GHSA-q985-5v39-r948"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "littlefs through 2.11.3, when built with LFS_MIGRATE, contains a type confusion vulnerability in lfs_dir_traverse() that treats a stack lfs_diskoff struct as an lfs_attr array. Attackers can supply a crafted littlefs v1 image whose metadata is read as LFS_FROM_USERATTRS during migration, causing out-of-bounds stack reads and process crashes.",
+      "published": "2026-11-15T15:51:19Z",
+      "severity": "MEDIUM",
+      "score": 6.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129490",
+      "packages": [],
+      "cwes": [
+        "CWE-843"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-124755",
+      "aliases": [
+        "EUVD-2026-126058",
+        "GHSA-mcf8-pgvx-hq8r"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Justin Kruit Advanced Custom Fields: Font Awesome Field advanced-custom-fields-font-awesome allows Stored XSS.This issue affects Advanced Custom Fields: Font Awesome Field: from n/a through 6.1.4.",
+      "published": "2026-11-15T14:00:47Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124755",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125796",
+      "aliases": [
+        "EUVD-2026-126113",
+        "GHSA-9pwg-f3w2-2cc5"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Missing Authorization vulnerability in Ahmad JS Help Desk js-support-ticket allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects JS Help Desk: from n/a through 5.0.5.",
+      "published": "2026-11-15T19:00:25Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125796",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125805",
+      "aliases": [
+        "EUVD-2026-126054",
+        "GHSA-q7r6-pvj4-j7fm"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AyeCode Ltd GeoDirectory geodirectory allows Stored XSS.This issue affects GeoDirectory: from n/a through 2.8.204.",
+      "published": "2026-11-15T14:00:46Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125805",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125857",
+      "aliases": [
+        "EUVD-2026-126042",
+        "GHSA-c6w7-h32c-p62p"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Sarah Giles Dynamic User Directory dynamic-user-directory allows Stored XSS.This issue affects Dynamic User Directory: from n/a through 2.4.",
+      "published": "2026-11-15T14:00:44Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125857",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "SPLOITUS-1D5F0B02-0E8C-546E-8C97-86C70D21B044",
+      "aliases": [
+        "CVE-2022-34830",
+        "CVE-2022-36449"
+      ],
+      "sources": [
+        "Sploitus"
+      ],
+      "title": "mibox3s-utgard-lpe",
+      "published": "2026-11-15T00:00:00Z",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "url": "https://sploitus.com/exploit?id=1D5F0B02-0E8C-546E-8C97-86C70D21B044",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": [
+        "https://github.com/wuying2021/mibox3s-utgard-lpe"
+      ]
+    },
+    {
+      "id": "CVE-2026-129543",
+      "aliases": [
+        "EUVD-2026-126166",
+        "GHSA-w34m-j345-gr8w"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Access of resource using incompatible type ('type confusion') vulnerability in Samsung Open Source Starfish allows Input Data Manipulation.",
+      "published": "2026-11-16T02:08:13Z",
+      "severity": "MEDIUM",
+      "score": 6.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129543",
+      "packages": [],
+      "cwes": [
+        "CWE-843"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129443",
+      "aliases": [
+        "EUVD-2026-126001",
+        "GHSA-6hhx-4f46-wj7q"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "A vulnerability was determined in itsourcecode Airline Reservation System 1.0. The impacted element is an unknown function of the file /admin/manage_user.php. This manipulation of the argument ID causes sql injection. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized.",
+      "published": "2026-11-15T07:45:19Z",
+      "severity": "LOW",
+      "score": 6.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129443",
+      "packages": [],
+      "cwes": [
+        "CWE-74",
+        "CWE-89"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129482",
+      "aliases": [
+        "EUVD-2026-126033",
+        "GHSA-p22c-cv6w-qc6x"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "OkHttp through 5.5.1 contains an improper certificate validation vulnerability in CertificatePinner that skips pin checks because Pin.matchesHostname does not normalize trailing-dot hostnames. Network attackers with a CA-trusted certificate not matching configured pins can intercept or modify TLS traffic when applications request the trailing-dot form of pinned hosts.",
+      "published": "2026-11-15T13:47:24Z",
+      "severity": "MEDIUM",
+      "score": 6.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129482",
+      "packages": [],
+      "cwes": [
+        "CWE-295"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129484",
+      "aliases": [
+        "EUVD-2026-126081",
+        "GHSA-3596-jrj6-mf2p"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Kroki before 0.36.0 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts via unvalidated svg-color-dark-scheme and svg-color-light-scheme options. Attackers can craft a GET /goat/svg URL whose option value closes the SVG style element, executing JavaScript in the Kroki origin when victims open it.",
+      "published": "2026-11-15T15:33:11Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129484",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129492",
+      "aliases": [
+        "EUVD-2026-126156",
+        "GHSA-wxcp-24fm-4f4c"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Bolo (bolo-solo) 1.7 through 2.6.4 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts via the unsanitized commentOriginalCommentName parameter. Attackers can post a comment to /article/comments with a short payload that steals non-HttpOnly session cookies from visitors, enabling takeover of administrator accounts.",
+      "published": "2026-11-16T00:00:38Z",
+      "severity": "MEDIUM",
+      "score": 6.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129492",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129480",
+      "aliases": [
+        "EUVD-2026-126027",
+        "GHSA-3ch3-4xc5-mvqr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Assimp through 6.0.6 contains a heap out-of-bounds read vulnerability in MD2Importer::InternReadFile that allows attackers to read past the file buffer via an unvalidated stored frameSize header field. Attackers can supply a crafted .md2 file loaded with a non-zero keyframe selected to crash the application or leak adjacent heap memory into the imported mesh.",
+      "published": "2026-11-15T13:12:08Z",
+      "severity": "MEDIUM",
+      "score": 5.8,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129480",
+      "packages": [],
+      "cwes": [
+        "CWE-125"
+      ],
+      "owasp": [
+        "A10:2025 Mishandling of Exceptional Conditions"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-107520",
+      "aliases": [
+        "EUVD-2026-126173",
+        "GHSA-mc67-6x5f-52qw"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Dell PowerStore contains a stored cross-site scripting (XSS) vulnerability. A low-privileged authenticated attacker could exploit this vulnerability, potentially leading to execution of malicious script in a higher-privileged user's session.",
+      "published": "2026-11-16T04:16:44.033Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107520",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129491",
+      "aliases": [
+        "EUVD-2026-126157",
+        "GHSA-5765-77gr-vjxv"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Qbian61 forum-java commit 20f7e68 through commit 63152c4 contains a stored cross-site scripting vulnerability that allows authenticated users to inject script by posting unsanitized comment content rendered via jQuery .html() in the reply dialog. Attackers can post comments with img onerror payloads that execute when victims click Reply, stealing the non-HttpOnly sid session cookie to hijack accounts including administrators.",
+      "published": "2026-11-16T00:00:39Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129491",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129541",
+      "aliases": [
+        "EUVD-2026-126162",
+        "GHSA-ph9q-63q9-42hf"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "EdgeChat 2.5.0 through 2.21.0 contains a cross-site scripting vulnerability that allows invited users to inject HTML through unescaped usernames in the Vditor @-mention autocomplete. Attackers can register with a username containing an img onerror payload that executes when mentioned, stealing the localStorage session token to take over victim accounts.",
+      "published": "2026-11-16T01:50:49Z",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129541",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129467",
+      "aliases": [
+        "EUVD-2026-126021",
+        "GHSA-6hh5-5g4m-3g64"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "GeoPulse 1.5.0 through 2.3.0 contains an insecure direct object reference vulnerability in GET /api/v1/places/geocoding/{id} that allows authenticated users to read other users' private locations. Attackers can enumerate sequential reverse_geocoding_location ids to retrieve other users' custom place names, city, country, coordinates and bounding boxes from their history.",
+      "published": "2026-11-15T12:48:24Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129467",
+      "packages": [],
+      "cwes": [
+        "CWE-639"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129468",
+      "aliases": [
+        "EUVD-2026-126020",
+        "GHSA-r5fr-g49p-c3pg"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Netcccyun dnsmgr 2.18 before 2.22 contains a missing authorization vulnerability in POST /cloudflare/get_domain_default_line that allows restricted users to access domains outside their permissions. Restricted sub-users or single-domain logins can iterate the domain_id parameter to enumerate panel domain ids and read each domain's DNS line list and default line.",
+      "published": "2026-11-15T12:48:23Z",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129468",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125826",
+      "aliases": [
+        "EUVD-2026-126110",
+        "GHSA-2f97-jmvq-qf26"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Blubrry Podcasting PowerPress Podcasting powerpress allows Path Traversal.This issue affects PowerPress Podcasting: from n/a through 11.18.3.",
+      "published": "2026-11-15T19:00:24Z",
+      "severity": "MEDIUM",
+      "score": 5.0,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125826",
+      "packages": [],
+      "cwes": [
+        "CWE-22"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129542",
+      "aliases": [
+        "EUVD-2026-126165",
+        "GHSA-9v48-5w62-63jx"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "Files or directories accessible to external parties vulnerability in Samsung Open Source Starfish allows Probe System Files.",
+      "published": "2026-11-16T01:53:35Z",
+      "severity": "LOW",
+      "score": 3.1,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129542",
+      "packages": [],
+      "cwes": [
+        "CWE-552"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118389",
+      "aliases": [
+        "EUVD-2026-126116"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "The RubyGems package registry accepted gems whose platform, dependency names or dependency version requirements contain newline characters. Because the compact index served to clients is line-based, a user who can publish a gem to an owner's registry could forge index entries, such as packages that do not exist or additional versions of an existing gem with dependencies of their choice. Clients that resolve gems from that registry could then be led to install attacker-chosen dependencies. Gems with such metadata are now rejected.",
+      "published": "2026-11-15T21:13:39Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118389",
+      "packages": [],
+      "cwes": [
+        "CWE-74"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-118535",
+      "aliases": [
+        "EUVD-2026-126117"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "A repository registered by its owner as a source of scoped workflows kept that registration when it was transferred to another owner. The new owner could then change the workflows in the transferred repository, and they kept running in the previous owner's repositories with access to their Actions secrets and job tokens. A transfer now removes the owner-level registrations of the repository, and registrations whose source repository no longer belongs to the registering owner are ignored.",
+      "published": "2026-11-15T21:13:44Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118535",
+      "packages": [],
+      "cwes": [
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120725",
+      "aliases": [
+        "EUVD-2026-126118"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "With `REQUIRE_SIGNIN_VIEW = true`, the Git LFS endpoints still answered unauthenticated requests for repositories that are not private. An anonymous client who knows the path of such a repository and the SHA-256 of an LFS object could download the object, and could use the batch endpoint to test whether an object exists. The Git LFS endpoints now require authentication when sign-in is required to view the instance.",
+      "published": "2026-11-15T21:13:51Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120725",
+      "packages": [],
+      "cwes": [
+        "CWE-306"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120729",
+      "aliases": [
+        "EUVD-2026-126119"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "The popup shown when hovering an issue reference loaded its data from the path of the hovered link and inserted part of the response as HTML. A user who can post a comment or other rendered content could add a link that is displayed as an ordinary issue reference but points to a file in a repository they control, so that the popup inserted that file's content into the page of anyone hovering the link and ran script in the viewer's session. The popup now requests the issue by the owner, repository and index parsed from the link.",
+      "published": "2026-11-15T21:13:53Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120729",
+      "packages": [],
+      "cwes": [
+        "CWE-79"
+      ],
+      "owasp": [
+        "A05:2025 Injection"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-120991",
+      "aliases": [
+        "EUVD-2026-126120"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "When a container blob upload was rejected, for example because it exceeded a package size quota, the cleanup removed the blob from storage even if the same content already existed and was used by other packages. On an instance with a package quota configured, a user who can upload container images and has the exact content of another owner's package file or image layer could make it undownloadable. The cleanup now only removes blobs that the failed upload created.",
+      "published": "2026-11-15T21:13:54Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120991",
+      "packages": [],
+      "cwes": [
+        "CWE-460"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-121786",
+      "aliases": [
+        "EUVD-2026-126178",
+        "GHSA-5cvv-wf7j-cwwq"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Social Viral Downloader WordPress plugin through 2.0.3 does not have authorisation or nonce checks on a log export action available to unauthenticated users, which could allow them to export the download log, including registered users' email addresses and IP addresses, to a publicly accessible file.",
+      "published": "2026-11-16T06:16:48.253Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121786",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-121787",
+      "aliases": [
+        "EUVD-2026-126179",
+        "GHSA-2fg2-6v8g-5wgr"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD",
+        "GitHub Advisory Database"
+      ],
+      "title": "The Social Viral Downloader WordPress plugin through 2.0.3 does not have authorisation or nonce checks on a log deletion action available to unauthenticated users, which could allow them to delete the Social Viral Downloader WordPress plugin through 2.0.3's entire download log.",
+      "published": "2026-11-16T06:16:49.073Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121787",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-123002",
+      "aliases": [
+        "EUVD-2026-126121"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "Gitea accepted an unlimited number of wrong TOTP passcodes during sign-in, in the password reset flow and for Basic authentication with the `X-Gitea-OTP` header. An attacker who already knows an account's password could guess the six-digit passcode by trying codes at a high rate and sign in despite two-factor authentication. After five failed passcodes, further attempts for the account are now refused for 15 minutes.",
+      "published": "2026-11-15T21:13:56Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123002",
+      "packages": [],
+      "cwes": [
+        "CWE-307"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-123006",
+      "aliases": [
+        "EUVD-2026-126114"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "The repository search used by the dashboard (`GET /repo/search`) returned the internal commit status object of each repository. Since 28.0.0 that object included the repository owner's full user record, so any signed-in user could read the password hash, salt and email address of the owner of any repository they can see that has a commit status. The response now contains only the state and target URL of the commit status.",
+      "published": "2026-11-15T21:10:18Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123006",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-123009",
+      "aliases": [
+        "EUVD-2026-126122"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "When a file is edited in a fork through the web editor, Gitea can first copy a branch from the base repository into the fork. That copy did not check whether the user may read the base repository's code. A user who had forked a repository and later lost access to it, for example after it was made private or they were removed as a collaborator, could keep copying its current branches into their fork and read them. The copy now requires read access to the code of the base repository.",
+      "published": "2026-11-15T21:13:59Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123009",
+      "packages": [],
+      "cwes": [
+        "CWE-284",
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-123065",
+      "aliases": [
+        "EUVD-2026-126123"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "When a release was edited, the files of the attachments to remove were deleted by the identifiers submitted in the form rather than by the attachments verified to belong to the release. A user with write access to the releases of any repository, including their own, could submit a crafted identifier that resolves to the stored file of another attachment and delete it, provided they know that attachment's UUID. The attachment record stayed, so downloads of the affected issue, comment or release file failed. Release edits now only delete the files of attachments that belong to the release.",
+      "published": "2026-11-15T21:14:01Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123065",
+      "packages": [],
+      "cwes": [
+        "CWE-22",
+        "CWE-639"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-123638",
+      "aliases": [
+        "EUVD-2026-126124"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "The \"Protected file patterns\" setting of a branch protection rule was checked against file names as git prints them, and git quotes names that contain a double quote, a backslash or a control character. Such names never matched a pattern, so a user with write access could add or change files under a protected pattern by direct push or through a pull request merge, and could move a protected file out of the pattern's reach by renaming it. Where the patterns protect workflow files, this allowed adding a workflow that then ran on the repository's runners. Changed files are now listed unquoted, and a rename reports both the old and the new path.",
+      "published": "2026-11-15T21:14:03Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123638",
+      "packages": [],
+      "cwes": [
+        "CWE-693"
+      ],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-123642",
+      "aliases": [
+        "EUVD-2026-126125"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "The AGit flow (pushing to `refs/for/...`) did not check the pusher's access to pull requests again when it created the pull request. A user or deploy key with read access to the code only, or with write access to the wiki over SSH, could open pull requests in a repository where they have no access to pull requests. Creating a pull request through AGit now requires read access to the pull requests of the repository and is refused for wiki pushes.",
+      "published": "2026-11-15T21:14:05Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123642",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125423",
+      "aliases": [
+        "EUVD-2026-126115"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "A repository created with auto-init accepted pushes before its initialization had finished, and the initial commit was built in a checkout of whatever the repository already contained. A user who is allowed to create repositories could push a crafted tree during that window so that writing the README followed a symbolic link and overwrote a server-side git hook, which runs commands as the Gitea system user. The initial commit is now built in a freshly initialized directory, and a new repository only becomes ready, and accepts pushes, once its initialization is complete.",
+      "published": "2026-11-15T21:10:23Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125423",
+      "packages": [],
+      "cwes": [
+        "CWE-362",
+        "CWE-59"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-125617",
+      "aliases": [
+        "EUVD-2026-126126"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "`GET /api/v1/users/{username}/orgs/{org}/permissions` only checked that the organization is visible to the caller and then returned the named user's role in it. Any signed-in user could learn whether another user is an owner, admin or member of a public or limited organization, including for members who conceal their membership. The roles are now only returned to the user themselves, to members of the organization and to site administrators.",
+      "published": "2026-11-15T21:14:09Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125617",
+      "packages": [],
+      "cwes": [
+        "CWE-200"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-126338",
+      "aliases": [
+        "EUVD-2026-126127"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "Replying to a code review comment accepted a review ID that belongs to a different pull request, through the web form, the API and incoming mail replies. A signed-in user could reply on a pull request they can access with the ID of a review in a repository they cannot read, and the new comment was attached to that review and received the diff context of the commented lines. Replies are now only accepted for a review of the same pull request, and for a pending review only from its author.",
+      "published": "2026-11-15T21:14:10Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126338",
+      "packages": [],
+      "cwes": [
+        "CWE-639"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-127958",
+      "aliases": [
+        "EUVD-2026-126128"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "A pull request review created through the API as a draft (`event` set to `PENDING` or left empty) was added to the pull request timeline and announced through notifications and activity feeds like a submitted review. Its body and line comments were therefore visible to everyone who can read the pull request, including anonymous visitors of a public repository, before the reviewer submitted it. Pending reviews no longer get a timeline entry or notifications until they are submitted.",
+      "published": "2026-11-15T21:14:12Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127958",
+      "packages": [],
+      "cwes": [
+        "CWE-200"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-128359",
+      "aliases": [
+        "EUVD-2026-126129"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "When Gitea acts as an OAuth2 or OpenID Connect provider, the token endpoint did not check the state of the user. After an administrator deactivated an account or prohibited its sign-in, existing refresh tokens and unused authorization codes of that user could still be exchanged for new tokens, so applications that sign users in through Gitea kept them signed in. The token endpoint now refuses users who may not sign in, and token introspection reports their tokens as inactive.",
+      "published": "2026-11-15T21:14:14Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128359",
+      "packages": [],
+      "cwes": [
+        "CWE-613"
+      ],
+      "owasp": [
+        "A07:2025 Authentication Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-128365",
+      "aliases": [
+        "EUVD-2026-126130"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "Removing a team's review request looked up a review by the negated team ID, which for the team with ID 2 is the ID of the built-in Actions user, and marked the review it found as official. In the organization that owns that team, a user who can change the review requests of a pull request could make an approval left by the Actions user count toward the approvals required by branch protection. Merging still required permission to merge. Removing a team review request no longer changes any review.",
+      "published": "2026-11-15T21:14:16Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128365",
+      "packages": [],
+      "cwes": [
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129337",
+      "aliases": [
+        "EUVD-2026-126131"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "Git over HTTP lowers the required permission for pushes to read access, so that the AGit flow works, and relies on the repository's server-side hooks to enforce write access. A repository that is still being created by a migration, fork or template generation has no hooks yet, so a user with read access to it could push branches and tags during that window, or after a failed migration that left the repository in that state. Git over HTTP now refuses requests to repositories that are still being created.",
+      "published": "2026-11-15T21:14:17Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129337",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129341",
+      "aliases": [
+        "EUVD-2026-126132"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "The web endpoint that removes an attachment skipped the permission check when the request came from the user who had uploaded the attachment, and it was reachable with read access to issues or pull requests. A user who had uploaded a release asset could still delete it after losing write access to the repository. The endpoint now only deletes attachments that the user uploaded and that are not yet linked to an issue, comment or release.",
+      "published": "2026-11-15T21:14:19Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129341",
+      "packages": [],
+      "cwes": [
+        "CWE-863"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "CVE-2026-129525",
+      "aliases": [
+        "EUVD-2026-126133"
+      ],
+      "sources": [
+        "CVE (NVD)",
+        "ENISA EUVD"
+      ],
+      "title": "Several endpoints that work on both issues and pull requests did not check which of the two the addressed item is. A user who can read a repository's issues but not its pull requests could read pull request data through the issue sub-resources of the API (timeline, attachments, labels, subscriptions, tracked times and reactions), and list pull requests through the repository's issue search and milestone pages; the same applied in the other direction. These endpoints now check read access to the unit the item belongs to. The API endpoints were fixed in 28.2.0 and 28.3.0, the search and milestone pages in 28.4.0.",
+      "published": "2026-11-15T21:14:21Z",
+      "severity": null,
+      "score": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129525",
+      "packages": [],
+      "cwes": [
+        "CWE-862"
+      ],
+      "owasp": [
+        "A01:2025 Broken Access Control"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-2qcj-76wq-79hr",
+      "aliases": [
+        "CVE-2026-103361"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Payment Gateway via Valitor for WooCommerce WordPress plugin before 1.9.41 does not properly...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-2qcj-76wq-79hr",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-594q-h3jv-fr98",
+      "aliases": [
+        "CVE-2026-114451"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Membership Plugin  WordPress plugin before 4.0.6 does not perform any authorization or CSRF...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-594q-h3jv-fr98",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-8h6p-5wvr-4vr5",
+      "aliases": [
+        "CVE-2026-124671"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Burst Statistics  WordPress plugin before 3.7.5 does not enforce a shared report's date range...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-8h6p-5wvr-4vr5",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-8pgw-crm2-c68x",
+      "aliases": [
+        "CVE-2026-110989"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The RegistrationMagic  WordPress plugin before 6.1.0.4 does not verify ownership of the submitted...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-8pgw-crm2-c68x",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-g6c9-6jpv-h859",
+      "aliases": [
+        "CVE-2026-114452"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Membership Plugin  WordPress plugin before 4.0.6 does not verify that the membership...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-g6c9-6jpv-h859",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-ggh8-f4wg-vh5g",
+      "aliases": [
+        "CVE-2026-116559"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The A2Reviews WordPress plugin through 1.2.3 does not properly verify authorization on several of...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-ggh8-f4wg-vh5g",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-m4vj-2mv4-rv7p",
+      "aliases": [
+        "CVE-2026-127048"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Custom Block Builder  WordPress plugin before 3.0.0 does not properly deny unauthorised...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-m4vj-2mv4-rv7p",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-pmrh-j9jh-j5h7",
+      "aliases": [
+        "CVE-2026-124673"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Burst Statistics  WordPress plugin before 3.7.5 does not check that a reported page view...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-pmrh-j9jh-j5h7",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-vc6r-34rj-x38v",
+      "aliases": [
+        "CVE-2026-110960"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The Auth Armor  WordPress plugin through 1.0.3 does not require authentication on several...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-vc6r-34rj-x38v",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-vf5v-xr3h-9x33",
+      "aliases": [
+        "CVE-2026-110987"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The RegistrationMagic  WordPress plugin before 6.1.0.4 does not properly escape a user-supplied...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-vf5v-xr3h-9x33",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "GHSA-x3jr-gfj8-g3w8",
+      "aliases": [
+        "CVE-2026-110984"
+      ],
+      "sources": [
+        "GitHub Advisory Database"
+      ],
+      "title": "The RegistrationMagic  WordPress plugin before 6.1.0.4 does not sanitise and escape a parameter...",
+      "published": "2026-11-15T09:30:33Z",
+      "severity": null,
+      "score": null,
+      "url": "https://github.com/advisories/GHSA-x3jr-gfj8-g3w8",
+      "packages": [],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-baileys-clean",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: baileys-clean",
+      "published": "2026-11-16T04:58:54Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-baileys-clean",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "baileys-clean"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-023b6143c17690a6",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: @univerjs-pro/sheets-pivot-chart",
+      "published": "2026-11-16T06:39:40Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-023b6143c17690a6",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@univerjs-pro/sheets-pivot-chart"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-34a10e0fd2630cc2",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: @theholocron/holocron-plugin-discord",
+      "published": "2026-11-15T10:17:08Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-34a10e0fd2630cc2",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@theholocron/holocron-plugin-discord"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-440e82d01938f9ea",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: @univerjs-pro/sheets-pivot-chart",
+      "published": "2026-11-16T00:44:29Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-440e82d01938f9ea",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@univerjs-pro/sheets-pivot-chart"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-ghsa-malware-e466e1a3fcddc70a",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: pmhq-dist-win-x64",
+      "published": "2026-11-16T00:44:29Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-ghsa-malware-e466e1a3fcddc70a",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "pmhq-dist-win-x64"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-hstdemotest",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: hstdemotest",
+      "published": "2026-11-16T05:35:37Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-hstdemotest",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "hstdemotest"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-hstdemotests",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: hstdemotests",
+      "published": "2026-11-16T05:35:37Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-hstdemotests",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "hstdemotests"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-invisirisk-testpackage83",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: testpackage83",
+      "published": "2026-11-16T05:40:18Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-invisirisk-testpackage83",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "testpackage83"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-kam193-9ea41e6fdee5681e",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: gatepay-sdk-python",
+      "published": "2026-11-15T09:11:58Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-kam193-9ea41e6fdee5681e",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "gatepay-sdk-python"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-tg-msg-effect",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: tg-msg-effect",
+      "published": "2026-11-16T05:35:37Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-tg-msg-effect",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "tg-msg-effect"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-0000-xzvbailss-baileys",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious package: @xzvbailss/baileys",
+      "published": "2026-11-16T04:58:54Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-0000-xzvbailss-baileys",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@xzvbailss/baileys"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-19942",
+      "aliases": [],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in gatepay-sdk-python (PyPI)",
+      "published": "2026-11-15T08:33:20Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-19942",
+      "packages": [
+        {
+          "ecosystem": "PyPI",
+          "name": "gatepay-sdk-python"
+        }
+      ],
+      "cwes": [
+        "CWE-506"
+      ],
+      "owasp": [
+        "A03:2025 Software Supply Chain Failures"
+      ],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-19943",
+      "aliases": [
+        "GHSA-95pv-hv63-58m8"
+      ],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in @theholocron/holocron-plugin-discord (npm)",
+      "published": "2026-11-15T09:39:44Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-19943",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@theholocron/holocron-plugin-discord"
+        }
+      ],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-19944",
+      "aliases": [
+        "GHSA-h6jf-g8cj-x4v3"
+      ],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in @univerjs-pro/sheets-pivot-chart (npm)",
+      "published": "2026-11-16T00:14:17Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-19944",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "@univerjs-pro/sheets-pivot-chart"
+        }
+      ],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    },
+    {
+      "id": "MAL-2026-19945",
+      "aliases": [
+        "GHSA-xxrh-88wg-7qf4"
+      ],
+      "sources": [
+        "OpenSSF Malicious Packages"
+      ],
+      "title": "Malicious code in pmhq-dist-win-x64 (npm)",
+      "published": "2026-11-16T00:12:56Z",
+      "severity": "CRITICAL",
+      "score": null,
+      "url": "https://osv.dev/vulnerability/MAL-2026-19945",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "pmhq-dist-win-x64"
+        }
+      ],
+      "cwes": [],
+      "owasp": [],
+      "exploits": []
+    }
+  ]
+}
