@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-16",
+  "archived_at": "2026-11-16T08:22:13.479366756Z",
+  "advisories_collected": 149,
+  "advisories_by_source": {
+    "CVE (NVD)": 101,
+    "ENISA EUVD": 101,
+    "GitHub Advisory Database": 92,
+    "OSV": 4,
+    "OWASP Top 10 (CWE mapping)": 105,
+    "OpenSSF Malicious Packages": 12,
+    "Sploitus": 36
+  },
+  "sources_skipped_or_failed": [
+    "Vulners: skipped (VULNERS_API_KEY not set)",
+    "AttackerKB: skipped (ATTACKERKB_API_KEY not set)"
+  ],
+  "repos_scanned": 283,
+  "dependencies_checked": 79117,
+  "findings": 0,
+  "findings_from_todays_advisories": 0,
+  "distinct_vulnerabilities": 0,
+  "affected_repos": 0,
+  "affected_packages": 0,
+  "by_severity": {},
+  "tickets_opened": 0,
+  "fix_prs": 0,
+  "fix_prs_auto_merge": 0,
+  "resolved": 0,
+  "resolved_via_fix_pr": 0,
+  "mean_time_to_resolve_hours": null,
+  "max_time_to_resolve_hours": null
+}
