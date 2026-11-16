@@ -169142,8 +169142,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 3.21.6 failed in `frontpage2/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/2024_portfolio:frontpage2/package-lock.json:npm:@nuxt/nitro-server:GHSA-g8wj-3cr3-6w7v": {
       "finding": {
@@ -172752,7 +172752,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -172763,8 +172763,12 @@
         "body_hash": 972813619239832796,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 26,
+        "url": "https://github.com/dennislee928/2024_portfolio/pull/26",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/2024_portfolio:frontpage2/package-lock.json:npm:nuxt:GHSA-9pgf-384g-p7mv": {
@@ -172858,7 +172862,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -172869,8 +172873,12 @@
         "body_hash": 972813619239832796,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 26,
+        "url": "https://github.com/dennislee928/2024_portfolio/pull/26",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/2024_portfolio:frontpage2/package-lock.json:npm:nuxt:GHSA-fx6j-w5w5-h468": {
@@ -180349,8 +180357,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 3.21.6 failed in `frontpage2/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/BTC_Rise_Calling:frontpage2/package-lock.json:npm:@nuxt/nitro-server:GHSA-g8wj-3cr3-6w7v": {
       "finding": {
@@ -183817,7 +183825,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -183828,8 +183836,12 @@
         "body_hash": 12630074941594498796,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/BTC_Rise_Calling/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BTC_Rise_Calling:frontpage2/package-lock.json:npm:nuxt:GHSA-9pgf-384g-p7mv": {
@@ -183923,7 +183935,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -183934,8 +183946,12 @@
         "body_hash": 12630074941594498796,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/BTC_Rise_Calling/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BTC_Rise_Calling:frontpage2/package-lock.json:npm:nuxt:GHSA-fx6j-w5w5-h468": {
@@ -196716,7 +196732,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -196727,8 +196743,12 @@
         "body_hash": 11413872424910002392,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 17,
+        "url": "https://github.com/dennislee928/BingX_Nuxt_3/pull/17",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BingX_Nuxt_3:front-page/package-lock.json:npm:nuxt:GHSA-9pgf-384g-p7mv": {
@@ -196822,7 +196842,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -196833,8 +196853,12 @@
         "body_hash": 11413872424910002392,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 17,
+        "url": "https://github.com/dennislee928/BingX_Nuxt_3/pull/17",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/BingX_Nuxt_3:front-page/package-lock.json:npm:nuxt:GHSA-fx6j-w5w5-h468": {
@@ -270628,7 +270652,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -270639,8 +270663,12 @@
         "body_hash": 295844253798891494,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:@nuxt/nitro-server:GHSA-g8wj-3cr3-6w7v": {
@@ -270696,7 +270724,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -270707,8 +270735,12 @@
         "body_hash": 295844253798891494,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:@nuxt/nitro-server:GHSA-hg3f-28rg-4jxj": {
@@ -273202,7 +273234,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -273213,8 +273245,12 @@
         "body_hash": 18369489388336289382,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:nuxt:GHSA-9pgf-384g-p7mv": {
@@ -273308,7 +273344,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -273319,8 +273355,12 @@
         "body_hash": 18369489388336289382,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:nuxt:GHSA-fx6j-w5w5-h468": {
@@ -273412,7 +273452,7 @@
         "new_today": false
       },
       "day": "2026-11-16",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-16T18:52:39.360142161Z",
       "last_seen": "2026-11-16T18:52:39.360142161Z",
       "resolved_at": null,
@@ -273423,8 +273463,12 @@
         "body_hash": 18369489388336289382,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/dennislee928/LAST_HOPE/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/LAST_HOPE:front-stage/package-lock.json:npm:nuxt:GHSA-hg3f-28rg-4jxj": {
