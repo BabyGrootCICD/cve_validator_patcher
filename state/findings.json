@@ -169142,7 +169142,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 3.21.6 failed in `frontpage2/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/2024_portfolio:frontpage2/package-lock.json:npm:@nuxt/nitro-server:GHSA-g8wj-3cr3-6w7v": {
@@ -180357,7 +180357,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 3.21.6 failed in `frontpage2/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/BTC_Rise_Calling:frontpage2/package-lock.json:npm:@nuxt/nitro-server:GHSA-g8wj-3cr3-6w7v": {
