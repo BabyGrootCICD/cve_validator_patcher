@@ -961,8 +961,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 2.3.2 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/Di-taxis:package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -3538,7 +3538,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "BabyGrootCICD/Efficient-Learning-and-Sustainable-Recovery:app/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -17135,7 +17135,7 @@
         "new_today": true
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -17146,8 +17146,12 @@
         "body_hash": 14799217808347362598,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 20,
+        "url": "https://github.com/BabyGrootCICD/modern_hospital_information_system/pull/20",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-vcvr-r3jv-pc5j": {
@@ -42773,7 +42777,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:qs:GHSA-4mjr-xmp4-gh2g": {
       "finding": {
@@ -48978,7 +48982,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -55929,7 +55933,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -66182,7 +66186,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/XDevice-infocard:web/package-lock.json:npm:postcss:GHSA-fxqj-rqcc-2cmp": {
       "finding": {
@@ -67238,7 +67242,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-9hj8-73fh-9963": {
@@ -67271,7 +67275,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-hjqx-j4rw-g7xv": {
@@ -67304,7 +67308,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-m665-v7pm-7grj": {
@@ -67337,7 +67341,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-q7v9-x93c-xqv3": {
@@ -67370,7 +67374,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0367": {
@@ -67402,7 +67406,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 11,
+      "fix_attempts": 12,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0368": {
@@ -67434,7 +67438,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 11,
+      "fix_attempts": 12,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0369": {
@@ -67466,7 +67470,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 11,
+      "fix_attempts": 12,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0429": {
@@ -67499,7 +67503,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0545": {
@@ -67532,7 +67536,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0546": {
@@ -67565,7 +67569,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0547": {
@@ -67598,7 +67602,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:RUSTSEC-2026-0548": {
@@ -67631,7 +67635,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `analyzers/rust/Cargo.lock`: cargo update -p zip@8.6.0 --precise 9.0.5: ates.io index\nerror: failed to select a version for the requirement `zip = \"^8.2.0\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentinel/Jest"
     },
     "Jest-Test-Team/ide-extension:package-lock.json:npm:@azure/msal-node:GHSA-xcx6-jx8p-x3h5": {
@@ -67952,7 +67956,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/ide-extension:package-lock.json:npm:qs:GHSA-6pq8-jhm2-2vcw": {
       "finding": {
@@ -71341,7 +71345,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -80792,7 +80796,7 @@
         "new_today": true
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -80803,8 +80807,12 @@
         "body_hash": 13644409016791520561,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 11,
+        "url": "https://github.com/Jest-Test-Team/kaspersky-cloud-integration/pull/11",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-vcvr-r3jv-pc5j": {
@@ -82022,8 +82030,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/mitake-dev-progress:package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -86522,7 +86530,7 @@
         "new_today": false
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -86533,8 +86541,12 @@
         "body_hash": 3274306090213383279,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 5,
+        "url": "https://github.com/Jest-Test-Team/next-js-project2/pull/5",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/next-js-project2:cwa-weather-app/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
@@ -93275,7 +93287,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/nuclear-safety-pathology-observatory:infra/pulumi/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -96168,7 +96180,7 @@
         "new_today": false
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -96179,8 +96191,12 @@
         "body_hash": 15775556541050091915,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 154,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/154",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
@@ -101692,8 +101708,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 2.3.2 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_55_983Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 2.3.2 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: eam dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-17T23_43_59_801Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:picomatch:GHSA-c2c7-rcm5-vvqj": {
       "finding": {
@@ -101724,8 +101740,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 2.3.2 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: ict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-10-29T07_24_55_983Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 2.3.2 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: eam dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-17T23_43_59_801Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:picomatch:GHSA-fc5q-39xc-vjpf": {
       "finding": {
@@ -101756,8 +101772,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 2.3.2 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: eam dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-17T23_43_59_801Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -104618,7 +104634,7 @@
         "new_today": false
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -104629,8 +104645,12 @@
         "body_hash": 15775556541050091915,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 154,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/154",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-js-master/package-lock.json:npm:proxy-addr:GHSA-jqcg-44mw-7w3h": {
@@ -111774,7 +111794,7 @@
         "new_today": false
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -111785,8 +111805,12 @@
         "body_hash": 15775556541050091915,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 154,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/154",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:src/ru-dev-path-py-master/frontend/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
@@ -122778,7 +122802,7 @@
         "new_today": false
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -122789,8 +122813,12 @@
         "body_hash": 604135647899463192,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/remote-mcp-server/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/remote-mcp-server:package-lock.json:npm:proxy-addr:GHSA-jqcg-44mw-7w3h": {
@@ -124371,7 +124399,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 13,
+      "fix_attempts": 14,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0119": {
@@ -124404,7 +124432,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 13,
+      "fix_attempts": 14,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0487": {
@@ -124437,7 +124465,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0489": {
@@ -124470,7 +124498,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0490": {
@@ -124503,7 +124531,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0491": {
@@ -124536,7 +124564,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0505": {
@@ -124570,7 +124598,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0511": {
@@ -124604,7 +124632,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0512": {
@@ -124638,7 +124666,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0530": {
@@ -124672,7 +124700,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0531": {
@@ -124706,7 +124734,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0550": {
@@ -124740,7 +124768,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:RUSTSEC-2026-0551": {
@@ -124774,7 +124802,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.26.2 failed in `Cargo.lock`: cargo update -p hickory-proto@0.24.4 --precise 0.26.2: ed\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `hickory-proto = \"^0.24\"`\ncandidate versions found which didn't match: 0.26.2\nlocation searched: crates.io index\nrequired by package `rp-dns v0.3.0 (/home/runner/work/_tem"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:libsqlite3-sys:RUSTSEC-2026-0459": {
@@ -130899,8 +130927,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `apps/web/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/those_forgotten:apps/web/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -139259,8 +139287,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab:frontend/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -145348,8 +145376,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 2.3.2 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Twister5-com-tw-Dev-dep/CISSP-Mindset:package-lock.json:npm:ws:GHSA-58qx-3vcg-4xpx": {
       "finding": {
@@ -148163,7 +148191,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "cyber-security-dev-dep-mitake-com-tw/a-1-calculator:package-lock.json:npm:source-map-js:GHSA-68fv-2mgg-jv7q": {
       "finding": {
@@ -150851,7 +150879,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "cyber-security-dev-dep-mitake-com-tw/boss-s_dyson_clear:package-lock.json:npm:sharp:GHSA-f88m-g3jw-g9cj": {
       "finding": {
@@ -152832,7 +152860,7 @@
         "new_today": true
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -152843,8 +152871,12 @@
         "body_hash": 10579780044168128634,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-vcvr-r3jv-pc5j": {
@@ -152911,7 +152943,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -155109,7 +155141,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "cyber-security-dev-dep-mitake-com-tw/local-connection-gui-inspector:pnpm-lock.yaml:npm:postcss:GHSA-fxqj-rqcc-2cmp": {
       "finding": {
@@ -157441,7 +157473,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "cyber-security-dev-dep-mitake-com-tw/mitake-eat:package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -161522,8 +161554,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `next-mermaid-gantt/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/-next-mdx-DEMO:next-mermaid-gantt/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -165569,8 +165601,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 2.3.2 failed in `104_front_end/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/104_open_api:104_front_end/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -168555,7 +168587,7 @@
         "new_today": false
       },
       "day": "2026-11-17",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-17T23:39:31.849259281Z",
       "last_seen": "2026-11-17T23:39:31.849259281Z",
       "resolved_at": null,
@@ -168566,8 +168598,12 @@
         "body_hash": 15225208467627975254,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 40,
+        "url": "https://github.com/dennislee928/1st_mac_app/pull/40",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/1st_mac_app:bde-bind-next-app/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
@@ -174854,8 +174890,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `frontpage2/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/2024_portfolio:frontpage2/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
@@ -178437,8 +178473,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `web/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:web/package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
       "finding": {
@@ -185991,8 +186027,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 4.0.4 failed in `frontpage2/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "dennislee928/BTC_Rise_Calling:frontpage2/package-lock.json:npm:postcss-selector-parser:GHSA-rj75-hqrm-r3gf": {
       "finding": {
