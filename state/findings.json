@@ -221075,7 +221075,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:GHSA-m665-v7pm-7grj": {
@@ -221108,7 +221108,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:GHSA-q7v9-x93c-xqv3": {
@@ -221141,7 +221141,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 7,
+      "fix_attempts": 8,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0367": {
@@ -221173,7 +221173,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0368": {
@@ -221205,7 +221205,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0369": {
@@ -221237,7 +221237,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 10,
+      "fix_attempts": 11,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0429": {
@@ -221270,7 +221270,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0545": {
@@ -221303,7 +221303,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zip:RUSTSEC-2026-0548": {
@@ -221336,7 +221336,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 9.0.5 failed in `pc/Cargo.lock`: cargo update -p zip@2.4.2 --precise 9.0.5:     Updating crates.io index\nerror: failed to select a version for the requirement `zip = \"^2\"`\ncandidate versions found which didn't match: 9.0.5\nlocation searched: crates.io index\nrequired by package `devpet-setup v0.1.0 (/home/runner/work/_temp/vuln-sentinel/dennislee928__Claude_Devboard_Pet/pc/setup-stub)`\n"
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zvariant:RUSTSEC-2026-0370": {
