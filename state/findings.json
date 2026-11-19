@@ -3419,7 +3419,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -3430,8 +3430,12 @@
         "body_hash": 8649256283838640947,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 26,
+        "url": "https://github.com/BabyGrootCICD/Efficient-Learning-and-Sustainable-Recovery/pull/26",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/Efficient-Learning-and-Sustainable-Recovery:app/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -16601,8 +16605,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
       "finding": {
@@ -16811,8 +16815,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
       "finding": {
@@ -17203,8 +17207,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
       "finding": {
@@ -17305,8 +17309,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-vc7v-qv4w-wrv8": {
       "finding": {
@@ -36321,7 +36325,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -36332,8 +36336,12 @@
         "body_hash": 15906036621070409967,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:dashboard/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -36425,7 +36433,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -36436,8 +36444,12 @@
         "body_hash": 15906036621070409967,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:dashboard/package-lock.json:npm:next:GHSA-m99w-x7hq-7vfj": {
@@ -36637,7 +36649,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -36648,8 +36660,12 @@
         "body_hash": 15906036621070409967,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:dashboard/package-lock.json:npm:next:GHSA-q8wf-6r8g-63ch": {
@@ -48173,7 +48189,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -48184,8 +48200,12 @@
         "body_hash": 17638406658200300381,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 6,
+        "url": "https://github.com/Jest-Test-Team/Dastacenter_Builder_Simulator/pull/6",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -48277,7 +48297,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -48288,8 +48308,12 @@
         "body_hash": 17638406658200300381,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 6,
+        "url": "https://github.com/Jest-Test-Team/Dastacenter_Builder_Simulator/pull/6",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:next:GHSA-m99w-x7hq-7vfj": {
@@ -48489,7 +48513,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -48500,8 +48524,12 @@
         "body_hash": 17638406658200300381,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 6,
+        "url": "https://github.com/Jest-Test-Team/Dastacenter_Builder_Simulator/pull/6",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:next:GHSA-q8wf-6r8g-63ch": {
@@ -55696,7 +55724,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -55707,8 +55735,12 @@
         "body_hash": 15598722173312806572,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/HOMELAB/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -55940,7 +55972,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -55951,8 +55983,12 @@
         "body_hash": 15598722173312806572,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/HOMELAB/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -56400,7 +56436,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -56411,8 +56447,12 @@
         "body_hash": 15598722173312806572,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/HOMELAB/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -60783,7 +60823,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -60794,8 +60834,12 @@
         "body_hash": 1163556952104566515,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/On-chain-Casino-Arb-Bot-/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/next-dashboard/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -65283,7 +65327,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -65294,8 +65338,12 @@
         "body_hash": 14746447778450976037,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/SDR/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/SDR:web/hil-dashboard/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -71184,8 +71232,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-2xp9-vwfh-vxw4": {
       "finding": {
@@ -71214,8 +71262,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-4633-3j49-mh5q": {
       "finding": {
@@ -71246,8 +71294,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-4c39-4ccg-62r3": {
       "finding": {
@@ -71278,8 +71326,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-4jqv-mc3x-m676": {
       "finding": {
@@ -71310,8 +71358,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-68g3-v927-f742": {
       "finding": {
@@ -71342,8 +71390,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-7qx7-33qx-rqx2": {
       "finding": {
@@ -71374,8 +71422,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-89xv-2m56-2m9x": {
       "finding": {
@@ -71406,8 +71454,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-955p-x3mx-jcvp": {
       "finding": {
@@ -71438,8 +71486,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-f3mh-rxg3-f5g2": {
       "finding": {
@@ -71470,8 +71518,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-m99w-x7hq-7vfj": {
       "finding": {
@@ -71502,8 +71550,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-mcj8-r9mp-w47p": {
       "finding": {
@@ -71534,8 +71582,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-p293-qw3h-jr36": {
       "finding": {
@@ -71566,8 +71614,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-p3m5-59mp-jv5r": {
       "finding": {
@@ -71598,8 +71646,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-p9j2-gv94-2wf4": {
       "finding": {
@@ -71630,8 +71678,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-pc58-hwjq-p385": {
       "finding": {
@@ -71662,8 +71710,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-q8wf-6r8g-63ch": {
       "finding": {
@@ -71694,8 +71742,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
-      "note": "Automatic upgrade to 15.5.28 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
+      "fix_attempts": 4,
+      "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-2328-f5f3-gj25": {
       "finding": {
@@ -81762,8 +81810,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
       "finding": {
@@ -81902,8 +81950,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
       "finding": {
@@ -82150,8 +82198,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-q8wf-6r8g-63ch": {
       "finding": {
@@ -82218,8 +82266,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-vc7v-qv4w-wrv8": {
       "finding": {
@@ -87084,7 +87132,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -87095,8 +87143,12 @@
         "body_hash": 9149180939827833886,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 5,
+        "url": "https://github.com/Jest-Test-Team/next-js-project2/pull/5",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/next-js-project2:cwa-weather-app/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -87328,7 +87380,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -87339,8 +87391,12 @@
         "body_hash": 9149180939827833886,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 5,
+        "url": "https://github.com/Jest-Test-Team/next-js-project2/pull/5",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/next-js-project2:cwa-weather-app/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -87788,7 +87844,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -87799,8 +87855,12 @@
         "body_hash": 9149180939827833886,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 5,
+        "url": "https://github.com/Jest-Test-Team/next-js-project2/pull/5",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/next-js-project2:cwa-weather-app/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -97044,7 +97104,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -97055,8 +97115,12 @@
         "body_hash": 14828628088878848804,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 156,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/156",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -97254,7 +97318,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -97265,8 +97329,12 @@
         "body_hash": 14828628088878848804,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 156,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/156",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:next:GHSA-f82v-jwr5-mffw": {
@@ -97786,7 +97854,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -97797,8 +97865,12 @@
         "body_hash": 14828628088878848804,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 156,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/156",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -126993,7 +127065,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -127004,8 +127076,12 @@
         "body_hash": 11312808899372862064,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 4,
+        "url": "https://github.com/Jest-Test-Team/software-poe/pull/4",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/software-poe:frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -127097,7 +127173,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -127108,8 +127184,12 @@
         "body_hash": 11312808899372862064,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 4,
+        "url": "https://github.com/Jest-Test-Team/software-poe/pull/4",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/software-poe:frontend/package-lock.json:npm:next:GHSA-m99w-x7hq-7vfj": {
@@ -127309,7 +127389,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -127320,8 +127400,12 @@
         "body_hash": 11312808899372862064,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 4,
+        "url": "https://github.com/Jest-Test-Team/software-poe/pull/4",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/software-poe:frontend/package-lock.json:npm:next:GHSA-q8wf-6r8g-63ch": {
@@ -132003,7 +132087,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -132014,8 +132098,12 @@
         "body_hash": 14348196187341405936,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/those_forgotten/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/those_forgotten:apps/web/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -132213,7 +132301,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -132224,8 +132312,12 @@
         "body_hash": 14348196187341405936,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/those_forgotten/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/those_forgotten:apps/web/package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
@@ -132749,7 +132841,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -132760,8 +132852,12 @@
         "body_hash": 14348196187341405936,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/those_forgotten/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/those_forgotten:apps/web/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -132851,7 +132947,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -132862,8 +132958,12 @@
         "body_hash": 14348196187341405936,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/Jest-Test-Team/those_forgotten/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/those_forgotten:apps/web/package-lock.json:npm:next:GHSA-vfv6-92ff-j949": {
@@ -140463,7 +140563,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -140474,8 +140574,12 @@
         "body_hash": 8992862239548809553,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab:frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -140707,7 +140811,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -140718,8 +140822,12 @@
         "body_hash": 8992862239548809553,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab:frontend/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -141203,7 +141311,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -141214,8 +141322,12 @@
         "body_hash": 8992862239548809553,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab:frontend/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -149902,7 +150014,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0575": {
@@ -149932,7 +150044,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0576": {
@@ -149962,7 +150074,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0577": {
@@ -149992,7 +150104,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0578": {
@@ -150022,7 +150134,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0579": {
@@ -150052,7 +150164,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0580": {
@@ -150082,7 +150194,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0581": {
@@ -150112,7 +150224,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0582": {
@@ -150142,7 +150254,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:rustix:RUSTSEC-2026-0486": {
@@ -155170,8 +155282,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-cjq9-62q9-8jv4": {
       "finding": {
@@ -155238,8 +155350,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
       "finding": {
@@ -155414,8 +155526,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-rhh4-g77r-r9qj": {
       "finding": {
@@ -155446,8 +155558,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-vc7v-qv4w-wrv8": {
       "finding": {
@@ -159960,7 +160072,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -159971,8 +160083,12 @@
         "body_hash": 3606353762234022475,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/mitake-eat/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/mitake-eat:package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -163902,7 +164018,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -163913,8 +164029,12 @@
         "body_hash": 2825116909472830850,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 36,
+        "url": "https://github.com/dennislee928/-next-mdx-DEMO/pull/36",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/-next-mdx-DEMO:next-mermaid-gantt/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -164112,7 +164232,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -164123,8 +164243,12 @@
         "body_hash": 2825116909472830850,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 36,
+        "url": "https://github.com/dennislee928/-next-mdx-DEMO/pull/36",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/-next-mdx-DEMO:next-mermaid-gantt/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -164572,7 +164696,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -164583,8 +164707,12 @@
         "body_hash": 2825116909472830850,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 36,
+        "url": "https://github.com/dennislee928/-next-mdx-DEMO/pull/36",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/-next-mdx-DEMO:next-mermaid-gantt/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -168011,7 +168139,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -168022,8 +168150,12 @@
         "body_hash": 1498417887039238590,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/104_open_api/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/104_open_api:104_front_end/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -168255,7 +168387,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -168266,8 +168398,12 @@
         "body_hash": 1498417887039238590,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/104_open_api/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/104_open_api:104_front_end/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -168715,7 +168851,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -168726,8 +168862,12 @@
         "body_hash": 1498417887039238590,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/104_open_api/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/104_open_api:104_front_end/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -171067,7 +171207,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -171078,8 +171218,12 @@
         "body_hash": 5626901374353589626,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 40,
+        "url": "https://github.com/dennislee928/1st_mac_app/pull/40",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/1st_mac_app:bde-bind-next-app/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -171311,7 +171455,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -171322,8 +171466,12 @@
         "body_hash": 5626901374353589626,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 40,
+        "url": "https://github.com/dennislee928/1st_mac_app/pull/40",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/1st_mac_app:bde-bind-next-app/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -171771,7 +171919,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -171782,8 +171930,12 @@
         "body_hash": 5626901374353589626,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 40,
+        "url": "https://github.com/dennislee928/1st_mac_app/pull/40",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/1st_mac_app:bde-bind-next-app/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -210407,7 +210559,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -210418,8 +210570,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Backstage/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -213811,7 +213967,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -213822,8 +213978,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -214055,7 +214215,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -214066,8 +214226,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Frontend/package-lock.json:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -214515,7 +214679,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -214526,8 +214690,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Frontend/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -218210,7 +218378,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -218221,8 +218389,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Frontend/yarn.lock:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -218420,7 +218592,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -218431,8 +218603,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Frontend/yarn.lock:npm:next:GHSA-ffhc-5mcf-pf4q": {
@@ -218880,7 +219056,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -218891,8 +219067,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:Frontend/yarn.lock:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -222537,7 +222717,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -222548,8 +222728,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -222747,7 +222931,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -222758,8 +222942,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
@@ -223139,7 +223327,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -223150,8 +223338,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -223241,7 +223433,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-19T23:13:23.408145912Z",
       "resolved_at": null,
@@ -223252,8 +223444,12 @@
         "body_hash": 2666366190112520864,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 122,
+        "url": "https://github.com/dennislee928/Carbon_Trading_For_Individuals/pull/122",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Carbon_Trading_For_Individuals:package-lock.json:npm:next:GHSA-vfv6-92ff-j949": {
