@@ -67248,7 +67248,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 8,
+      "fix_attempts": 9,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0222": {
@@ -67281,7 +67281,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0269": {
@@ -67314,7 +67314,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0316": {
@@ -67347,7 +67347,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0327": {
@@ -67380,7 +67380,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0359": {
@@ -67413,7 +67413,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0362": {
@@ -67446,7 +67446,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0363": {
@@ -67479,7 +67479,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0379": {
@@ -67512,7 +67512,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 9,
+      "fix_attempts": 10,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0424": {
@@ -67545,7 +67545,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 5,
+      "fix_attempts": 6,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0566": {
@@ -67577,7 +67577,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0567": {
@@ -67609,7 +67609,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0569": {
@@ -67641,7 +67641,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0571": {
@@ -67673,7 +67673,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:wasmtime:RUSTSEC-2026-0573": {
@@ -67705,7 +67705,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Automatic upgrade to 48.0.9 failed in `analyzers/rust/Cargo.lock`: cargo update -p wasmtime@45.0.3 --precise 48.0.9:  index\nerror: failed to select a version for the requirement `wasmtime = \"^45.0.3\"`\ncandidate versions found which didn't match: 48.0.9\nlocation searched: crates.io index\nrequired by package `yara-x v1.21.0`\n    ... which satisfies dependency `yara-x = \"^1.21.0\"` (locked to 1.21.0) of package `jest-ext-rs v0.1.0 (/home/runner/work/_temp/vuln-sentin"
     },
     "Jest-Test-Team/ide-extension:analyzers/rust/Cargo.lock:crates.io:zip:GHSA-8hxf-qr8p-62x4": {
@@ -148222,7 +148222,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0575": {
@@ -148252,7 +148252,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0576": {
@@ -148282,7 +148282,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0577": {
@@ -148312,7 +148312,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0578": {
@@ -148342,7 +148342,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0579": {
@@ -148372,7 +148372,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0580": {
@@ -148402,7 +148402,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0581": {
@@ -148432,7 +148432,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0582": {
@@ -148462,7 +148462,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 0.9.4 failed in `firmware/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4:     Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `common v0.1.0 (/home/runner/work/_temp/vuln-sentinel/cyber-security-dev-dep-mitake-com-tw__ESP32_atk_def_proxy_logger/firmware/common)`\n"
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:firmware/Cargo.lock:crates.io:rustix:RUSTSEC-2026-0486": {
