@@ -16605,7 +16605,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -16815,7 +16815,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
@@ -17207,7 +17207,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
@@ -17309,7 +17309,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `apps/web-next/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "BabyGrootCICD/modern_hospital_information_system:apps/web-next/package-lock.json:npm:next:GHSA-vc7v-qv4w-wrv8": {
@@ -71232,7 +71232,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-2xp9-vwfh-vxw4": {
@@ -71262,7 +71262,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-4633-3j49-mh5q": {
@@ -71294,7 +71294,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-4c39-4ccg-62r3": {
@@ -71326,7 +71326,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-4jqv-mc3x-m676": {
@@ -71358,7 +71358,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-68g3-v927-f742": {
@@ -71390,7 +71390,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-7qx7-33qx-rqx2": {
@@ -71422,7 +71422,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -71454,7 +71454,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-955p-x3mx-jcvp": {
@@ -71486,7 +71486,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-f3mh-rxg3-f5g2": {
@@ -71518,7 +71518,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-m99w-x7hq-7vfj": {
@@ -71550,7 +71550,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-mcj8-r9mp-w47p": {
@@ -71582,7 +71582,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-p293-qw3h-jr36": {
@@ -71614,7 +71614,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-p3m5-59mp-jv5r": {
@@ -71646,7 +71646,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-p9j2-gv94-2wf4": {
@@ -71678,7 +71678,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-pc58-hwjq-p385": {
@@ -71710,7 +71710,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:next:GHSA-q8wf-6r8g-63ch": {
@@ -71742,7 +71742,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to 15.5.29 failed in `pnpm-lock.yaml`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:pnpm-lock.yaml:npm:node-forge:GHSA-2328-f5f3-gj25": {
@@ -81810,7 +81810,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-89xv-2m56-2m9x": {
@@ -81950,7 +81950,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
@@ -82198,7 +82198,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-q8wf-6r8g-63ch": {
@@ -82266,7 +82266,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `frontend/package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/kaspersky-cloud-integration:frontend/package-lock.json:npm:next:GHSA-vc7v-qv4w-wrv8": {
@@ -155282,7 +155282,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-cjq9-62q9-8jv4": {
@@ -155350,7 +155350,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-f87g-xv8r-7p7x": {
@@ -155526,7 +155526,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-rhh4-g77r-r9qj": {
@@ -155558,7 +155558,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 16.4.5 failed in `package-lock.json`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "cyber-security-dev-dep-mitake-com-tw/chip_whisper_lab:package-lock.json:npm:next:GHSA-vc7v-qv4w-wrv8": {
@@ -244143,7 +244143,7 @@
         "new_today": false
       },
       "day": "2026-11-19",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-19T23:13:23.408145912Z",
       "last_seen": "2026-11-20T07:42:44.589226272Z",
       "resolved_at": null,
@@ -244154,8 +244154,12 @@
         "body_hash": 7838684073172684528,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 97,
+        "url": "https://github.com/dennislee928/Ethic-Latex/pull/97",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Ethic-Latex:erh-security-app/frontend/package-lock.json:npm:next:GHSA-q4gf-8mx6-v5v3": {
