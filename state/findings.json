@@ -182988,7 +182988,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:path-to-regexp:GHSA-9wv6-86v2-598j": {
       "finding": {
@@ -183022,7 +183022,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-2m5v-pch6-74hx": {
       "finding": {
@@ -183054,7 +183054,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-4qv8-2p9j-2685": {
       "finding": {
@@ -183086,7 +183086,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-4w7w-5xrc-9h26": {
       "finding": {
@@ -183118,7 +183118,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-55wc-3pg8-jfw6": {
       "finding": {
@@ -183150,7 +183150,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-9fm3-97px-rjf6": {
       "finding": {
@@ -183182,7 +183182,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-f72v-6w45-q472": {
       "finding": {
@@ -183214,7 +183214,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-qrxm-fqhp-jwvm": {
       "finding": {
@@ -183246,7 +183246,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:undici:GHSA-xjj6-f33q-929c": {
       "finding": {
@@ -183278,7 +183278,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:ws:GHSA-96hv-2xvq-fx4p": {
       "finding": {
@@ -183310,7 +183310,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "dennislee928/AscendOS:services/aegis/Cargo.lock:crates.io:tokio:RUSTSEC-2026-0386": {
       "finding": {
@@ -239070,7 +239070,7 @@
         "new_today": false
       },
       "day": "2026-11-21",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-21T07:56:36.268832511Z",
       "last_seen": "2026-11-21T07:56:36.268832511Z",
       "resolved_at": null,
@@ -239081,8 +239081,12 @@
         "body_hash": 3191852986804178595,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 35,
+        "url": "https://github.com/dennislee928/EnvShield/pull/35",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:package-lock.json:npm:vite:GHSA-9jrq-w75r-8gcw": {
