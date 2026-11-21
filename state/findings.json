@@ -624113,6 +624113,62 @@
       "tracker_issue": 15,
       "archived": false,
       "archived_at": null
+    },
+    "2026-11-21": {
+      "advisories": 759,
+      "feeds": [
+        {
+          "source": "CVE (NVD)",
+          "status": "ok",
+          "count": 545
+        },
+        {
+          "source": "OSV",
+          "status": "ok",
+          "count": 68
+        },
+        {
+          "source": "ENISA EUVD",
+          "status": "ok",
+          "count": 479
+        },
+        {
+          "source": "GitHub Advisory Database",
+          "status": "ok",
+          "count": 472
+        },
+        {
+          "source": "OpenSSF Malicious Packages",
+          "status": "ok",
+          "count": 112
+        },
+        {
+          "source": "Vulners",
+          "status": "skipped",
+          "reason": "VULNERS_API_KEY not set"
+        },
+        {
+          "source": "AttackerKB",
+          "status": "skipped",
+          "reason": "ATTACKERKB_API_KEY not set"
+        },
+        {
+          "source": "Sploitus",
+          "status": "ok",
+          "count": 102
+        },
+        {
+          "source": "OWASP Top 10 (CWE mapping)",
+          "status": "ok",
+          "count": 573
+        }
+      ],
+      "repos_scanned": 0,
+      "dependencies": 0,
+      "scan_errors": 0,
+      "tracker_issue": null,
+      "archived": false,
+      "archived_at": null
     }
   }
 }
