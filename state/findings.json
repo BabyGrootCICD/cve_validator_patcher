@@ -4959,7 +4959,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -4970,8 +4970,12 @@
         "body_hash": 7278206414690762068,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 26,
+        "url": "https://github.com/BabyGrootCICD/Efficient-Learning-and-Sustainable-Recovery/pull/26",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/PulseGrid-AegisLink:apps/api-gateway/go.mod:Go:github.com/redis/go-redis/v9:GHSA-92cp-5422-2mw7": {
@@ -12541,7 +12545,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -12552,8 +12556,12 @@
         "body_hash": 12760734975374733597,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 18,
+        "url": "https://github.com/BabyGrootCICD/cve_validator_patcher/pull/18",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/hermes_agent_setup_guide:app/package-lock.json:npm:@tootallnate/once:GHSA-vpq2-c234-7xj6": {
@@ -29828,7 +29836,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -30882,7 +30890,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
+      "fix_attempts": 1,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -34463,7 +34471,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -34474,8 +34482,12 @@
         "body_hash": 7323977162800212516,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:analysis/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -39248,7 +39260,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -39259,8 +39271,12 @@
         "body_hash": 7660832570443081013,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/DAW-Plugin-MCP/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/DAW-Plugin-MCP:Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -53070,7 +53086,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
@@ -60883,7 +60899,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -60894,8 +60910,12 @@
         "body_hash": 2689162061238923595,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/On-chain-Casino-Arb-Bot-/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/On-chain-Casino-Arb-Bot-:house-edge-sniper/rust-sniper/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -62293,7 +62313,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -62304,8 +62324,12 @@
         "body_hash": 10762159876998780686,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/Jest-Test-Team/SDR/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/SDR:Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -63803,7 +63827,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Snow-talk:server/Cargo.lock:crates.io:chrono:RUSTSEC-2026-0543": {
@@ -63865,7 +63889,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/XDevice-infocard:implementations/04-web3-sbt-contacts/backend-relayer/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
@@ -93510,7 +93534,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -93521,8 +93545,12 @@
         "body_hash": 11049437355988791288,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 158,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/158",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/frontend/package-lock.json:npm:@babel/core:GHSA-4x5r-pxfx-6jf8": {
@@ -99307,7 +99335,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -99318,8 +99346,12 @@
         "body_hash": 11049437355988791288,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 158,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/158",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/redis-lab:apps/sentinel/go.mod:Go:github.com/redis/go-redis/v9:GO-2025-3540": {
@@ -124851,7 +124883,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -124862,8 +124894,12 @@
         "body_hash": 18306977590626306389,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 12,
+        "url": "https://github.com/Jest-Test-Team/rp_app/pull/12",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/software-poe:frontend/package-lock.json:npm:nanoid:GHSA-2v37-7h3g-55p8": {
@@ -128585,7 +128621,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -128596,8 +128632,12 @@
         "body_hash": 2193419006472238077,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 4,
+        "url": "https://github.com/Jest-Test-Team/software-poe/pull/4",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/software-poe:services/review-api/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -146260,7 +146300,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -146271,8 +146311,12 @@
         "body_hash": 12099233121123261673,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 12,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/BLE-off-seat-Presence-Lock/pull/12",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/BLE-off-seat-Presence-Lock:Cargo.lock:crates.io:webbrowser:RUSTSEC-2026-0257": {
@@ -156702,7 +156746,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -156713,8 +156757,12 @@
         "body_hash": 6826437697934478870,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 22,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/local-connection-gui-inspector/pull/22",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/mitake-eat:package-lock.json:npm:baseline-browser-mapping:GHSA-w5vr-8v7q-w6rv": {
@@ -179945,7 +179993,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -179956,8 +180004,12 @@
         "body_hash": 18365251628157314275,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/dennislee928/3D_NETWORK_INFRA_TOPOLOGY/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/3D_NETWORK_INFRA_TOPOLOGY:backend/Cargo.lock:crates.io:webpki-root-certs:RUSTSEC-2026-0383": {
@@ -222976,7 +223028,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -222987,8 +223039,12 @@
         "body_hash": 3343322319605711845,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 11,
+        "url": "https://github.com/dennislee928/Claude_Devboard_Pet/pull/11",
+        "auto_merge": true
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/Claude_Devboard_Pet:pc/Cargo.lock:crates.io:zbus_names:RUSTSEC-2026-0371": {
@@ -236071,7 +236127,7 @@
         "new_today": false
       },
       "day": "2026-11-22",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-22T16:36:29.445944159Z",
       "last_seen": "2026-11-22T16:36:29.445944159Z",
       "resolved_at": null,
@@ -236082,8 +236138,12 @@
         "body_hash": 16523310046046088349,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/EnvShield/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/EnvShield:Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
