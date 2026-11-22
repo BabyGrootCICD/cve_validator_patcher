@@ -40168,7 +40168,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:brace-expansion:GHSA-3jxr-9vmj-r5cp": {
@@ -40416,7 +40416,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:elliptic:GHSA-848j-6mx2-7j84": {
@@ -40984,7 +40984,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:handlebars:GHSA-8r5x-fm3f-whwj": {
@@ -41112,7 +41112,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:immutable:GHSA-xvcm-6775-5m9r": {
@@ -41144,7 +41144,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:js-yaml:GHSA-2883-xcg3-v3hh": {
@@ -41354,7 +41354,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:picomatch:GHSA-fc5q-39xc-vjpf": {
@@ -41418,7 +41418,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:qs:GHSA-6pq8-jhm2-2vcw": {
@@ -41450,7 +41450,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:qs:GHSA-x5fp-wj9c-mxmx": {
@@ -41482,7 +41482,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:serialize-javascript:GHSA-5c6j-r48x-rmvq": {
@@ -41621,7 +41621,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:tmp:GHSA-ph9p-34f9-6g65": {
@@ -41653,7 +41653,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:undici:GHSA-2m5v-pch6-74hx": {
@@ -42198,7 +42198,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:contracts/package-lock.json:npm:ws:GHSA-58qx-3vcg-4xpx": {
@@ -42302,7 +42302,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:@fastify/busboy:GHSA-gxm5-99cw-xjw9": {
@@ -42406,7 +42406,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:@vitest/mocker:GHSA-82fw-gwwq-j7x9": {
@@ -42438,7 +42438,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:@vitest/mocker:GHSA-qxg6-89mg-rqv8": {
@@ -42470,7 +42470,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:axios:GHSA-3pq3-5fj3-cg6v": {
@@ -43206,7 +43206,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:body-parser:GHSA-27r3-jxmh-p828": {
@@ -43598,7 +43598,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:decode-uri-component:GHSA-vcc3-ghjq-m6fr": {
@@ -43630,7 +43630,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:devalue:GHSA-33hq-fvwr-56pm": {
@@ -44058,7 +44058,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-6688-9rhm-gjv2": {
@@ -44090,7 +44090,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-c2j3-45gr-mqc4": {
@@ -44122,7 +44122,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-c6gr-qvv4-5v3f": {
@@ -44154,7 +44154,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-cg2g-xh64-v4q7": {
@@ -44186,7 +44186,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-cmwh-pvxp-8882": {
@@ -44218,7 +44218,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-mrv2-3pqr-j5jr": {
@@ -44250,7 +44250,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:dompurify:GHSA-vxr8-fq34-vvx9": {
@@ -44282,7 +44282,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:elliptic:GHSA-848j-6mx2-7j84": {
@@ -44344,7 +44344,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:esbuild:GHSA-g7r4-m6w7-qqqr": {
@@ -44374,7 +44374,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:fast-xml-parser:GHSA-474x-hrwr-fgx4": {
@@ -44406,7 +44406,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:fflate:GHSA-px8p-9vwx-vf98": {
@@ -44438,7 +44438,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:follow-redirects:GHSA-8r9p-f939-6h3c": {
@@ -44578,7 +44578,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:glob:GHSA-3g3m-2fjr-6pw4": {
@@ -44610,7 +44610,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:hono:GHSA-3gg2-335m-rxc6": {
@@ -45777,7 +45777,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:lodash:GHSA-xxjr-mmjv-4gpg": {
@@ -45809,7 +45809,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
@@ -45841,7 +45841,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:nanoid:GHSA-28wg-ghj8-5hjv": {
@@ -47217,7 +47217,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:picomatch:GHSA-fc5q-39xc-vjpf": {
@@ -47281,7 +47281,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:postcss-selector-parser:GHSA-w9m9-85wc-3x92": {
@@ -47313,7 +47313,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:postcss:GHSA-6g55-p6wh-862q": {
@@ -47889,7 +47889,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:qs:GHSA-6pq8-jhm2-2vcw": {
@@ -47921,7 +47921,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:qs:GHSA-x5fp-wj9c-mxmx": {
@@ -47953,7 +47953,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:sharp:GHSA-f88m-g3jw-g9cj": {
@@ -48093,7 +48093,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:source-map-js:GHSA-68fv-2mgg-jv7q": {
@@ -48125,7 +48125,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:stream-json:GHSA-528h-pc64-c93x": {
@@ -48157,7 +48157,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:stream-json:GHSA-hqr4-qq8f-hg3x": {
@@ -48189,7 +48189,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:stream-json:GHSA-mjw6-4jj6-33hc": {
@@ -48221,7 +48221,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:tinypool:GHSA-5gmw-xhrv-c9v3": {
@@ -49622,7 +49622,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Dastacenter_Builder_Simulator:package-lock.json:npm:vite:GHSA-4w7w-66w2-5vf9": {
@@ -50110,7 +50110,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 2,
+      "fix_attempts": 3,
       "note": "Fix PR #6 was closed without merging."
     },
     "Jest-Test-Team/Devloh-Artificial-intelligence-ESG-analysis:backend/go.mod:Go:github.com/klauspost/compress:GHSA-259r-337f-4rfw": {
