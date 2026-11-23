@@ -29836,7 +29836,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/audit-integrity-service/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -30890,7 +30890,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": null
     },
     "BabyGrootCICD/modern_hospital_information_system:services/rust/document-proof-service/Cargo.lock:crates.io:webpki-roots:RUSTSEC-2026-0381": {
@@ -53086,7 +53086,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": null
     },
     "Jest-Test-Team/HOMELAB:frontend/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
@@ -63827,7 +63827,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": null
     },
     "Jest-Test-Team/Snow-talk:server/Cargo.lock:crates.io:chrono:RUSTSEC-2026-0543": {
@@ -63889,7 +63889,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": null
     },
     "Jest-Test-Team/XDevice-infocard:implementations/04-web3-sbt-contacts/backend-relayer/go.mod:Go:golang.org/x/crypto:GHSA-45gg-vh54-h5m9": {
