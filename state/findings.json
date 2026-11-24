@@ -37304,7 +37304,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/trace:GHSA-q7gw-24fr-5p69": {
@@ -37337,7 +37337,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/trace:GO-2026-6974": {
@@ -37370,7 +37370,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel:GO-2026-6975": {
@@ -37403,7 +37403,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:golang.org/x/crypto:GO-2026-5932": {
@@ -74093,7 +74093,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/trace:GHSA-q7gw-24fr-5p69": {
@@ -74126,7 +74126,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 4,
+      "fix_attempts": 5,
       "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/trace:GO-2026-6974": {
@@ -74159,7 +74159,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel:GO-2026-6975": {
@@ -74192,7 +74192,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:golang.org/x/crypto:GO-2026-5932": {
@@ -101698,8 +101698,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
-      "note": "Automatic upgrade to 26.3.4 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: eam dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-24T03_06_22_742Z-eresolve-report.txt\nnpm error A complete log of this run can be "
+      "fix_attempts": 2,
+      "note": "Automatic upgrade to 26.3.4 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: eam dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-24T10_43_07_855Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:js-yaml:GHSA-2883-xcg3-v3hh": {
       "finding": {
