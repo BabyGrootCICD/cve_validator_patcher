@@ -37304,8 +37304,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/trace:GHSA-q7gw-24fr-5p69": {
       "finding": {
@@ -37337,7 +37337,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel/trace:GO-2026-6974": {
@@ -37370,8 +37370,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:go.opentelemetry.io/otel:GO-2026-6975": {
       "finding": {
@@ -37403,8 +37403,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:golang.org/x/crypto:GO-2026-5932": {
       "finding": {
@@ -37565,7 +37565,7 @@
         "new_today": false
       },
       "day": "2026-11-24",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-24T03:01:49.801131146Z",
       "last_seen": "2026-11-24T03:01:49.801131146Z",
       "resolved_at": null,
@@ -37576,8 +37576,12 @@
         "body_hash": 5653308083693630049,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 10,
+        "url": "https://github.com/Jest-Test-Team/Agentic-Defense-Matrix-ADM/pull/10",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/Agentic-Defense-Matrix-ADM:go.mod:Go:golang.org/x/net:GO-2026-5942": {
@@ -74089,8 +74093,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/trace:GHSA-q7gw-24fr-5p69": {
       "finding": {
@@ -74122,7 +74126,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 3,
+      "fix_attempts": 4,
       "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel/trace:GO-2026-6974": {
@@ -74155,8 +74159,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:go.opentelemetry.io/otel:GO-2026-6975": {
       "finding": {
@@ -74188,8 +74192,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to v1.47.0 failed in `services/adm-stack/source/go.mod`: the upgrade did not remove the vulnerable version (version constraint conflict)"
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:golang.org/x/crypto:GO-2026-5932": {
       "finding": {
@@ -74350,7 +74354,7 @@
         "new_today": false
       },
       "day": "2026-11-24",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-24T03:01:49.801131146Z",
       "last_seen": "2026-11-24T03:01:49.801131146Z",
       "resolved_at": null,
@@ -74361,8 +74365,12 @@
         "body_hash": 4840271275201799563,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 73,
+        "url": "https://github.com/Jest-Test-Team/inclusive-ai-trust-gateway/pull/73",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/adm-stack/source/go.mod:Go:golang.org/x/net:GO-2026-5942": {
@@ -74895,7 +74903,7 @@
         "new_today": false
       },
       "day": "2026-11-24",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-24T03:01:49.801131146Z",
       "last_seen": "2026-11-24T03:01:49.801131146Z",
       "resolved_at": null,
@@ -74906,8 +74914,12 @@
         "body_hash": 17430925501267300843,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 73,
+        "url": "https://github.com/Jest-Test-Team/inclusive-ai-trust-gateway/pull/73",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "Jest-Test-Team/inclusive-ai-trust-gateway:services/gateway/go.mod:Go:github.com/redis/go-redis/v9:GHSA-92cp-5422-2mw7": {
@@ -96896,7 +96908,7 @@
         "new_today": false
       },
       "day": "2026-10-28",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-10-28T15:36:22.108084270Z",
       "last_seen": "2026-11-24T03:01:49.801131146Z",
       "resolved_at": null,
@@ -96908,12 +96920,12 @@
         "open": true
       },
       "pr": {
-        "number": 137,
-        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/137",
+        "number": 160,
+        "url": "https://github.com/Jest-Test-Team/redis-lab/pull/160",
         "auto_merge": false
       },
-      "fix_attempts": 2,
-      "note": "regressed on 2026-11-24"
+      "fix_attempts": 3,
+      "note": null
     },
     "Jest-Test-Team/redis-lab:apps/gateway/go.mod:Go:github.com/redis/go-redis/v9:GO-2025-3540": {
       "finding": {
@@ -101686,8 +101698,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 26.3.4 failed in `src/lab-contexteng-main/package-lock.json`: npm install --package-lock-only --ignore-scripts --no-audit --no-fund: eam dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /home/runner/.npm/_logs/2026-11-24T03_06_22_742Z-eresolve-report.txt\nnpm error A complete log of this run can be "
     },
     "Jest-Test-Team/redis-lab:src/lab-contexteng-main/package-lock.json:npm:js-yaml:GHSA-2883-xcg3-v3hh": {
       "finding": {
@@ -135136,7 +135148,7 @@
         "new_today": false
       },
       "day": "2026-11-24",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-24T03:01:49.801131146Z",
       "last_seen": "2026-11-24T03:01:49.801131146Z",
       "resolved_at": null,
@@ -135147,8 +135159,12 @@
         "body_hash": 11473354649267147431,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 7,
+        "url": "https://github.com/National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab/pull/7",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "National-Cheng-Chi-University-DCT-Dep/siep-microservices-lab:backend/go.mod:Go:github.com/jackc/pgx/v5:GHSA-9jj7-4m8r-rfcm": {
@@ -146854,7 +146870,7 @@
         "new_today": false
       },
       "day": "2026-11-24",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-24T03:01:49.801131146Z",
       "last_seen": "2026-11-24T03:01:49.801131146Z",
       "resolved_at": null,
@@ -146865,8 +146881,12 @@
         "body_hash": 9631477051185104980,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 1,
+        "url": "https://github.com/cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger/pull/1",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "cyber-security-dev-dep-mitake-com-tw/ESP32_atk_def_proxy_logger:backend/go.mod:Go:golang.org/x/net:GHSA-2wrh-6pvc-2jm9": {
