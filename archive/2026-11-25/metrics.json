@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-25",
+  "archived_at": "2026-11-25T10:28:00.382765561Z",
+  "advisories_collected": 1259,
+  "advisories_by_source": {
+    "CVE (NVD)": 937,
+    "ENISA EUVD": 859,
+    "GitHub Advisory Database": 824,
+    "OSV": 123,
+    "OWASP Top 10 (CWE mapping)": 959,
+    "OpenSSF Malicious Packages": 190
+  },
+  "sources_skipped_or_failed": [
+    "Vulners: skipped (VULNERS_API_KEY not set)",
+    "AttackerKB: skipped (ATTACKERKB_API_KEY not set)",
+    "Sploitus: error (sploitus search HTTP 504 Gateway Timeout (likely bot protection))"
+  ],
+  "repos_scanned": 288,
+  "dependencies_checked": 80018,
+  "findings": 0,
+  "findings_from_todays_advisories": 0,
+  "distinct_vulnerabilities": 0,
+  "affected_repos": 0,
+  "affected_packages": 0,
+  "by_severity": {},
+  "tickets_opened": 0,
+  "fix_prs": 0,
+  "fix_prs_auto_merge": 0,
+  "resolved": 0,
+  "resolved_via_fix_pr": 0,
+  "mean_time_to_resolve_hours": null,
+  "max_time_to_resolve_hours": null
+}
