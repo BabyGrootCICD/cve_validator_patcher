@@ -625824,6 +625824,62 @@
       "tracker_issue": 20,
       "archived": false,
       "archived_at": null
+    },
+    "2026-11-25": {
+      "advisories": 1259,
+      "feeds": [
+        {
+          "source": "CVE (NVD)",
+          "status": "ok",
+          "count": 937
+        },
+        {
+          "source": "OSV",
+          "status": "ok",
+          "count": 123
+        },
+        {
+          "source": "ENISA EUVD",
+          "status": "ok",
+          "count": 859
+        },
+        {
+          "source": "GitHub Advisory Database",
+          "status": "ok",
+          "count": 824
+        },
+        {
+          "source": "OpenSSF Malicious Packages",
+          "status": "ok",
+          "count": 190
+        },
+        {
+          "source": "Vulners",
+          "status": "skipped",
+          "reason": "VULNERS_API_KEY not set"
+        },
+        {
+          "source": "AttackerKB",
+          "status": "skipped",
+          "reason": "ATTACKERKB_API_KEY not set"
+        },
+        {
+          "source": "Sploitus",
+          "status": "error",
+          "message": "sploitus search HTTP 504 Gateway Timeout (likely bot protection)"
+        },
+        {
+          "source": "OWASP Top 10 (CWE mapping)",
+          "status": "ok",
+          "count": 959
+        }
+      ],
+      "repos_scanned": 0,
+      "dependencies": 0,
+      "scan_errors": 0,
+      "tracker_issue": null,
+      "archived": false,
+      "archived_at": null
     }
   }
 }
