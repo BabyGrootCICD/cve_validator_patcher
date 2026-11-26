@@ -53188,7 +53188,7 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 1,
+      "fix_attempts": 2,
       "note": "Automatic upgrade to 4.2.1 failed in `Cargo.lock`: cargo update -p kube-client@4.2.0 --precise 4.2.1: s.io index\nerror: failed to select a version for the requirement `kube-client = \"=4.2.0\"`\ncandidate versions found which didn't match: 4.2.1\nlocation searched: crates.io index\nrequired by package `kube v4.2.0`\n    ... which satisfies dependency `kube = \"^4.2.0\"` (locked to 4.2.0) of package `homelab-dashboard v0.1.0 (/home/runner/work/_temp/vuln-s"
     },
     "Jest-Test-Team/HOMELAB:Cargo.lock:crates.io:libsqlite3-sys:RUSTSEC-2026-0459": {
@@ -181663,7 +181663,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181674,8 +181674,12 @@
         "body_hash": 5220914727160532881,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:minimatch:GHSA-g3hv-75wg-m249": {
@@ -181695,7 +181699,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181706,8 +181710,12 @@
         "body_hash": 13223391718514576876,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:qs:GHSA-6pq8-jhm2-2vcw": {
@@ -181727,7 +181735,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181738,8 +181746,12 @@
         "body_hash": 14186737617970718638,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:stream-json:GHSA-528h-pc64-c93x": {
@@ -181759,7 +181771,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181770,8 +181782,12 @@
         "body_hash": 14581028120670441873,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:stream-json:GHSA-hqr4-qq8f-hg3x": {
@@ -181791,7 +181807,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181802,8 +181818,12 @@
         "body_hash": 14581028120670441873,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:stream-json:GHSA-mjw6-4jj6-33hc": {
@@ -181823,7 +181843,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181834,8 +181854,12 @@
         "body_hash": 14581028120670441873,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:uuid:GHSA-w5hq-g745-h8pq": {
@@ -181856,7 +181880,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181867,8 +181891,12 @@
         "body_hash": 8906623145815616024,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:packages/n8n-nodes-agentforge-guard/package-lock.json:npm:zod:GHSA-mrhx-c7xc-m3w5": {
@@ -181888,7 +181916,7 @@
         "new_today": false
       },
       "day": "2026-11-26",
-      "status": "open",
+      "status": "fix_proposed",
       "first_seen": "2026-11-26T00:38:52.518963390Z",
       "last_seen": "2026-11-26T00:38:52.518963390Z",
       "resolved_at": null,
@@ -181899,8 +181927,12 @@
         "body_hash": 18112468671569502780,
         "open": true
       },
-      "pr": null,
-      "fix_attempts": 0,
+      "pr": {
+        "number": 39,
+        "url": "https://github.com/dennislee928/AgentForge-Guard/pull/39",
+        "auto_merge": false
+      },
+      "fix_attempts": 1,
       "note": null
     },
     "dennislee928/AgentForge-Guard:pnpm-lock.yaml:npm:lodash:GHSA-f23m-r3pf-42rh": {
