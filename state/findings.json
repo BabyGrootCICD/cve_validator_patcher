@@ -124832,8 +124832,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0575": {
       "finding": {
@@ -124862,8 +124862,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0576": {
       "finding": {
@@ -124892,8 +124892,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0577": {
       "finding": {
@@ -124922,8 +124922,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0578": {
       "finding": {
@@ -124952,8 +124952,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0579": {
       "finding": {
@@ -124982,8 +124982,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0580": {
       "finding": {
@@ -125012,8 +125012,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0581": {
       "finding": {
@@ -125042,8 +125042,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:heapless:RUSTSEC-2026-0582": {
       "finding": {
@@ -125072,8 +125072,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: ected\ninfo: you may opt out with `RUSTUP_AUTO_INSTALL=0` or `rustup set auto-install disable`\n    Updating crates.io index\nerror: failed to select a version for the requirement `heapless = \"^0.8\"`\ncandidate versions found which didn't match: 0.9.4\nlocation searched: crates.io index\nrequired by package `rp-board v0.3.0 (/home/runner/work/_temp/vuln-se"
     },
     "Jest-Test-Team/rp_app:Cargo.lock:crates.io:hickory-proto:GHSA-q2qq-hmj6-3wpp": {
       "finding": {
@@ -125609,8 +125609,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0575": {
       "finding": {
@@ -125639,8 +125639,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0576": {
       "finding": {
@@ -125669,8 +125669,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0577": {
       "finding": {
@@ -125699,8 +125699,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0578": {
       "finding": {
@@ -125729,8 +125729,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0579": {
       "finding": {
@@ -125759,8 +125759,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0580": {
       "finding": {
@@ -125789,8 +125789,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0581": {
       "finding": {
@@ -125819,8 +125819,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0582": {
       "finding": {
@@ -125849,8 +125849,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/approver-s3/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/approver-s3/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:paste:RUSTSEC-2024-0436": {
       "finding": {
@@ -125880,7 +125880,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/rp_app:firmware/approver-s3/Cargo.lock:crates.io:unsafe-libyaml:RUSTSEC-2024-0449": {
       "finding": {
@@ -125910,7 +125910,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0574": {
       "finding": {
@@ -125939,8 +125939,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0575": {
       "finding": {
@@ -125969,8 +125969,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0576": {
       "finding": {
@@ -125999,8 +125999,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0577": {
       "finding": {
@@ -126029,8 +126029,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0578": {
       "finding": {
@@ -126059,8 +126059,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0579": {
       "finding": {
@@ -126089,8 +126089,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0580": {
       "finding": {
@@ -126119,8 +126119,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0581": {
       "finding": {
@@ -126149,8 +126149,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:heapless:RUSTSEC-2026-0582": {
       "finding": {
@@ -126179,8 +126179,8 @@
         "open": true
       },
       "pr": null,
-      "fix_attempts": 0,
-      "note": null
+      "fix_attempts": 1,
+      "note": "Automatic upgrade to 0.9.4 failed in `firmware/board-esp32/Cargo.lock`: cargo update -p heapless@0.8.0 --precise 0.9.4: error: custom toolchain 'esp' specified in override file '/home/runner/work/_temp/vuln-sentinel/Jest-Test-Team__rp_app/firmware/board-esp32/rust-toolchain.toml' is not installed\n"
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:paste:RUSTSEC-2024-0436": {
       "finding": {
@@ -126210,7 +126210,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/rp_app:firmware/board-esp32/Cargo.lock:crates.io:unsafe-libyaml:RUSTSEC-2024-0449": {
       "finding": {
@@ -126240,7 +126240,7 @@
       },
       "pr": null,
       "fix_attempts": 0,
-      "note": null
+      "note": "No fixed release is published yet; Dependabot security updates enabled to pick one up automatically."
     },
     "Jest-Test-Team/software-poe:frontend/package-lock.json:npm:nanoid:GHSA-2v37-7h3g-55p8": {
       "finding": {
